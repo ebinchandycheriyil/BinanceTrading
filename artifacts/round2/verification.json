@@ -1,0 +1,33 @@
+{
+  "tests_passed": 35,
+  "test_command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+  "compile_check": "passed",
+  "dependency_check": "passed",
+  "legacy_trade_data_used": false,
+  "exchange_orders_sent": false,
+  "removed_retired_modules": [
+    "legacy_main.py",
+    "binance_api.py",
+    "config.py",
+    "database.py",
+    "performance.py",
+    "strategy.py",
+    "live_chart.py",
+    "test.py",
+    "test_connection.py"
+  ],
+  "source_sha256": {
+    "main.py": "e2e140dd20227a926f21c74930facec4813c91aa5e6ca11f6ce6be2579e22f98",
+    "scalp\\__init__.py": "ec8329453e62a61eaa4b3b25e9fa2c18d84e6dc2c7a88202ad5c912134c74da0",
+    "scalp\\cli.py": "25afcb22dcc81b15f5d5575901f34d6964ea8d43f4e2dce092fcfe7ab322341c",
+    "scalp\\engine.py": "c272d555f2d7a676ff581dee5c82c29712ef2b3648d00c7c2cf118232c860807",
+    "scalp\\experiments.py": "a26b210e34d259c44d9d5f06f89e1c0057366b11839c81b4a048d5a542542fcb",
+    "scalp\\market.py": "52d7c657acee36c1e9967196ef20a8a44f0d8289ccf6d91224f5b2a6419c6638",
+    "scalp\\observe.py": "e32d2eeef2bd2656c2d98085faab3a9fb7070442bf8096a00371efbac717c0b2",
+    "scalp\\research.py": "6bb430b0727d2ef23e56706efb348acf66cd18c9001a1a9e4ff030f8b4998b0d",
+    "scalp\\settings.py": "d774b1bb7c53ffd066dde94544af38ddb2e4fa2d6a21c6cf9f4de1f18d3e2e8d",
+    "scalp\\signals.py": "5b2abd30cfd20e324fafabff543b49b544aec6ee4bb1cffc22a667571ed1496f"
+  },
+  "protocol_sha256": "765051555f67d7c02848934954e0cad8ad94a36a8f4a725a39bb888c2119277d",
+  "results_sha256": "d3250de251eaa8cf2cb3da4dd59555c0c8e479904afa977059473b9dcbdf3921"
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "event": "OBSERVATION",
+    "snapshot": {
+      "observed_at": 1790426116.2218716,
+      "discovery_at": 1790426115.5683126,
+      "contracts": [
+        {
+          "id": "BTCUSDT_261225",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84116.0,
+            "ask": 84116.01,
+            "bid_size": 9.01162,
+            "ask_size": 2.40469,
+            "ts": 1790426116.0065825,
+            "requested_at": 1790426115.5685458,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 85129.3,
+            "ask": 85129.4,
+            "bid_size": 0.002,
+            "ask_size": 0.004,
+            "ts": 1790426115.9977114,
+            "requested_at": 1790426115.5687366,
+            "exchange_ts": 1790426115.867,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 85129.1969058,
+            "ts": 1790426115.0
+          }
+        },
+        {
+          "id": "BTCUSDT_270326",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84116.0,
+            "ask": 84116.01,
+            "bid_size": 9.01162,
+            "ask_size": 2.40469,
+            "ts": 1790426116.0065825,
+            "requested_at": 1790426115.5685458,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 86200.0,
+            "ask": 86258.3,
+            "bid_size": 0.001,
+            "ask_size": 0.007,
+            "ts": 1790426115.9864266,
+            "requested_at": 1790426115.5693328,
+            "exchange_ts": 1790426115.867,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 86229.18357246,
+            "ts": 1790426115.0
+          }
+        },
+        {
+          "id": "ETHUSDT_261225",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.41,
+            "ask": 2690.42,
+            "bid_size": 16.9702,
+            "ask_size": 95.7874,
+            "ts": 1790426115.9492362,
+            "requested_at": 1790426115.570108,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2714.74,
+            "ask": 2714.91,
+            "bid_size": 0.134,
+            "ask_size": 0.126,
+            "ts": 1790426116.1910822,
+            "requested_at": 1790426115.949259,
+            "exchange_ts": 1790426116.19,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2714.66750388,
+            "ts": 1790426116.0
+          }
+        },
+        {
+          "id": "ETHUSDT_270326",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.41,
+            "ask": 2690.42,
+            "bid_size": 16.9702,
+            "ask_size": 95.7874,
+            "ts": 1790426115.9492362,
+            "requested_at": 1790426115.570108,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2743.71,
+            "ask": 2746.99,
+            "bid_size": 0.008,
+            "ask_size": 0.822,
+            "ts": 1790426116.2209039,
+            "requested_at": 1790426115.971609,
+            "exchange_ts": 1790426115.882,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2745.34700388,
+            "ts": 1790426116.0
+          }
+        }
+      ],
+      "errors": [],
+      "source": "Binance public spot and linear USDT dated futures REST depth",
+      "limitation": "Spot depth has no exchange timestamp; local request age is only a freshness proxy."
+    },
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_261225",
+    "reasons": [
+      "annual_return_below_hurdle",
+      "execution_cost_exceeds_stop_budget",
+      "negative_under_cost_stress",
+      "net_profit_below_hurdle"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "net_profit_below_hurdle",
+        "annual_return_below_hurdle",
+        "negative_under_cost_stress"
+      ],
+      "observed_basis_bps": 90.39480824555079,
+      "days_to_expiry": 89.80883996418505,
+      "entry_quotes": {
+        "spot_ask": 2690.42,
+        "future_bid": 2714.74
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.013400000000000002,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 95.7874,
+        "future_displayed_bid_qty": 0.134
+      },
+      "base": {
+        "qty": 0.013,
+        "gross_spot_qty": 0.0131,
+        "spot_entry": 2690.958084,
+        "future_entry": 2714.197052,
+        "spot_fee": 0.035251550900400004,
+        "dust_qty": 8.690000000000087e-05,
+        "dust_cost": 0.23384425749960233,
+        "future_entry_fee": 0.017642280838,
+        "entry_cost": 0.28673808923800237,
+        "spot_cash": 35.2515509004,
+        "collateral": 35.284561675999996,
+        "capital": 70.553754857238,
+        "days": 89.76717329751838,
+        "gross_basis_pnl": 0.30210658400000145,
+        "exit_fees": 0.0524630925,
+        "exit_slippage": 0.013990158,
+        "exit_spread": 0.0069950789999999995,
+        "residual_basis_reserve": 0.034975395,
+        "capital_charge": 0.6940724535956507,
+        "estimated_net": -0.7871276833336516,
+        "estimated_apr": -0.04536285393583491
+      },
+      "stress": {
+        "qty": 0.013,
+        "gross_spot_qty": 0.0131,
+        "spot_entry": 2691.496168,
+        "future_entry": 2713.6541039999997,
+        "spot_fee": 0.07051719960160001,
+        "dust_qty": 7.38000000000006e-05,
+        "dust_cost": 0.19863241719840163,
+        "future_entry_fee": 0.035277503352,
+        "entry_cost": 0.3044271201520017,
+        "spot_cash": 35.258599800800006,
+        "collateral": 35.277503352,
+        "capital": 70.571380656152,
+        "days": 89.76717329751838,
+        "gross_basis_pnl": 0.2880531679999949,
+        "exit_fees": 0.104926185,
+        "exit_slippage": 0.027980316,
+        "exit_spread": 0.013990157999999999,
+        "residual_basis_reserve": 0.06995079,
+        "capital_charge": 0.6942458473650338,
+        "estimated_net": -0.9274672485170405,
+        "estimated_apr": -0.05343739552996586
+      },
+      "budget": 398.0,
+      "planned_exit": 1798182000.0
+    },
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_261225",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 120.46339335401335,
+      "days_to_expiry": 89.80883996418505,
+      "entry_quotes": {
+        "spot_ask": 84116.01,
+        "future_bid": 85129.3
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0002,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 2.40469,
+        "future_displayed_bid_qty": 0.002
+      }
+    },
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 247.75188456989338,
+      "days_to_expiry": 180.80883996418504,
+      "entry_quotes": {
+        "spot_ask": 84116.01,
+        "future_bid": 86200.0
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 2.40469,
+        "future_displayed_bid_qty": 0.001
+      }
+    },
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 198.0731632979227,
+      "days_to_expiry": 180.80883996418504,
+      "entry_quotes": {
+        "spot_ask": 2690.42,
+        "future_bid": 2743.71
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0008,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 95.7874,
+        "future_displayed_bid_qty": 0.008
+      }
+    },
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "STATUS",
+    "balance": 1000.0,
+    "cash_equity": 1000.0,
+    "capital_reserved": 0,
+    "positions": 0,
+    "trades": 0,
+    "realized_cash_pnl": 0,
+    "realized_economic_pnl": 0,
+    "marked": [],
+    "unpriced": [],
+    "day_halted": false,
+    "ts": 1790426116.2270944,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "OBSERVATION",
+    "snapshot": {
+      "observed_at": 1790426144.7890108,
+      "discovery_at": 1790426115.5683126,
+      "contracts": [
+        {
+          "id": "BTCUSDT_261225",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84125.96,
+            "ask": 84125.97,
+            "bid_size": 6.30957,
+            "ask_size": 1.73361,
+            "ts": 1790426144.6032338,
+            "requested_at": 1790426144.2086277,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 85131.3,
+            "ask": 85131.4,
+            "bid_size": 0.002,
+            "ask_size": 0.048,
+            "ts": 1790426144.5886252,
+            "requested_at": 1790426144.209347,
+            "exchange_ts": 1790426144.52,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 85133.87333333,
+            "ts": 1790426144.0
+          }
+        },
+        {
+          "id": "BTCUSDT_270326",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84125.96,
+            "ask": 84125.97,
+            "bid_size": 6.30957,
+            "ask_size": 1.73361,
+            "ts": 1790426144.6032338,
+            "requested_at": 1790426144.2086277,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 86200.0,
+            "ask": 86258.3,
+            "bid_size": 0.001,
+            "ask_size": 0.005,
+            "ts": 1790426144.5888908,
+            "requested_at": 1790426144.2114248,
+            "exchange_ts": 1790426141.473,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 86232.58202899,
+            "ts": 1790426144.0
+          }
+        },
+        {
+          "id": "ETHUSDT_261225",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.6,
+            "ask": 2690.61,
+            "bid_size": 83.5828,
+            "ask_size": 87.2664,
+            "ts": 1790426144.5898533,
+            "requested_at": 1790426144.2128754,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2715.12,
+            "ask": 2715.28,
+            "bid_size": 0.195,
+            "ask_size": 0.176,
+            "ts": 1790426144.7810507,
+            "requested_at": 1790426144.5883515,
+            "exchange_ts": 1790426144.669,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2715.14996124,
+            "ts": 1790426144.0
+          }
+        },
+        {
+          "id": "ETHUSDT_270326",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.6,
+            "ask": 2690.61,
+            "bid_size": 83.5828,
+            "ask_size": 87.2664,
+            "ts": 1790426144.5898533,
+            "requested_at": 1790426144.2128754,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2743.71,
+            "ask": 2746.99,
+            "bid_size": 0.008,
+            "ask_size": 0.018,
+            "ts": 1790426144.7856743,
+            "requested_at": 1790426144.5889132,
+            "exchange_ts": 1790426128.25,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2745.46762791,
+            "ts": 1790426144.0
+          }
+        }
+      ],
+      "errors": [],
+      "source": "Binance public spot and linear USDT dated futures REST depth",
+      "limitation": "Spot depth has no exchange timestamp; local request age is only a freshness proxy."
+    },
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_261225",
+    "reasons": [
+      "annual_return_below_hurdle",
+      "execution_cost_exceeds_stop_budget",
+      "negative_under_cost_stress",
+      "net_profit_below_hurdle"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "net_profit_below_hurdle",
+        "annual_return_below_hurdle",
+        "negative_under_cost_stress"
+      ],
+      "observed_basis_bps": 91.09458449942487,
+      "days_to_expiry": 89.80850934035249,
+      "entry_quotes": {
+        "spot_ask": 2690.61,
+        "future_bid": 2715.12
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.019500000000000003,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 87.2664,
+        "future_displayed_bid_qty": 0.195
+      },
+      "base": {
+        "qty": 0.019,
+        "gross_spot_qty": 0.0191,
+        "spot_entry": 2691.148122,
+        "future_entry": 2714.576976,
+        "spot_fee": 0.0514009291302,
+        "dust_qty": 8.089999999999833e-05,
+        "dust_cost": 0.21771388306979553,
+        "future_entry_fee": 0.025788481271999997,
+        "entry_cost": 0.29490329347199556,
+        "spot_cash": 51.4009291302,
+        "collateral": 51.576962544,
+        "capital": 103.003680155472,
+        "days": 89.76684267368582,
+        "gross_basis_pnl": 0.4451482259999957,
+        "exit_fees": 0.0766822425,
+        "exit_slippage": 0.020448598,
+        "exit_spread": 0.010224299,
+        "residual_basis_reserve": 0.051121494999999996,
+        "capital_charge": 1.0132948111043187,
+        "estimated_net": -1.0215265130763185,
+        "estimated_apr": -0.04032494795717067
+      },
+      "stress": {
+        "qty": 0.019,
+        "gross_spot_qty": 0.0191,
+        "spot_entry": 2691.686244,
+        "future_entry": 2714.033952,
+        "spot_fee": 0.1028224145208,
+        "dust_qty": 6.180000000000074e-05,
+        "dust_cost": 0.166346209879202,
+        "future_entry_fee": 0.051566645088000004,
+        "entry_cost": 0.320735269488002,
+        "spot_cash": 51.4112072604,
+        "collateral": 51.566645088,
+        "capital": 103.02941899348801,
+        "days": 89.76684267368582,
+        "gross_basis_pnl": 0.4246064520000045,
+        "exit_fees": 0.153364485,
+        "exit_slippage": 0.040897196,
+        "exit_spread": 0.020448598,
+        "residual_basis_reserve": 0.10224298999999999,
+        "capital_charge": 1.0135480159506516,
+        "estimated_net": -1.226630102438649,
+        "estimated_apr": -0.04840935340544822
+      },
+      "budget": 398.0,
+      "planned_exit": 1798182000.0
+    },
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_261225",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 119.50293114005194,
+      "days_to_expiry": 89.80850934035249,
+      "entry_quotes": {
+        "spot_ask": 84125.97,
+        "future_bid": 85131.3
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0002,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 1.73361,
+        "future_displayed_bid_qty": 0.002
+      }
+    },
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 246.5386134626435,
+      "days_to_expiry": 180.8085093403525,
+      "entry_quotes": {
+        "spot_ask": 84125.97,
+        "future_bid": 86200.0
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 1.73361,
+        "future_displayed_bid_qty": 0.001
+      }
+    },
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_270326",
+    "reasons": [
+      "future_stale_exchange_book"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "future_stale_exchange_book"
+      ]
+    },
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "STATUS",
+    "balance": 1000.0,
+    "cash_equity": 1000.0,
+    "capital_reserved": 0,
+    "positions": 0,
+    "trades": 0,
+    "realized_cash_pnl": 0,
+    "realized_economic_pnl": 0,
+    "marked": [],
+    "unpriced": [],
+    "day_halted": false,
+    "ts": 1790426144.7929935,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "OBSERVATION",
+    "snapshot": {
+      "observed_at": 1790426174.6955378,
+      "discovery_at": 1790426115.5683126,
+      "contracts": [
+        {
+          "id": "BTCUSDT_261225",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84125.96,
+            "ask": 84125.97,
+            "bid_size": 4.57849,
+            "ask_size": 3.39948,
+            "ts": 1790426174.436842,
+            "requested_at": 1790426174.1888382,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 85123.0,
+            "ask": 85129.9,
+            "bid_size": 0.006,
+            "ask_size": 0.012,
+            "ts": 1790426174.4067388,
+            "requested_at": 1790426174.1896598,
+            "exchange_ts": 1790426173.985,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 85131.43704348,
+            "ts": 1790426174.001
+          }
+        },
+        {
+          "id": "BTCUSDT_270326",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84125.96,
+            "ask": 84125.97,
+            "bid_size": 4.57849,
+            "ask_size": 3.39948,
+            "ts": 1790426174.436842,
+            "requested_at": 1790426174.1888382,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 86200.0,
+            "ask": 86258.3,
+            "bid_size": 0.001,
+            "ask_size": 0.005,
+            "ts": 1790426174.4050703,
+            "requested_at": 1790426174.190725,
+            "exchange_ts": 1790426172.856,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 86229.53537681,
+            "ts": 1790426174.001
+          }
+        },
+        {
+          "id": "ETHUSDT_261225",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.6,
+            "ask": 2690.61,
+            "bid_size": 8.8968,
+            "ask_size": 188.3622,
+            "ts": 1790426174.4339147,
+            "requested_at": 1790426174.1926062,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2714.93,
+            "ask": 2715.19,
+            "bid_size": 0.132,
+            "ask_size": 0.982,
+            "ts": 1790426174.6936402,
+            "requested_at": 1790426174.4051054,
+            "exchange_ts": 1790426174.546,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2715.17301163,
+            "ts": 1790426174.001
+          }
+        },
+        {
+          "id": "ETHUSDT_270326",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2690.6,
+            "ask": 2690.61,
+            "bid_size": 8.8968,
+            "ask_size": 188.3622,
+            "ts": 1790426174.4339147,
+            "requested_at": 1790426174.1926062,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2743.71,
+            "ask": 2746.99,
+            "bid_size": 0.008,
+            "ask_size": 0.39,
+            "ts": 1790426174.6933975,
+            "requested_at": 1790426174.407084,
+            "exchange_ts": 1790426174.437,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2745.29784496,
+            "ts": 1790426174.001
+          }
+        }
+      ],
+      "errors": [],
+      "source": "Binance public spot and linear USDT dated futures REST depth",
+      "limitation": "Spot depth has no exchange timestamp; local request age is only a freshness proxy."
+    },
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_261225",
+    "reasons": [
+      "annual_return_below_hurdle",
+      "execution_cost_exceeds_stop_budget",
+      "negative_under_cost_stress",
+      "net_profit_below_hurdle"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "net_profit_below_hurdle",
+        "annual_return_below_hurdle",
+        "negative_under_cost_stress"
+      ],
+      "observed_basis_bps": 90.3884249296616,
+      "days_to_expiry": 89.80816320906635,
+      "entry_quotes": {
+        "spot_ask": 2690.61,
+        "future_bid": 2714.93
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.013200000000000002,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 188.3622,
+        "future_displayed_bid_qty": 0.132
+      },
+      "base": {
+        "qty": 0.013,
+        "gross_spot_qty": 0.0131,
+        "spot_entry": 2691.148122,
+        "future_entry": 2714.387014,
+        "spot_fee": 0.03525404039820001,
+        "dust_qty": 8.690000000000087e-05,
+        "dust_cost": 0.23386077180180234,
+        "future_entry_fee": 0.017643515591,
+        "entry_cost": 0.28675832779100235,
+        "spot_cash": 35.254040398200004,
+        "collateral": 35.287031182,
+        "capital": 70.558715095791,
+        "days": 89.76649654239968,
+        "gross_basis_pnl": 0.30210559599999803,
+        "exit_fees": 0.0524667975,
+        "exit_slippage": 0.013991146000000001,
+        "exit_spread": 0.006995572999999999,
+        "residual_basis_reserve": 0.034977865000000004,
+        "capital_charge": 0.6941160169515054,
+        "estimated_net": -0.7872001302425097,
+        "estimated_apr": -0.04536418183806339
+      },
+      "stress": {
+        "qty": 0.013,
+        "gross_spot_qty": 0.0131,
+        "spot_entry": 2691.686244,
+        "future_entry": 2713.844028,
+        "spot_fee": 0.07052217959280001,
+        "dust_qty": 7.38000000000006e-05,
+        "dust_cost": 0.19864644480720162,
+        "future_entry_fee": 0.035279972364,
+        "entry_cost": 0.3044485967640016,
+        "spot_cash": 35.2610897964,
+        "collateral": 35.279972363999995,
+        "capital": 70.576342132764,
+        "days": 89.76649654239968,
+        "gross_basis_pnl": 0.2880511919999999,
+        "exit_fees": 0.104933595,
+        "exit_slippage": 0.027982292000000002,
+        "exit_spread": 0.013991145999999998,
+        "residual_basis_reserve": 0.06995573000000001,
+        "capital_charge": 0.6942894215929838,
+        "estimated_net": -0.9275495893569855,
+        "estimated_apr": -0.05343878564237996
+      },
+      "budget": 398.0,
+      "planned_exit": 1798182000.0
+    },
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_261225",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 118.51631547309394,
+      "days_to_expiry": 89.80816320906635,
+      "entry_quotes": {
+        "spot_ask": 84125.97,
+        "future_bid": 85123.0
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0006000000000000001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 3.39948,
+        "future_displayed_bid_qty": 0.006
+      }
+    },
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 246.5386134626435,
+      "days_to_expiry": 180.80816320906635,
+      "entry_quotes": {
+        "spot_ask": 84125.97,
+        "future_bid": 86200.0
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 3.39948,
+        "future_displayed_bid_qty": 0.001
+      }
+    },
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 197.35301660218195,
+      "days_to_expiry": 180.80816320906635,
+      "entry_quotes": {
+        "spot_ask": 2690.61,
+        "future_bid": 2743.71
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0008,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 188.3622,
+        "future_displayed_bid_qty": 0.008
+      }
+    },
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "STATUS",
+    "balance": 1000.0,
+    "cash_equity": 1000.0,
+    "capital_reserved": 0,
+    "positions": 0,
+    "trades": 0,
+    "realized_cash_pnl": 0,
+    "realized_economic_pnl": 0,
+    "marked": [],
+    "unpriced": [],
+    "day_halted": false,
+    "ts": 1790426174.6987367,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "OBSERVATION",
+    "snapshot": {
+      "observed_at": 1790426240.4832563,
+      "discovery_at": 1790426240.0194566,
+      "contracts": [
+        {
+          "id": "BTCUSDT_261225",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84112.0,
+            "ask": 84112.01,
+            "bid_size": 1.30527,
+            "ask_size": 8.85278,
+            "ts": 1790426240.4399405,
+            "requested_at": 1790426240.019636,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 85100.8,
+            "ask": 85105.5,
+            "bid_size": 0.004,
+            "ask_size": 0.003,
+            "ts": 1790426240.2490656,
+            "requested_at": 1790426240.0198057,
+            "exchange_ts": 1790426240.241,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 85102.38455072,
+            "ts": 1790426240.005
+          }
+        },
+        {
+          "id": "BTCUSDT_270326",
+          "base": "BTC",
+          "spot_symbol": "BTCUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.00001",
+            "min_qty": 1e-05,
+            "max_qty": 107.87793845,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 1.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 84112.0,
+            "ask": 84112.01,
+            "bid_size": 1.30527,
+            "ask_size": 8.85278,
+            "ts": 1790426240.4399405,
+            "requested_at": 1790426240.019636,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 86200.0,
+            "ask": 86234.3,
+            "bid_size": 0.001,
+            "ask_size": 0.008,
+            "ts": 1790426240.2517924,
+            "requested_at": 1790426240.0204375,
+            "exchange_ts": 1790426235.461,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 86208.99788406,
+            "ts": 1790426240.005
+          }
+        },
+        {
+          "id": "ETHUSDT_261225",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1798185600.0,
+          "contract_type": "CURRENT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2689.46,
+            "ask": 2689.47,
+            "bid_size": 0.1796,
+            "ask_size": 32.0982,
+            "ts": 1790426240.2515287,
+            "requested_at": 1790426240.0212133,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2713.62,
+            "ask": 2713.68,
+            "bid_size": 0.098,
+            "ask_size": 0.07,
+            "ts": 1790426240.482641,
+            "requested_at": 1790426240.2490876,
+            "exchange_ts": 1790426240.402,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2713.78868992,
+            "ts": 1790426240.005
+          }
+        },
+        {
+          "id": "ETHUSDT_270326",
+          "base": "ETH",
+          "spot_symbol": "ETHUSDT",
+          "expiry": 1806048000.0,
+          "contract_type": "NEXT_QUARTER",
+          "spot_limits": {
+            "step": "0.0001",
+            "min_qty": 0.0001,
+            "max_qty": 2557.36634791,
+            "min_notional": 5.0,
+            "max_notional": 9000000.0
+          },
+          "future_limits": {
+            "step": "0.001",
+            "min_qty": 0.001,
+            "max_qty": 10.0,
+            "min_notional": 5.0,
+            "max_notional": null
+          },
+          "spot": {
+            "bid": 2689.46,
+            "ask": 2689.47,
+            "bid_size": 0.1796,
+            "ask_size": 32.0982,
+            "ts": 1790426240.2515287,
+            "requested_at": 1790426240.0212133,
+            "exchange_ts": null,
+            "timestamp_basis": "local_request_only"
+          },
+          "future": {
+            "bid": 2743.71,
+            "ask": 2745.57,
+            "bid_size": 0.008,
+            "ask_size": 0.324,
+            "ts": 1790426240.4825609,
+            "requested_at": 1790426240.2515504,
+            "exchange_ts": 1790426240.477,
+            "timestamp_basis": "exchange_and_local"
+          },
+          "mark": {
+            "price": 2744.48952326,
+            "ts": 1790426240.005
+          }
+        }
+      ],
+      "errors": [],
+      "source": "Binance public spot and linear USDT dated futures REST depth",
+      "limitation": "Spot depth has no exchange timestamp; local request age is only a freshness proxy."
+    },
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_261225",
+    "reasons": [
+      "annual_return_below_hurdle",
+      "execution_cost_exceeds_stop_budget",
+      "negative_under_cost_stress",
+      "net_profit_below_hurdle"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "net_profit_below_hurdle",
+        "annual_return_below_hurdle",
+        "negative_under_cost_stress"
+      ],
+      "observed_basis_bps": 89.79464355430622,
+      "days_to_expiry": 89.80740178029295,
+      "entry_quotes": {
+        "spot_ask": 2689.47,
+        "future_bid": 2713.62
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.009800000000000001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 32.0982,
+        "future_displayed_bid_qty": 0.098
+      },
+      "base": {
+        "qty": 0.009,
+        "gross_spot_qty": 0.0091,
+        "spot_entry": 2690.007894,
+        "future_entry": 2713.077276,
+        "spot_fee": 0.0244790718354,
+        "dust_qty": 9.09000000000014e-05,
+        "dust_cost": 0.24452171756460375,
+        "future_entry_fee": 0.012208847742,
+        "entry_cost": 0.28120963714200375,
+        "spot_cash": 24.4790718354,
+        "collateral": 24.417695484,
+        "capital": 48.908976167142,
+        "days": 89.76573511362628,
+        "gross_basis_pnl": 0.2076244380000012,
+        "exit_fees": 0.0363077775,
+        "exit_slippage": 0.009682074,
+        "exit_spread": 0.004841037,
+        "residual_basis_reserve": 0.024205185,
+        "capital_charge": 0.4811342684162553,
+        "estimated_net": -0.6297555410582578,
+        "estimated_apr": -0.05235590831068572
+      },
+      "stress": {
+        "qty": 0.009,
+        "gross_spot_qty": 0.0091,
+        "spot_entry": 2690.545788,
+        "future_entry": 2712.534552,
+        "spot_fee": 0.0489679333416,
+        "dust_qty": 8.180000000000166e-05,
+        "dust_cost": 0.22008664545840448,
+        "future_entry_fee": 0.024412810968,
+        "entry_cost": 0.2934673897680045,
+        "spot_cash": 24.4839666708,
+        "collateral": 24.412810968,
+        "capital": 48.921190449768005,
+        "days": 89.76573511362628,
+        "gross_basis_pnl": 0.19789887600000156,
+        "exit_fees": 0.072615555,
+        "exit_slippage": 0.019364148,
+        "exit_spread": 0.009682074,
+        "residual_basis_reserve": 0.04841037,
+        "capital_charge": 0.4812544244774946,
+        "estimated_net": -0.7268950852454975,
+        "estimated_apr": -0.06041669838441059
+      },
+      "budget": 398.0,
+      "planned_exit": 1798182000.0
+    },
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_261225",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 117.55633945734978,
+      "days_to_expiry": 89.80740178029295,
+      "entry_quotes": {
+        "spot_ask": 84112.01,
+        "future_bid": 85100.8
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0004,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 8.85278,
+        "future_displayed_bid_qty": 0.004
+      }
+    },
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "BTCUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "BTCUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 248.23922291240086,
+      "days_to_expiry": 180.80740178029293,
+      "entry_quotes": {
+        "spot_ask": 84112.01,
+        "future_bid": 86200.0
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0001,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 8.85278,
+        "future_displayed_bid_qty": 0.001
+      }
+    },
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "REJECT",
+    "contract": "ETHUSDT_270326",
+    "reasons": [
+      "quantity_below_step"
+    ],
+    "estimate": {
+      "contract": "ETHUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "quantity_below_step"
+      ],
+      "observed_basis_bps": 201.67542303874075,
+      "days_to_expiry": 180.80740178029293,
+      "entry_quotes": {
+        "spot_ask": 2689.47,
+        "future_bid": 2743.71
+      },
+      "sizing": {
+        "max_unrounded_hedge_qty": 0.0008,
+        "common_step": "0.001",
+        "spot_displayed_ask_qty": 32.0982,
+        "future_displayed_bid_qty": 0.008
+      }
+    },
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  },
+  {
+    "event": "STATUS",
+    "balance": 1000.0,
+    "cash_equity": 1000.0,
+    "capital_reserved": 0,
+    "positions": 0,
+    "trades": 0,
+    "realized_cash_pnl": 0,
+    "realized_economic_pnl": 0,
+    "marked": [],
+    "unpriced": [],
+    "day_halted": false,
+    "ts": 1790426240.4861827,
+    "mode": "CARRY_PAPER"
+  }
+]

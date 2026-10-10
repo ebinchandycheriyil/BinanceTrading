@@ -1,0 +1,22 @@
+{
+ "squeeze_oi": {
+  "params": {
+   "brk": 6,
+   "fthr": 0.0,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "ls_q": 0.4,
+   "oi_min": 0.0,
+   "oi_win": 24,
+   "sides": "long",
+   "trail_atr": 5.0
+  },
+  "qualified": true,
+  "dev_t": 3.09,
+  "dev_sum_r": 120.1,
+  "dev_pf": 1.477,
+  "dev_trades": 432,
+  "grid_positive": "16/16",
+  "grid_median_r": 44.585
+ }
+}

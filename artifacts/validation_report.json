@@ -1,0 +1,19 @@
+{
+  "mode": "PAPER",
+  "summary": {
+    "trades": 0,
+    "net_pnl": 0,
+    "gross_pnl": 0,
+    "fees": 0,
+    "win_rate": 0,
+    "profit_factor": null,
+    "expectancy": 0,
+    "closed_trade_drawdown": 0.0,
+    "average_hold_minutes": 0,
+    "exits": {},
+    "loss_diagnostics": {},
+    "evidence": "insufficient sample"
+  },
+  "trades": [],
+  "positions": {}
+}

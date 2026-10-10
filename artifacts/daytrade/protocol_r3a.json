@@ -1,0 +1,105 @@
+{
+ "periods": {
+  "dev": [
+   "2022-01-01",
+   "2024-07-01"
+  ],
+  "val": [
+   "2024-07-01",
+   "2025-07-01"
+  ],
+  "holdout": [
+   "2025-07-01",
+   "2026-10-01"
+  ]
+ },
+ "select": {
+  "min_trades": 120,
+  "min_pf": 1.15,
+  "min_t": 2.0,
+  "min_years_positive": 2,
+  "stress": 1.5
+ },
+ "passes": {
+  "min_trades": 40,
+  "min_pf": 1.1,
+  "stress": 1.5
+ },
+ "universe": [
+  "BTCUSDT",
+  "ETHUSDT",
+  "SOLUSDT",
+  "XRPUSDT",
+  "BNBUSDT",
+  "DOGEUSDT",
+  "ADAUSDT",
+  "AVAXUSDT",
+  "LINKUSDT",
+  "LTCUSDT"
+ ],
+ "grids": {
+  "funding_squeeze_r3": {
+   "thr": [
+    0.0003,
+    0.0004,
+    0.0005
+   ],
+   "brk": [
+    4,
+    6,
+    9
+   ],
+   "init_atr": [
+    2.0
+   ],
+   "trail_atr": [
+    4.0,
+    6.0
+   ],
+   "hold_h": [
+    48
+   ],
+   "sides": [
+    "both",
+    "long"
+   ]
+  },
+  "flow_follow": {
+   "k_range": [
+    3.0,
+    5.0
+   ],
+   "k_vol": [
+    3.0,
+    6.0
+   ],
+   "flow": [
+    0.55,
+    0.65
+   ],
+   "init_k": [
+    1.0
+   ],
+   "trail_k": [
+    2.0,
+    4.0
+   ],
+   "hold": [
+    48
+   ]
+  }
+ },
+ "risk": 0.005,
+ "max_pos": 6,
+ "lev_cap": 2.0,
+ "gross_cap": 5.0,
+ "max_cost_r": 0.3,
+ "costs": {
+  "taker": 0.0005,
+  "maker": 0.0002,
+  "slip": 0.0002,
+  "funding": true
+ },
+ "written_at": 1790909815.4406936,
+ "note": "Written before development results were computed."
+}

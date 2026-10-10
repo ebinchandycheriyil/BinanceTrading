@@ -1,0 +1,2 @@
+# Core and tests use the standard library; CCXT supplies public market data.
+ccxt==4.5.84

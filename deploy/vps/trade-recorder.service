@@ -1,0 +1,16 @@
+[Unit]
+Description=Binance liquidation + order-book recorder (paper research)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=opc
+WorkingDirectory=/home/opc/trade/playground
+# started through bash: SELinux does not let systemd open log files in /home directly
+ExecStart=/bin/bash -c 'exec /home/opc/trade/venv/bin/python -m daytrade.recorder >>/home/opc/trade/logs/recorder.log 2>&1'
+Restart=always
+RestartSec=30
+MemoryMax=200M
+
+[Install]
+WantedBy=multi-user.target

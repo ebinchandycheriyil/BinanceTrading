@@ -1,0 +1,40 @@
+test_account_lock_blocks_second_writer (test_engine.TradingTests.test_account_lock_blocks_second_writer) ... ok
+test_configuration_validation (test_engine.TradingTests.test_configuration_validation) ... ok
+test_cost_feedback_halves_future_risk (test_engine.TradingTests.test_cost_feedback_halves_future_risk) ... ok
+test_daily_limit_latches_until_utc_rollover (test_engine.TradingTests.test_daily_limit_latches_until_utc_rollover) ... ok
+test_exchange_minimum_does_not_inflate_risk (test_engine.TradingTests.test_exchange_minimum_does_not_inflate_risk) ... ok
+test_hard_time_limit (test_engine.TradingTests.test_hard_time_limit) ... ok
+test_loss_pause (test_engine.TradingTests.test_loss_pause) ... ok
+test_missing_candles_never_generate_trade (test_engine.TradingTests.test_missing_candles_never_generate_trade) ... ok
+test_multiple_positions_and_portfolio_caps (test_engine.TradingTests.test_multiple_positions_and_portfolio_caps) ... ok
+test_no_progress_exit_at_five_minutes (test_engine.TradingTests.test_no_progress_exit_at_five_minutes) ... ok
+test_nonfinite_crossed_and_future_quotes_are_rejected (test_engine.TradingTests.test_nonfinite_crossed_and_future_quotes_are_rejected) ... ok
+test_only_complete_higher_timeframes (test_engine.TradingTests.test_only_complete_higher_timeframes) ... ok
+test_profit_factor_uses_gross_sums_not_average_win_loss (test_engine.TradingTests.test_profit_factor_uses_gross_sums_not_average_win_loss) ... ok
+test_rejects_upward_quantity_rounding (test_engine.TradingTests.test_rejects_upward_quantity_rounding) ... ok
+test_replay_next_bar_and_stop_wins_ambiguous_bar (test_engine.TradingTests.test_replay_next_bar_and_stop_wins_ambiguous_bar) ... ok
+test_replay_without_checkpoints_has_identical_accounting (test_engine.TradingTests.test_replay_without_checkpoints_has_identical_accounting) ... ok
+test_restart_restores_deadline_and_deduplicates_signal (test_engine.TradingTests.test_restart_restores_deadline_and_deduplicates_signal) ... ok
+test_saved_account_rejects_settings_change (test_engine.TradingTests.test_saved_account_rejects_settings_change) ... ok
+test_short_target_and_closing_order_side (test_engine.TradingTests.test_short_target_and_closing_order_side) ... ok
+test_shutdown_reduces_all_available_positions (test_engine.TradingTests.test_shutdown_reduces_all_available_positions) ... ok
+test_stale_data_blocks_entry_and_preserves_overdue_position (test_engine.TradingTests.test_stale_data_blocks_entry_and_preserves_overdue_position) ... ok
+test_stop_exits_early_and_accounts_for_both_fees (test_engine.TradingTests.test_stop_exits_early_and_accounts_for_both_fees) ... ok
+test_unclosed_candle_cannot_enter (test_engine.TradingTests.test_unclosed_candle_cannot_enter) ... ok
+test_cached_signals_match_uncached_replay (test_research.ResearchTests.test_cached_signals_match_uncached_replay) ... ok
+test_cost_screen_rejects_low_volatility_and_preserves_valid_signal (test_research.ResearchTests.test_cost_screen_rejects_low_volatility_and_preserves_valid_signal) ... ok
+test_day_bootstrap_includes_zero_trade_days (test_research.ResearchTests.test_day_bootstrap_includes_zero_trade_days) ... ok
+test_entry_at_settlement_boundary_does_not_pay_prior_funding (test_research.ResearchTests.test_entry_at_settlement_boundary_does_not_pay_prior_funding) ... ok
+test_fixed_trade_stress_cannot_profit_by_changing_trade_selection (test_research.ResearchTests.test_fixed_trade_stress_cannot_profit_by_changing_trade_selection) ... ok
+test_funding_direction_idempotency_and_net_accounting (test_research.ResearchTests.test_funding_direction_idempotency_and_net_accounting) ... ok
+test_funding_replay_charges_carried_position_only (test_research.ResearchTests.test_funding_replay_charges_carried_position_only) ... ok
+test_future_bar_cannot_change_cached_current_signal (test_research.ResearchTests.test_future_bar_cannot_change_cached_current_signal) ... ok
+test_gap_stop_uses_open_price_not_ideal_stop (test_research.ResearchTests.test_gap_stop_uses_open_price_not_ideal_stop) ... ok
+test_intrabar_stops_fill_at_executable_threshold_not_double_cost (test_research.ResearchTests.test_intrabar_stops_fill_at_executable_threshold_not_double_cost) ... ok
+test_patience_does_not_exit_before_its_configured_window (test_research.ResearchTests.test_patience_does_not_exit_before_its_configured_window) ... ok
+test_selection_uses_worst_development_fold (test_research.ResearchTests.test_selection_uses_worst_development_fold) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.087s
+
+OK

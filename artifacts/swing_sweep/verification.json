@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 82 tests in 0.077s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "baseline_exactly_reproduced": true,
+  "all_period_attribution_verified": true,
+  "accounting_trades_verified": 67408,
+  "best_breakdown": {
+    "symbol:ETH/USDT:USDT": {
+      "trades": 48,
+      "net": 21.53227999534519,
+      "fees": 2.6050093086659323,
+      "funding": 0.42401410227257347
+    },
+    "side:BUY": {
+      "trades": 79,
+      "net": -4.7604377554850945,
+      "fees": 6.33224228780578,
+      "funding": 1.274181231555825
+    },
+    "exit:TIME_LIMIT": {
+      "trades": 27,
+      "net": 1.9610146336450698,
+      "fees": 1.8983029598895422,
+      "funding": 0.22111822616480678
+    },
+    "symbol:BTC/USDT:USDT": {
+      "trades": 90,
+      "net": 4.750350104142573,
+      "fees": 7.809216328257435,
+      "funding": 0.27457272590113274
+    },
+    "exit:TARGET": {
+      "trades": 54,
+      "net": 125.72165700852551,
+      "fees": 4.139603927749471,
+      "funding": 0.13177932274829682
+    },
+    "exit:STOP": {
+      "trades": 20,
+      "net": -49.748245430016624,
+      "fees": 1.683662320205243,
+      "funding": 0.11054905680675223
+    },
+    "side:SELL": {
+      "trades": 59,
+      "net": 31.043067854972854,
+      "fees": 4.0819833491175865,
+      "funding": -0.5755944033821183
+    },
+    "exit:TREND_INVALIDATION": {
+      "trades": 37,
+      "net": -51.65179611266621,
+      "fees": 2.692656429079109,
+      "funding": 0.23514022245385036
+    }
+  },
+  "same_trade_doubled_fee_slippage_net": 11.702720857577063,
+  "conclusion": "Positive exploratory candidate; bootstrap includes zero, 286 comparisons, no independent profitability validation"
+}

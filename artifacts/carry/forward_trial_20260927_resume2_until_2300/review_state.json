@@ -1,0 +1,6 @@
+{
+  "last_notified_at_utc": "2026-09-27T09:04:00Z",
+  "notified_cumulative_observations": 691,
+  "notified_cumulative_errors": 10,
+  "notified_reason": "Four intermittent partial/stale market-data cycle errors since continuation resumed; worker recovered; currently healthy heartbeat/feed. No entries or exposure."
+}

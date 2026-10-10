@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 86 tests in 0.087s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "trades_verified": 889,
+  "selection_uses_development_only": true,
+  "baseline_matches_prior_winner": true,
+  "selected_holdout_breakdown": {
+    "symbol:ETH/USDT:USDT": {
+      "trades": 12,
+      "net": -4.829924856714261,
+      "fees": 0.7327317484840263,
+      "funding": 0.08916111541632123
+    },
+    "side:SELL": {
+      "trades": 9,
+      "net": -8.90898520944997,
+      "fees": 0.5848928740638315,
+      "funding": 0.09590202515779098
+    },
+    "exit:TREND_INVALIDATION": {
+      "trades": 11,
+      "net": -13.786249998719345,
+      "fees": 0.6844414299919448,
+      "funding": 0.014016591065915313
+    },
+    "symbol:BTC/USDT:USDT": {
+      "trades": 14,
+      "net": -12.498736131146645,
+      "fees": 0.8922050597578042,
+      "funding": -0.031365501463273
+    },
+    "exit:STOP": {
+      "trades": 4,
+      "net": -9.730206790270172,
+      "fees": 0.3015084312474113,
+      "funding": 0.011645247135648821
+    },
+    "side:BUY": {
+      "trades": 17,
+      "net": -8.419675778410934,
+      "fees": 1.0400439341779988,
+      "funding": -0.03810641120474276
+    },
+    "exit:TARGET": {
+      "trades": 2,
+      "net": 4.49832282049357,
+      "fees": 0.15956414962126333,
+      "funding": 0.00031689284824676454
+    },
+    "exit:TIME_LIMIT": {
+      "trades": 7,
+      "net": 3.144248613112969,
+      "fees": 0.3626225160343777,
+      "funding": 0.016789395216672873
+    },
+    "exit:END_OF_SAMPLE": {
+      "trades": 2,
+      "net": -1.454775632477928,
+      "fees": 0.11680028134683344,
+      "funding": 0.015027487686564455
+    }
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "kind": "Fixed-basket minute execution diagnostic, NOT full strategy replay",
+  "methodology": "Original entries, sizes and original exit deadlines frozen; gross +/-risk guards on synchronized 1m open/close. 5bps exit commission, 2bps slippage and 2bps half-spread per leg. No new entries, resizing or changed relationship signals.",
+  "ambiguity": "Adverse per-leg OHLC extrema are nonsynchronous possible-path bounds, never actual observed stop fills.",
+  "funding": "Original settlement marks used, including historical mark fallbacks already reported in the source dataset; entry boundary excluded, revised exit boundary included.",
+  "source_funding_mark_fallbacks": 30016,
+  "limitations": [
+    "Fixed survivor universe remains biased",
+    "Minute endpoints can still miss subminute stops",
+    "Simultaneous two-leg fills remain assumed",
+    "Original closed baskets only; not portfolio counterfactual performance"
+  ],
+  "hashes": {
+    "results.json": "cd6e2436c8eed5b0202df9bfa1b2da10145c8d20c4c4868d69cd76d36e667edf",
+    "ledgers.json": "a9c4ce4173de33f18cb50e94de7e3a4b7db92c012d31706dc12f5e55748a5226",
+    "market_data.json": "3706cdaa9e93a1ef07673ee97cbc0dc4be624735cae536337bd3b24bc8d2fd0e",
+    "minute_data.json": "217819684830e1f1b94b586d6da958dbda3a57c41d8d2d82f3e8a279761365df"
+  },
+  "source_hash": "b4c6486aadabb401a751590bf8b2800e976266888603d0b0c63ab5febe2beee7",
+  "runs": {
+    "2022_base_w144_z1.75": {
+      "summary": {
+        "baskets": 5,
+        "original_net": 5.245953598637909,
+        "minute_net": 0.3787366740845082,
+        "difference": -4.867216924553401,
+        "earlier_exits": 5,
+        "ambiguous_baskets": 3,
+        "losses_over_budget": 0
+      },
+      "trades": [
+        {
+          "symbols": [
+            "ETH-P",
+            "LINK-P"
+          ],
+          "opened": 1647302400000,
+          "original_exit_time": 1647309599999,
+          "minute_exit_time": 1647305459999,
+          "original_exit_reason": "STOP",
+          "minute_exit_reason": "STOP",
+          "original_net": -2.5932119655115913,
+          "minute_net": -2.287162035552656,
+          "difference": 0.30604992995893543,
+          "gross_pnl": -1.9710248665101155,
+          "entry_fee": 0.15725896139657025,
+          "exit_fee": 0.15776531374889285,
+          "funding_cost": 0.0011128938970766493,
+          "funding_events": [
+            {
+              "symbol": "ETH-P",
+              "ts": 1647302400008,
+              "rate": 0.0001,
+              "mark": 2588.96,
+              "cost": 0.016282119880389016
+            },
+            {
+              "symbol": "LINK-P",
+              "ts": 1647302400008,
+              "rate": 0.0001,
+              "mark": 13.398,
+              "cost": -0.015169225983312367
+            }
+          ],
+          "exit_fills": {
+            "ETH-P": 2582.3767393364,
+            "LINK-P": 13.524408140759999
+          },
+          "hold_hours": 0.8499997222222222,
+          "original_hold_hours": 1.9999997222222223,
+          "original_risk": 1.933875774453375,
+          "loss_budget": 2.5,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [
+            {
+              "minute_start": 1647304740000,
+              "adverse_gross": -1.9578231267629596,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1647305100000,
+              "adverse_gross": -2.145969106298262,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1647305340000,
+              "adverse_gross": -2.288764276709152,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1647305400000,
+              "adverse_gross": -2.2131643626721273,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            }
+          ],
+          "adverse_envelope_ambiguous": true,
+          "verified_minutes": 120,
+          "basket": 1
+        },
+        {
+          "symbols": [
+            "ADA-P",
+            "LTC-P"
+          ],
+          "opened": 1650931200000,
+          "original_exit_time": 1650988799999,
+          "minute_exit_time": 1650939359999,
+          "original_exit_reason": "TARGET",
+          "minute_exit_reason": "TARGET",
+          "original_net": 2.3002028426588406,
+          "minute_net": 1.7325348249825419,
+          "difference": -0.5676680176762987,
+          "gross_pnl": 2.01718017013678,
+          "entry_fee": 0.14163778031032415,
+          "exit_fee": 0.14082877711376726,
+          "funding_cost": 0.0021787877301467067,
+          "funding_events": [
+            {
+              "symbol": "ADA-P",
+              "ts": 1650931200014,
+              "rate": 8.582e-05,
+              "mark": 0.8971,
+              "cost": -0.012076638178178778
+            },
+            {
+              "symbol": "LTC-P",
+              "ts": 1650931200014,
+              "rate": 0.0001,
+              "mark": 104.5,
+              "cost": 0.014255425908325485
+            }
+          ],
+          "exit_fills": {
+            "ADA-P": 0.885153955392,
+            "LTC-P": 104.68811218920001
+          },
+          "hold_hours": 2.266666388888889,
+          "original_hold_hours": 15.999999722222222,
+          "original_risk": 1.9836223016305388,
+          "loss_budget": 2.493516970086221,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [],
+          "adverse_envelope_ambiguous": false,
+          "verified_minutes": 960,
+          "basket": 2
+        },
+        {
+          "symbols": [
+            "ADA-P",
+            "LINK-P"
+          ],
+          "opened": 1651017600000,
+          "original_exit_time": 1651078799999,
+          "minute_exit_time": 1651065779999,
+          "original_exit_reason": "TARGET",
+          "minute_exit_reason": "STOP",
+          "original_net": 1.9649799702846187,
+          "minute_net": -2.4310820624623504,
+          "difference": -4.396062032746969,
+          "gross_pnl": -2.0867766483148094,
+          "entry_fee": 0.1543058649990322,
+          "exit_fee": 0.15683022104744504,
+          "funding_cost": 0.033169328101063496,
+          "funding_events": [
+            {
+              "symbol": "ADA-P",
+              "ts": 1651017600012,
+              "rate": -0.00020147,
+              "mark": 0.8253,
+              "cost": 0.02926869336182283
+            },
+            {
+              "symbol": "ADA-P",
+              "ts": 1651046400000,
+              "rate": 2.913e-05,
+              "mark": 0.8514,
+              "cost": -0.004365713519253359
+            },
+            {
+              "symbol": "LINK-P",
+              "ts": 1651017600012,
+              "rate": -4.028e-05,
+              "mark": 12.359,
+              "cost": -0.006578884302604715
+            },
+            {
+              "symbol": "LINK-P",
+              "ts": 1651046400000,
+              "rate": 8.85e-05,
+              "mark": 12.693,
+              "cost": 0.01484523256109874
+            }
+          ],
+          "exit_fills": {
+            "ADA-P": 0.845237993796,
+            "LINK-P": 12.476008099240001
+          },
+          "hold_hours": 13.383333055555555,
+          "original_hold_hours": 16.99999972222222,
+          "original_risk": 1.9437793836589925,
+          "loss_budget": 2.499267477192868,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [
+            {
+              "minute_start": 1651065720000,
+              "adverse_gross": -2.196857081617032,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            }
+          ],
+          "adverse_envelope_ambiguous": true,
+          "verified_minutes": 1020,
+          "basket": 3
+        },
+        {
+          "symbols": [
+            "BCH-P",
+            "LTC-P"
+          ],
+          "opened": 1658102400000,
+          "original_exit_time": 1658109600000,
+          "minute_exit_time": 1658106839999,
+          "original_exit_reason": "TARGET",
+          "minute_exit_reason": "TARGET",
+          "original_net": 1.6398964387505286,
+          "minute_net": 1.6330083977663068,
+          "difference": -0.006888040984221799,
+          "gross_pnl": 1.949576883829811,
+          "entry_fee": 0.15492860907354894,
+          "exit_fee": 0.15813436291645322,
+          "funding_cost": 0.0035055140735021813,
+          "funding_events": [
+            {
+              "symbol": "BCH-P",
+              "ts": 1658102400001,
+              "rate": 0.0001,
+              "mark": 110.17,
+              "cost": 0.017244916221604917
+            },
+            {
+              "symbol": "LTC-P",
+              "ts": 1658102400001,
+              "rate": 0.0001,
+              "mark": 55.73,
+              "cost": -0.013739402148102736
+            }
+          ],
+          "exit_fills": {
+            "BCH-P": 112.88483251720001,
+            "LTC-P": 56.6126382636
+          },
+          "hold_hours": 1.2333330555555555,
+          "original_hold_hours": 2.0,
+          "original_risk": 1.9464621964638418,
+          "loss_budget": 2.50417992711858,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [],
+          "adverse_envelope_ambiguous": false,
+          "verified_minutes": 121,
+          "basket": 4
+        },
+        {
+          "symbols": [
+            "ADA-P",
+            "LINK-P"
+          ],
+          "opened": 1659916800000,
+          "original_exit_time": 1659938399999,
+          "minute_exit_time": 1659937499999,
+          "original_exit_reason": "TARGET",
+          "minute_exit_reason": "TARGET",
+          "original_net": 1.9340863124555123,
+          "minute_net": 1.7314375493506657,
+          "difference": -0.20264876310484659,
+          "gross_pnl": 2.022520021087323,
+          "entry_fee": 0.1394674769200674,
+          "exit_fee": 0.1419385463408327,
+          "funding_cost": 0.009676448475757242,
+          "funding_events": [
+            {
+              "symbol": "ADA-P",
+              "ts": 1659916800009,
+              "rate": 0.0001,
+              "mark": 0.5272,
+              "cost": 0.018783036082397734
+            },
+            {
+              "symbol": "LINK-P",
+              "ts": 1659916800009,
+              "rate": 0.0001,
+              "mark": 8.342,
+              "cost": -0.009106587606640492
+            }
+          ],
+          "exit_fills": {
+            "ADA-P": 0.5371850614960001,
+            "LINK-P": 8.472387938759999
+          },
+          "hold_hours": 5.749999722222222,
+          "original_hold_hours": 5.999999722222222,
+          "original_risk": 2.006266441812768,
+          "loss_budget": 2.5082796682154562,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [
+            {
+              "minute_start": 1659924060000,
+              "adverse_gross": -2.2573041725342744,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1659924120000,
+              "adverse_gross": -2.2463832535628625,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1659924180000,
+              "adverse_gross": -2.131472249834718,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            }
+          ],
+          "adverse_envelope_ambiguous": true,
+          "verified_minutes": 360,
+          "basket": 5
+        }
+      ]
+    },
+    "2023_base_w144_z1.75": {
+      "summary": {
+        "baskets": 4,
+        "original_net": 1.5519844632254347,
+        "minute_net": 1.5664040951835423,
+        "difference": 0.014419631958107582,
+        "earlier_exits": 2,
+        "ambiguous_baskets": 1,
+        "losses_over_budget": 0
+      },
+      "trades": [
+        {
+          "symbols": [
+            "ADA-P",
+            "BNB-P"
+          ],
+          "opened": 1673308800000,
+          "original_exit_time": 1673395200000,
+          "minute_exit_time": 1673395200000,
+          "original_exit_reason": "RELATIONSHIP_INVALID",
+          "minute_exit_reason": "RELATIONSHIP_INVALID",
+          "original_net": 1.1645585748212923,
+          "minute_net": 1.1645585748212923,
+          "difference": 0.0,
+          "gross_pnl": 1.3792826455428164,
+          "entry_fee": 0.11862042670991871,
+          "exit_fee": 0.12059182670318846,
+          "funding_cost": -0.024488182691582986,
+          "funding_events": [
+            {
+              "symbol": "ADA-P",
+              "ts": 1673308800003,
+              "rate": 0.0001,
+              "mark": 0.3168,
+              "cost": -0.007055012670925446
+            },
+            {
+              "symbol": "ADA-P",
+              "ts": 1673337600021,
+              "rate": 0.0001,
+              "mark": 0.3153,
+              "cost": -0.007021608254869928
+            },
+            {
+              "symbol": "ADA-P",
+              "ts": 1673366400000,
+              "rate": 0.0001,
+              "mark": 0.3203,
+              "cost": -0.00713295630838832
+            },
+            {
+              "symbol": "BNB-P",
+              "ts": 1673308800003,
+              "rate": 0.0,
+              "mark": 272.44,
+              "cost": 0.0
+            },
+            {
+              "symbol": "BNB-P",
+              "ts": 1673337600021,
+              "rate": 0.0,
+              "mark": 274.37,
+              "cost": 0.0
+            },
+            {
+              "symbol": "BNB-P",
+              "ts": 1673366400000,
+              "rate": -1.944e-05,
+              "mark": 275.71,
+              "cost": -0.0032786054573992925
+            }
+          ],
+          "exit_fills": {
+            "ADA-P": 0.322428932892,
+            "BNB-P": 276.8992070804
+          },
+          "hold_hours": 24.0,
+          "original_hold_hours": 24.0,
+          "original_risk": 2.073035674470616,
+          "loss_budget": 2.5,
+          "realized_loss_over_budget": false,
+          "earlier_exit": false,
+          "adverse_envelope_breaches": [],
+          "adverse_envelope_ambiguous": false,
+          "verified_minutes": 1441,
+          "basket": 1
+        },
+        {
+          "symbols": [
+            "ADA-P",
+            "LTC-P"
+          ],
+          "opened": 1673913600000,
+          "original_exit_time": 1673963999999,
+          "minute_exit_time": 1673954819999,
+          "original_exit_reason": "TARGET",
+          "minute_exit_reason": "TARGET",
+          "original_net": 2.0957890289380874,
+          "minute_net": 1.9957995742537642,
+          "difference": -0.09998945468432319,
+          "gross_pnl": 2.198378903764355,
+          "entry_fee": 0.09524368217242074,
+          "exit_fee": 0.09699233305894478,
+          "funding_cost": 0.0103433142792253,
+          "funding_events": [
+            {
+              "symbol": "ADA-P",
+              "ts": 1673913600004,
+              "rate": 0.0001,
+              "mark": 0.3503,
+              "cost": -0.006933124854798354
+            },
+            {
+              "symbol": "ADA-P",
+              "ts": 1673942400005,
+              "rate": 0.0001,
+              "mark": 0.3509,
+              "cost": -0.006945000032968149
+            },
+            {
+              "symbol": "LTC-P",
+              "ts": 1673913600004,
+              "rate": 0.0001,
+              "mark": 85.94,
+              "cost": 0.012113538652300252
+            },
+            {
+              "symbol": "LTC-P",
+              "ts": 1673942400005,
+              "rate": 0.0001,
+              "mark": 85.9,
+              "cost": 0.012107900514691551
+            }
+          ],
+          "exit_fills": {
+            "ADA-P": 0.353441334132,
+            "LTC-P": 87.9947915212
+          },
+          "hold_hours": 11.449999722222222,
+          "original_hold_hours": 13.999999722222222,
+          "original_risk": 2.160071453309278,
+          "loss_budget": 2.502911396437053,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [],
+          "adverse_envelope_ambiguous": false,
+          "verified_minutes": 840,
+          "basket": 2
+        },
+        {
+          "symbols": [
+            "BNB-P",
+            "XRP-P"
+          ],
+          "opened": 1692316800000,
+          "original_exit_time": 1692403200000,
+          "minute_exit_time": 1692403200000,
+          "original_exit_reason": "RELATIONSHIP_INVALID",
+          "minute_exit_reason": "RELATIONSHIP_INVALID",
+          "original_net": 0.6457617946275682,
+          "minute_net": 0.6457617946275682,
+          "difference": 0.0,
+          "gross_pnl": 0.858906225617103,
+          "entry_fee": 0.08736401873669078,
+          "exit_fee": 0.08688587030551692,
+          "funding_cost": 0.03889454194732699,
+          "funding_events": [
+            {
+              "symbol": "BNB-P",
+              "ts": 1692345600000,
+              "rate": -5.81e-05,
+              "mark": 219.2,
+              "cost": 0.006656517919710617
+            },
+            {
+              "symbol": "BNB-P",
+              "ts": 1692374400000,
+              "rate": -0.00011733,
+              "mark": 216.74,
+              "cost": 0.013291639784430336
+            },
+            {
+              "symbol": "BNB-P",
+              "ts": 1692403200000,
+              "rate": -0.00029585,
+              "mark": 215.97,
+              "cost": 0.03339607480567916
+            },
+            {
+              "symbol": "XRP-P",
+              "ts": 1692345600000,
+              "rate": -0.00017321,
+              "mark": 0.5058,
+              "cost": -0.010545229979171865
+            },
+            {
+              "symbol": "XRP-P",
+              "ts": 1692374400000,
+              "rate": 9.69e-06,
+              "mark": 0.5023,
+              "cost": 0.0005858564614404948
+            },
+            {
+              "symbol": "XRP-P",
+              "ts": 1692403200000,
+              "rate": -7.377e-05,
+              "mark": 0.5057,
+              "cost": -0.004490317044761754
+            }
+          ],
+          "exit_fills": {
+            "BNB-P": 216.05639663879998,
+            "XRP-P": 0.5054977402280001
+          },
+          "hold_hours": 24.0,
+          "original_hold_hours": 24.0,
+          "original_risk": 2.193602246263216,
+          "loss_budget": 2.5081508690093983,
+          "realized_loss_over_budget": false,
+          "earlier_exit": false,
+          "adverse_envelope_breaches": [],
+          "adverse_envelope_ambiguous": false,
+          "verified_minutes": 1441,
+          "basket": 3
+        },
+        {
+          "symbols": [
+            "ADA-P",
+            "BTC-P"
+          ],
+          "opened": 1695600000000,
+          "original_exit_time": 1695607199999,
+          "minute_exit_time": 1695607020000,
+          "original_exit_reason": "STOP",
+          "minute_exit_reason": "STOP",
+          "original_net": -2.354124935161513,
+          "minute_net": -2.2397158485190825,
+          "difference": 0.11440908664243077,
+          "gross_pnl": -1.8359148590933527,
+          "entry_fee": 0.20189089243953134,
+          "exit_fee": 0.20191009698619827,
+          "funding_cost": 0,
+          "funding_events": [],
+          "exit_fills": {
+            "ADA-P": 0.243997569756,
+            "BTC-P": 26152.635806524002
+          },
+          "hold_hours": 1.95,
+          "original_hold_hours": 1.9999997222222223,
+          "original_risk": 1.7830435450862439,
+          "loss_budget": 2.5097652734959675,
+          "realized_loss_over_budget": false,
+          "earlier_exit": true,
+          "adverse_envelope_breaches": [
+            {
+              "minute_start": 1695601140000,
+              "adverse_gross": -1.8052867172241904,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695601260000,
+              "adverse_gross": -2.014033129761644,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695601320000,
+              "adverse_gross": -2.401018617723331,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695601380000,
+              "adverse_gross": -2.631802455425925,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602100000,
+              "adverse_gross": -1.8625989952547402,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602160000,
+              "adverse_gross": -1.8925992948409256,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602280000,
+              "adverse_gross": -1.9850281894781012,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602340000,
+              "adverse_gross": -2.1064620243988195,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602400000,
+              "adverse_gross": -2.1701650197670874,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602460000,
+              "adverse_gross": -1.9104460020345988,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602520000,
+              "adverse_gross": -2.0977828316898206,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695602760000,
+              "adverse_gross": -1.816235669553146,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695603720000,
+              "adverse_gross": -1.809528479697998,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695604020000,
+              "adverse_gross": -1.8169843165920112,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695606900000,
+              "adverse_gross": -1.8140169544355143,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            },
+            {
+              "minute_start": 1695606960000,
+              "adverse_gross": -1.8957061775047406,
+              "note": "Nonsynchronous leg extrema; not an observed stop fill."
+            }
+          ],
+          "adverse_envelope_ambiguous": true,
+          "verified_minutes": 120,
+          "basket": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+# Statistical cointegration research only; not required by the original paper CLI.
+statsmodels==0.15.0
+numpy==2.5.3

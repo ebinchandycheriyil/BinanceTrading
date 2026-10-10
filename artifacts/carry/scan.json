@@ -1,0 +1,99 @@
+{
+  "mode": "CARRY_SCAN",
+  "ts": 1790492231.8726919,
+  "settings": {
+    "initial_balance": 1000.0,
+    "spot_fee": 0.001,
+    "future_fee": 0.0005,
+    "slippage": 0.0002,
+    "stress_multiplier": 2.0,
+    "collateral_fraction": 1.0,
+    "basket_fraction": 0.4,
+    "portfolio_fraction": 0.8,
+    "max_positions": 2,
+    "depth_fraction": 0.1,
+    "max_spread_bps": 20.0,
+    "stale_seconds": 8.0,
+    "max_request_seconds": 3.0,
+    "max_quote_skew_seconds": 3.0,
+    "min_days": 7.0,
+    "max_days": 200.0,
+    "unwind_hours": 1.0,
+    "residual_basis_bps": 10.0,
+    "exit_spread_floor_bps": 2.0,
+    "capital_charge_apr": 0.04,
+    "min_net_apr": 0.1,
+    "min_net_usdt": 2.0,
+    "take_profit_fraction": 0.8,
+    "stop_fraction": 0.005,
+    "daily_loss_fraction": 0.015,
+    "collateral_buffer_fraction": 0.25,
+    "poll_seconds": 30.0
+  },
+  "evaluations": [
+    {
+      "contract": "BTCUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "spot_stale_or_slow_book",
+        "future_missing_book",
+        "missing_or_invalid_mark"
+      ]
+    },
+    {
+      "contract": "BTCUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "spot_stale_or_slow_book",
+        "future_missing_book",
+        "stale_mark"
+      ]
+    },
+    {
+      "contract": "ETHUSDT_261225",
+      "expiry": 1798185600.0,
+      "decision": "REJECT",
+      "reasons": [
+        "spot_stale_or_slow_book",
+        "future_stale_or_slow_book"
+      ]
+    },
+    {
+      "contract": "ETHUSDT_270326",
+      "expiry": 1806048000.0,
+      "decision": "REJECT",
+      "reasons": [
+        "spot_stale_or_slow_book",
+        "future_stale_or_slow_book",
+        "future_stale_exchange_book"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "market": "future",
+      "symbol": "BTCUSDT_261225",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "market": "mark",
+      "symbol": "BTCUSDT_261225",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "market": "future",
+      "symbol": "BTCUSDT_270326",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    }
+  ],
+  "qualified": 0,
+  "assumptions": [
+    "Projected convergence before expiry is uncertain.",
+    "Fees/slippage/capital-charge thresholds are explicit assumptions, not optimized parameters.",
+    "Spot fees deducted in base; excess dust written off. Full initial futures collateral reserved.",
+    "Entry bid/ask are observed; future exit quotes and basis are estimated.",
+    "No private calls, exchange orders or settlement simulation."
+  ]
+}

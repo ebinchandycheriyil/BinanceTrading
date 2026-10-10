@@ -1,0 +1,45 @@
+{
+ "updated": "2026-10-02T18:55:25.010438+00:00",
+ "started": "2026-10-02T03:19:48.199867+00:00",
+ "hours_running": 15.59,
+ "symbols": 39,
+ "symbols_with_data": 39,
+ "errors": {},
+ "signals": 2,
+ "late_signals": 0,
+ "open_positions": [
+  {
+   "symbol": "GTCUSDT",
+   "entry": 0.143813131,
+   "entry_time": "2026-10-02 17:00:00+00:00",
+   "unrealized_r": 0.083
+  }
+ ],
+ "closed": {
+  "trades": 1,
+  "win": 0.0,
+  "sum_r": -1.07,
+  "avg_r": -1.075,
+  "pf": 0.0,
+  "portfolio_pnl_usdt": -5.37,
+  "portfolio_trades": 1,
+  "by_symbol": {
+   "LTCUSDT": -1.07
+  }
+ },
+ "closed_core10": {
+  "trades": 1,
+  "win": 0.0,
+  "sum_r": -1.07,
+  "avg_r": -1.075,
+  "pf": 0.0,
+  "portfolio_pnl_usdt": -5.37,
+  "portfolio_trades": 1,
+  "by_symbol": {
+   "LTCUSDT": -1.07
+  }
+ },
+ "closed_extended": {
+  "trades": 0
+ }
+}

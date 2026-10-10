@@ -1,0 +1,1 @@
+{"filt": "ema200", "hold_h": 168, "n": 20, "sides": "both", "sig": "donchian", "stop_atr": 2.0, "tf": "4h", "trail_atr": 5.0, "vol_k": 0.0}

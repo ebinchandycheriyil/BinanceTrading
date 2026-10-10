@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 96 tests in 0.088s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "baskets_verified": 973,
+  "legs_verified": 3372,
+  "evaluation_groups": {
+    "family-pairs TARGET": {
+      "baskets": 2,
+      "net": 3.7390626372848565,
+      "fees": 0.6646303616051439,
+      "funding": -0.0017928485347977405
+    },
+    "family-pairs RELATIONSHIP_INVALID": {
+      "baskets": 1,
+      "net": -0.4264718658353666,
+      "fees": 0.2200419732196451,
+      "funding": -0.004834101203402599
+    },
+    "family-carry STOP": {
+      "baskets": 1,
+      "net": -2.8003254677003633,
+      "fees": 0.5103821329284829,
+      "funding": -0.1506846913981497
+    },
+    "family-carry TIME_LIMIT": {
+      "baskets": 8,
+      "net": 6.493086968275014,
+      "fees": 4.083488042884816,
+      "funding": -12.214738763476223
+    },
+    "family-momentum TIME_LIMIT": {
+      "baskets": 9,
+      "net": 1.7701398392940026,
+      "fees": 1.0209893955191034,
+      "funding": -0.3420253451936145
+    },
+    "family-momentum TARGET": {
+      "baskets": 10,
+      "net": 23.914580471343985,
+      "fees": 1.1409293315061744,
+      "funding": -0.13614826025998156
+    },
+    "family-momentum STOP": {
+      "baskets": 14,
+      "net": -38.958969529791986,
+      "fees": 1.602350674347031,
+      "funding": -0.20858647319443607
+    },
+    "family-momentum END_OF_SAMPLE": {
+      "baskets": 1,
+      "net": -1.22158684048157,
+      "fees": 0.11282334320139112,
+      "funding": -0.0004101221351988241
+    }
+  },
+  "source_and_data_hashes_verified": true,
+  "selection_reproduced": true
+}

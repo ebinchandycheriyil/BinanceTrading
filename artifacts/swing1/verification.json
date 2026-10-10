@@ -1,0 +1,87 @@
+{
+  "accounting_trades_verified": 4500,
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 75 tests in 0.050s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "loss_breakdown": {
+    "exit:TARGET": {
+      "trades": 119,
+      "net": 247.60583681731876,
+      "fees": 13.742313517511807,
+      "funding": 0.4516396349509537
+    },
+    "symbol:ETH/USDT:USDT": {
+      "trades": 162,
+      "net": -26.811279820239335,
+      "fees": 12.735711386248715,
+      "funding": 0.5236849920853397
+    },
+    "side:BUY": {
+      "trades": 171,
+      "net": -21.80261581367693,
+      "fees": 20.43885916585799,
+      "funding": 1.9225722633122337
+    },
+    "exit:TIME_LIMIT": {
+      "trades": 73,
+      "net": -11.450311497797594,
+      "fees": 6.843681425908697,
+      "funding": 0.22060390560920465
+    },
+    "symbol:BTC/USDT:USDT": {
+      "trades": 176,
+      "net": -48.40940506965449,
+      "fees": 24.03363232073192,
+      "funding": 0.5565817717458627
+    },
+    "exit:STOP": {
+      "trades": 114,
+      "net": -265.0253591245331,
+      "fees": 12.862410104495856,
+      "funding": 0.2662066005815193
+    },
+    "side:SELL": {
+      "trades": 167,
+      "net": -53.41806907621691,
+      "fees": 16.33048454112263,
+      "funding": -0.8423054994810297
+    },
+    "exit:TREND_INVALIDATION": {
+      "trades": 32,
+      "net": -46.35085108488201,
+      "fees": 3.320938659064274,
+      "funding": 0.14181662268952444
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "phase": "COMPLETED",
+  "updated_at": 1790529303.230432,
+  "observations": 1675,
+  "errors": 12,
+  "last_success_at": 1790529273.773877,
+  "open_positions": 0,
+  "entries": 0,
+  "trades": 0,
+  "balance": 1000.0,
+  "consecutive_errors": 0,
+  "prior_stop_reason": "five_consecutive_data_failures",
+  "usable_contracts": 3,
+  "last_error": null
+}

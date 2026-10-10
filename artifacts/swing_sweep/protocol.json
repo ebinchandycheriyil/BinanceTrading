@@ -1,0 +1,1912 @@
+{
+  "start": 1735689600000,
+  "end": 1767225600000,
+  "base_grid": [
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 1,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 10,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 20,
+      "atr_multiple": 4,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 2.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 72
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 24
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "pullback",
+      "timeframe": 4,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 72
+    }
+  ],
+  "refinement": "Top three base rows with >=50 trades: ATR +/-0.25 and hold +/-6h; clip to <=72h; deduplicate",
+  "ranking": "Require >=50 trades for priority, then net P&L, then name; exploratory same-period optimization",
+  "risk": "Unchanged: 0.25%/trade, 0.5% combined, 1x gross cap, 1.5% daily equity loss halt, 1:1 price ratio",
+  "costs": {
+    "method": "breakout",
+    "atr_multiple": 2,
+    "max_hours": 72,
+    "fee": 0.0005,
+    "slip": 0.0002,
+    "half_spread": 0.0002
+  },
+  "data_sha256": "9c4c85eee1659a7e5ebb6a58b5f48633af74168b18b3b918ad4d4077c14e704b",
+  "hashes": {
+    "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\swing_sweep.py": "dd0ba8b06d1cd25506b39fad497ae9e81205f20b853228cd1dd30bd0ff601649",
+    "scalp\\swing.py": "97c8712a37c288295b8102016b9c31bd9a6ecf8786deaabf62b24fd44899cdad"
+  }
+}

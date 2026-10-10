@@ -1,0 +1,10 @@
+{
+  "parent_segment": "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\artifacts\\carry\\forward_trial_20260927",
+  "resumed_at": 1790477299.5988452,
+  "prior_observations": 99,
+  "prior_errors": 0,
+  "prior_last_observation": 1790477236.3980784,
+  "offline_gap_seconds": 33.68087697029114,
+  "reason": "User can keep laptop on only until 23:00 IST on 27 September. Operational deadline shortened; strategy unchanged.",
+  "note": "SQLite account/event history copied. Counts cumulative, not additive across segments. Prior segment deadlines preserved."
+}

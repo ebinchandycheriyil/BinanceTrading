@@ -1,0 +1,81 @@
+{
+ "funding_squeeze": {
+  "params": {
+   "brk": 6,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "thr": 0.0004,
+   "trail_atr": 5.0
+  },
+  "qualified": false,
+  "dev_t": 1.8,
+  "dev_sum_r": 89.74,
+  "dev_pf": 1.202,
+  "dev_trades": 762,
+  "grid_positive": "11/16",
+  "grid_median_r": 10.085
+ },
+ "hour_season": {
+  "params": {
+   "length": 8,
+   "side": 1,
+   "start": 0,
+   "stop_atr": 3.0,
+   "trend": true
+  },
+  "qualified": false,
+  "dev_t": -1.25,
+  "dev_sum_r": -45.46,
+  "dev_pf": 0.947,
+  "dev_trades": 3987,
+  "grid_positive": "0/16",
+  "grid_median_r": -207.3
+ },
+ "nr_breakout": {
+  "params": {
+   "k": 0.2,
+   "nr": 7,
+   "stop_mode": "opposite",
+   "use_nr": true
+  },
+  "qualified": false,
+  "dev_t": -0.92,
+  "dev_sum_r": -38.35,
+  "dev_pf": 0.938,
+  "dev_trades": 1427,
+  "grid_positive": "0/16",
+  "grid_median_r": -299.315
+ },
+ "rsi2_dip": {
+  "params": {
+   "hold_h": 24,
+   "shorts": true,
+   "stop_atr": 3.5,
+   "tgt_atr": 0.75,
+   "th": 5
+  },
+  "qualified": false,
+  "dev_t": -2.21,
+  "dev_sum_r": -58.67,
+  "dev_pf": 0.907,
+  "dev_trades": 3903,
+  "grid_positive": "0/16",
+  "grid_median_r": -142.32999999999998
+ },
+ "trend_trail": {
+  "params": {
+   "hold_h": 72,
+   "init_atr": 2.0,
+   "lookback": 48,
+   "trail_atr": 5.0,
+   "trend": true
+  },
+  "qualified": false,
+  "dev_t": 0.16,
+  "dev_sum_r": 14.37,
+  "dev_pf": 1.01,
+  "dev_trades": 2069,
+  "grid_positive": "2/24",
+  "grid_median_r": -53.254999999999995
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "dataset_sha256": "d50172173684f14fbc3efabfde2259e49f18f09d2cdd19a929ac994fca26cf0d",
+  "study_sha256": "3a66511868a887907468da2a0989fb5a5172fb3f2adaf6fa1ce35fb1408f7dca",
+  "data_source": "Binance USD-M via CCXT",
+  "live_orders_sent": false,
+  "paper_validation_closed_trades": 0,
+  "test_command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+  "tests_passed": 23,
+  "compile_check": "passed",
+  "dependency_check": "passed",
+  "runtime": "Python 3.14.7; CCXT 4.5.84"
+}

@@ -1,0 +1,134 @@
+{
+  "start": 1593561600000,
+  "refine": 1609459200000,
+  "validate": 1625097600000,
+  "end": 1640995200000,
+  "coins": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "XRP",
+    "ADA",
+    "LTC",
+    "LINK",
+    "BCH"
+  ],
+  "base_grid": [
+    {
+      "family": "pairs",
+      "window": 168,
+      "z": 1.5
+    },
+    {
+      "family": "pairs",
+      "window": 168,
+      "z": 2
+    },
+    {
+      "family": "pairs",
+      "window": 168,
+      "z": 2.5
+    },
+    {
+      "family": "pairs",
+      "window": 336,
+      "z": 1.5
+    },
+    {
+      "family": "pairs",
+      "window": 336,
+      "z": 2
+    },
+    {
+      "family": "pairs",
+      "window": 336,
+      "z": 2.5
+    },
+    {
+      "family": "pairs",
+      "window": 672,
+      "z": 1.5
+    },
+    {
+      "family": "pairs",
+      "window": 672,
+      "z": 2
+    },
+    {
+      "family": "pairs",
+      "window": 672,
+      "z": 2.5
+    },
+    {
+      "family": "carry",
+      "threshold": 0.05,
+      "hold": 168
+    },
+    {
+      "family": "carry",
+      "threshold": 0.05,
+      "hold": 336
+    },
+    {
+      "family": "carry",
+      "threshold": 0.1,
+      "hold": 168
+    },
+    {
+      "family": "carry",
+      "threshold": 0.1,
+      "hold": 336
+    },
+    {
+      "family": "carry",
+      "threshold": 0.15,
+      "hold": 168
+    },
+    {
+      "family": "carry",
+      "threshold": 0.15,
+      "hold": 336
+    },
+    {
+      "family": "momentum",
+      "window": 168,
+      "hold": 24
+    },
+    {
+      "family": "momentum",
+      "window": 168,
+      "hold": 72
+    },
+    {
+      "family": "momentum",
+      "window": 336,
+      "hold": 24
+    },
+    {
+      "family": "momentum",
+      "window": 336,
+      "hold": 72
+    },
+    {
+      "family": "momentum",
+      "window": 672,
+      "hold": 24
+    },
+    {
+      "family": "momentum",
+      "window": 672,
+      "hold": 72
+    }
+  ],
+  "refinement": "Nine small neighbors of each family development winner, tested on Jan-Jun 2021 only",
+  "ranking": "Priority >=10 baskets, then weakest marked quarter net, then total net, then name",
+  "acceptance": "Both refinement quarters positive, >=10 refinement baskets; final >=20 baskets, net positive, PF>=1.15, DD<=10%, bootstrap lower>0, doubled-cost net>0",
+  "risk": "1:1 combined executable gross basket P&L target/stop, estimated 0.25% loss budget including friction, one basket, <=0.8x gross, daily1.5% halt; hourly monitoring can overrun stops",
+  "fees": "Futures 5bps each fill, spot 10bps each fill, 4bps spread and 2bps adverse slippage each side; funding on all carried futures legs",
+  "limitations": "Fixed eight surviving coins selected today, not historical universe; carry is variable perpetual funding, not locked dated-futures arbitrage",
+  "spot_gaps": "No carry executions in missing spot hours; last observed price for valuation only; funding still settles; deadlines can overrun until quotes resume",
+  "source_hashes": {
+    "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\alternative_study.py": "26cfd0ebf51632b12092484de039965fddf863d61794d98d0de1b313c96e9bb1",
+    "scalp\\alternatives.py": "439062460c3bf0ffc006714561cb1e521389332c0511709c5b04b359f3679664"
+  }
+}

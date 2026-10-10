@@ -1,0 +1,49 @@
+{
+ "funding_squeeze_r3": {
+  "params": {
+   "brk": 6,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "sides": "long",
+   "thr": 0.0003,
+   "trail_atr": 6.0
+  },
+  "passes": false,
+  "trades": 209,
+  "taken": 207,
+  "win": 0.354,
+  "avg_r": -0.0662,
+  "sum_r": -13.84,
+  "pf": 0.893,
+  "t": -0.63,
+  "ret": -0.0762,
+  "maxdd": 0.2103,
+  "sharpe": -0.51,
+  "pos_months": 0.33,
+  "avg_cost_r": 0.043,
+  "avg_hold_h": 27.68,
+  "by_year": {
+   "2024": 1.31,
+   "2025": -15.15
+  },
+  "by_symbol": {
+   "ADAUSDT": -4.69,
+   "AVAXUSDT": 5.12,
+   "BNBUSDT": 1.57,
+   "BTCUSDT": 0.11,
+   "DOGEUSDT": -4.9,
+   "ETHUSDT": 0.32,
+   "LINKUSDT": 6.58,
+   "LTCUSDT": 0.37,
+   "SOLUSDT": -19.5,
+   "XRPUSDT": 1.18
+  },
+  "exits": {
+   "stop": 114,
+   "time": 79,
+   "trail": 16
+  },
+  "stress_sum_r": -24.9,
+  "stress_ret": -0.1256
+ }
+}

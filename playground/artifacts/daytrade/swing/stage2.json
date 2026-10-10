@@ -1,0 +1,8938 @@
+{
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1225,
+   "taken": 1225,
+   "win": 0.408,
+   "avg_r": -0.0241,
+   "sum_r": -29.57,
+   "pf": 0.945,
+   "t": -0.75,
+   "ret": -0.1571,
+   "maxdd": 0.3031,
+   "sharpe": -0.36,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 8.47,
+   "by_year": {
+    "2021": 4.92,
+    "2022": -6.79,
+    "2023": -27.7
+   },
+   "by_symbol": {
+    "BTCUSDT": -9.12,
+    "ETHUSDT": -20.45
+   },
+   "exits": {
+    "time": 592,
+    "trail": 324,
+    "stop": 309
+   }
+  },
+  "majors|s_test": {
+   "trades": 1196,
+   "taken": 1196,
+   "win": 0.408,
+   "avg_r": 0.02,
+   "sum_r": 23.91,
+   "pf": 1.044,
+   "t": 0.55,
+   "ret": 0.0889,
+   "maxdd": 0.2402,
+   "sharpe": 0.27,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 8.36,
+   "by_year": {
+    "2024": 23.69,
+    "2025": -14.97,
+    "2026": 15.18
+   },
+   "by_symbol": {
+    "BTCUSDT": -11.04,
+    "ETHUSDT": 34.94
+   },
+   "exits": {
+    "time": 532,
+    "trail": 348,
+    "stop": 316
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1485,
+   "taken": 1485,
+   "win": 0.402,
+   "avg_r": -0.0317,
+   "sum_r": -47.09,
+   "pf": 0.928,
+   "t": -1.07,
+   "ret": -0.2335,
+   "maxdd": 0.38,
+   "sharpe": -0.51,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 8.52,
+   "by_year": {
+    "2021": 10.63,
+    "2022": -13.89,
+    "2023": -43.82
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.98,
+    "ETHUSDT": -43.11
+   },
+   "exits": {
+    "time": 712,
+    "stop": 387,
+    "trail": 386
+   }
+  },
+  "majors|s_test": {
+   "trades": 1447,
+   "taken": 1447,
+   "win": 0.405,
+   "avg_r": 0.0095,
+   "sum_r": 13.79,
+   "pf": 1.021,
+   "t": 0.3,
+   "ret": 0.0281,
+   "maxdd": 0.2573,
+   "sharpe": 0.14,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 8.47,
+   "by_year": {
+    "2024": 13.45,
+    "2025": -12.7,
+    "2026": 13.04
+   },
+   "by_symbol": {
+    "BTCUSDT": -4.06,
+    "ETHUSDT": 17.85
+   },
+   "exits": {
+    "time": 671,
+    "trail": 396,
+    "stop": 380
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1122,
+   "taken": 1122,
+   "win": 0.37,
+   "avg_r": -0.0134,
+   "sum_r": -15.05,
+   "pf": 0.974,
+   "t": -0.34,
+   "ret": -0.1003,
+   "maxdd": 0.2696,
+   "sharpe": -0.16,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 12.63,
+   "by_year": {
+    "2021": 16.18,
+    "2022": 8.11,
+    "2023": -39.34
+   },
+   "by_symbol": {
+    "BTCUSDT": -2.13,
+    "ETHUSDT": -12.92
+   },
+   "exits": {
+    "trail": 554,
+    "stop": 326,
+    "time": 242
+   }
+  },
+  "majors|s_test": {
+   "trades": 1104,
+   "taken": 1104,
+   "win": 0.38,
+   "avg_r": 0.0261,
+   "sum_r": 28.86,
+   "pf": 1.051,
+   "t": 0.62,
+   "ret": 0.1098,
+   "maxdd": 0.2742,
+   "sharpe": 0.3,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 12.12,
+   "by_year": {
+    "2024": 37.1,
+    "2025": -34.34,
+    "2026": 26.1
+   },
+   "by_symbol": {
+    "BTCUSDT": -13.79,
+    "ETHUSDT": 42.65
+   },
+   "exits": {
+    "trail": 563,
+    "stop": 332,
+    "time": 209
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1361,
+   "taken": 1361,
+   "win": 0.37,
+   "avg_r": -0.0286,
+   "sum_r": -38.98,
+   "pf": 0.945,
+   "t": -0.78,
+   "ret": -0.2096,
+   "maxdd": 0.336,
+   "sharpe": -0.38,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 12.57,
+   "by_year": {
+    "2021": 14.34,
+    "2022": -2.88,
+    "2023": -50.44
+   },
+   "by_symbol": {
+    "BTCUSDT": -6.91,
+    "ETHUSDT": -32.07
+   },
+   "exits": {
+    "trail": 648,
+    "stop": 425,
+    "time": 288
+   }
+  },
+  "majors|s_test": {
+   "trades": 1335,
+   "taken": 1335,
+   "win": 0.377,
+   "avg_r": -0.0014,
+   "sum_r": -1.87,
+   "pf": 0.997,
+   "t": -0.04,
+   "ret": -0.0539,
+   "maxdd": 0.351,
+   "sharpe": -0.02,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 12.53,
+   "by_year": {
+    "2024": 23.47,
+    "2025": -43.03,
+    "2026": 17.68
+   },
+   "by_symbol": {
+    "BTCUSDT": -19.42,
+    "ETHUSDT": 17.55
+   },
+   "exits": {
+    "trail": 652,
+    "stop": 406,
+    "time": 277
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1031,
+   "taken": 1031,
+   "win": 0.345,
+   "avg_r": 0.003,
+   "sum_r": 3.1,
+   "pf": 1.006,
+   "t": 0.06,
+   "ret": -0.0256,
+   "maxdd": 0.211,
+   "sharpe": 0.03,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 16.94,
+   "by_year": {
+    "2021": 9.25,
+    "2022": 9.68,
+    "2023": -15.83
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.37,
+    "ETHUSDT": 6.47
+   },
+   "exits": {
+    "trail": 704,
+    "stop": 302,
+    "time": 25
+   }
+  },
+  "majors|s_test": {
+   "trades": 1021,
+   "taken": 1021,
+   "win": 0.36,
+   "avg_r": 0.0515,
+   "sum_r": 52.53,
+   "pf": 1.097,
+   "t": 1.07,
+   "ret": 0.2428,
+   "maxdd": 0.2278,
+   "sharpe": 0.52,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 15.6,
+   "by_year": {
+    "2024": 39.94,
+    "2025": -18.83,
+    "2026": 31.43
+   },
+   "by_symbol": {
+    "BTCUSDT": -6.37,
+    "ETHUSDT": 58.91
+   },
+   "exits": {
+    "trail": 686,
+    "stop": 314,
+    "time": 21
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1243,
+   "taken": 1243,
+   "win": 0.348,
+   "avg_r": 0.0003,
+   "sum_r": 0.31,
+   "pf": 1.0,
+   "t": 0.01,
+   "ret": -0.0496,
+   "maxdd": 0.2819,
+   "sharpe": -0.0,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 16.94,
+   "by_year": {
+    "2021": 7.65,
+    "2022": 14.6,
+    "2023": -21.93
+   },
+   "by_symbol": {
+    "BTCUSDT": -2.52,
+    "ETHUSDT": 2.83
+   },
+   "exits": {
+    "trail": 812,
+    "stop": 393,
+    "time": 38
+   }
+  },
+  "majors|s_test": {
+   "trades": 1218,
+   "taken": 1218,
+   "win": 0.338,
+   "avg_r": 0.0085,
+   "sum_r": 10.37,
+   "pf": 1.016,
+   "t": 0.2,
+   "ret": -0.0001,
+   "maxdd": 0.2754,
+   "sharpe": 0.09,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 16.42,
+   "by_year": {
+    "2024": 22.13,
+    "2025": -22.55,
+    "2026": 10.79
+   },
+   "by_symbol": {
+    "BTCUSDT": -16.98,
+    "ETHUSDT": 27.35
+   },
+   "exits": {
+    "trail": 803,
+    "stop": 387,
+    "time": 28
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1022,
+   "taken": 1022,
+   "win": 0.341,
+   "avg_r": -0.0001,
+   "sum_r": -0.1,
+   "pf": 1.0,
+   "t": -0.0,
+   "ret": -0.0392,
+   "maxdd": 0.222,
+   "sharpe": -0.0,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 17.64,
+   "by_year": {
+    "2021": 10.23,
+    "2022": 11.26,
+    "2023": -21.59
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.94,
+    "ETHUSDT": 3.84
+   },
+   "exits": {
+    "trail": 721,
+    "stop": 300,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 1009,
+   "taken": 1009,
+   "win": 0.364,
+   "avg_r": 0.0475,
+   "sum_r": 47.94,
+   "pf": 1.09,
+   "t": 0.99,
+   "ret": 0.2158,
+   "maxdd": 0.2447,
+   "sharpe": 0.49,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 16.23,
+   "by_year": {
+    "2024": 34.3,
+    "2025": -20.8,
+    "2026": 34.45
+   },
+   "by_symbol": {
+    "BTCUSDT": -6.19,
+    "ETHUSDT": 54.13
+   },
+   "exits": {
+    "trail": 700,
+    "stop": 307,
+    "time": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1222,
+   "taken": 1222,
+   "win": 0.347,
+   "avg_r": -0.0013,
+   "sum_r": -1.6,
+   "pf": 0.998,
+   "t": -0.03,
+   "ret": -0.0563,
+   "maxdd": 0.2773,
+   "sharpe": -0.02,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 17.89,
+   "by_year": {
+    "2021": 8.83,
+    "2022": 16.43,
+    "2023": -26.86
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.25,
+    "ETHUSDT": -1.34
+   },
+   "exits": {
+    "trail": 835,
+    "stop": 386,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 1198,
+   "taken": 1198,
+   "win": 0.339,
+   "avg_r": 0.0052,
+   "sum_r": 6.28,
+   "pf": 1.01,
+   "t": 0.12,
+   "ret": -0.0197,
+   "maxdd": 0.2857,
+   "sharpe": 0.05,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 17.13,
+   "by_year": {
+    "2024": 15.33,
+    "2025": -20.7,
+    "2026": 11.65
+   },
+   "by_symbol": {
+    "BTCUSDT": -14.49,
+    "ETHUSDT": 20.76
+   },
+   "exits": {
+    "trail": 816,
+    "stop": 379,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1020,
+   "taken": 1020,
+   "win": 0.34,
+   "avg_r": 0.0005,
+   "sum_r": 0.52,
+   "pf": 1.001,
+   "t": 0.01,
+   "ret": -0.0364,
+   "maxdd": 0.222,
+   "sharpe": 0.0,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 17.68,
+   "by_year": {
+    "2021": 10.85,
+    "2022": 11.26,
+    "2023": -21.59
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.94,
+    "ETHUSDT": 4.46
+   },
+   "exits": {
+    "trail": 720,
+    "stop": 300
+   }
+  },
+  "majors|s_test": {
+   "trades": 1009,
+   "taken": 1009,
+   "win": 0.364,
+   "avg_r": 0.0466,
+   "sum_r": 47.03,
+   "pf": 1.088,
+   "t": 0.97,
+   "ret": 0.2102,
+   "maxdd": 0.2471,
+   "sharpe": 0.48,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 16.25,
+   "by_year": {
+    "2024": 34.3,
+    "2025": -21.43,
+    "2026": 34.17
+   },
+   "by_symbol": {
+    "BTCUSDT": -7.1,
+    "ETHUSDT": 54.13
+   },
+   "exits": {
+    "trail": 702,
+    "stop": 307
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1220,
+   "taken": 1220,
+   "win": 0.346,
+   "avg_r": -0.0008,
+   "sum_r": -0.98,
+   "pf": 0.999,
+   "t": -0.02,
+   "ret": -0.0536,
+   "maxdd": 0.2773,
+   "sharpe": -0.01,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 17.92,
+   "by_year": {
+    "2021": 9.45,
+    "2022": 16.43,
+    "2023": -26.86
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.25,
+    "ETHUSDT": -0.72
+   },
+   "exits": {
+    "trail": 834,
+    "stop": 386
+   }
+  },
+  "majors|s_test": {
+   "trades": 1197,
+   "taken": 1197,
+   "win": 0.339,
+   "avg_r": 0.0045,
+   "sum_r": 5.42,
+   "pf": 1.008,
+   "t": 0.1,
+   "ret": -0.0239,
+   "maxdd": 0.2877,
+   "sharpe": 0.05,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 17.16,
+   "by_year": {
+    "2024": 15.33,
+    "2025": -21.28,
+    "2026": 11.36
+   },
+   "by_symbol": {
+    "BTCUSDT": -15.34,
+    "ETHUSDT": 20.76
+   },
+   "exits": {
+    "trail": 818,
+    "stop": 379
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1195,
+   "taken": 1195,
+   "win": 0.413,
+   "avg_r": -0.0227,
+   "sum_r": -27.08,
+   "pf": 0.951,
+   "t": -0.66,
+   "ret": -0.1484,
+   "maxdd": 0.3125,
+   "sharpe": -0.32,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 9.35,
+   "by_year": {
+    "2021": 7.39,
+    "2022": -4.06,
+    "2023": -30.4
+   },
+   "by_symbol": {
+    "BTCUSDT": -5.49,
+    "ETHUSDT": -21.59
+   },
+   "exits": {
+    "time": 733,
+    "stop": 416,
+    "trail": 46
+   }
+  },
+  "majors|s_test": {
+   "trades": 1166,
+   "taken": 1166,
+   "win": 0.409,
+   "avg_r": 0.0195,
+   "sum_r": 22.73,
+   "pf": 1.04,
+   "t": 0.51,
+   "ret": 0.0773,
+   "maxdd": 0.2245,
+   "sharpe": 0.24,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 9.14,
+   "by_year": {
+    "2024": 32.62,
+    "2025": -20.05,
+    "2026": 10.16
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.74,
+    "ETHUSDT": 20.99
+   },
+   "exits": {
+    "time": 680,
+    "stop": 430,
+    "trail": 56
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1451,
+   "taken": 1451,
+   "win": 0.407,
+   "avg_r": -0.0315,
+   "sum_r": -45.75,
+   "pf": 0.933,
+   "t": -1.01,
+   "ret": -0.2302,
+   "maxdd": 0.3867,
+   "sharpe": -0.48,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 9.37,
+   "by_year": {
+    "2021": 9.1,
+    "2022": -13.16,
+    "2023": -41.69
+   },
+   "by_symbol": {
+    "BTCUSDT": -1.29,
+    "ETHUSDT": -44.46
+   },
+   "exits": {
+    "time": 880,
+    "stop": 513,
+    "trail": 58
+   }
+  },
+  "majors|s_test": {
+   "trades": 1415,
+   "taken": 1415,
+   "win": 0.406,
+   "avg_r": 0.0089,
+   "sum_r": 12.66,
+   "pf": 1.018,
+   "t": 0.26,
+   "ret": 0.0168,
+   "maxdd": 0.2654,
+   "sharpe": 0.12,
+   "pos_months": 0.67,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 9.21,
+   "by_year": {
+    "2024": 23.43,
+    "2025": -19.32,
+    "2026": 8.56
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.63,
+    "ETHUSDT": 2.03
+   },
+   "exits": {
+    "time": 839,
+    "stop": 514,
+    "trail": 62
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1068,
+   "taken": 1068,
+   "win": 0.367,
+   "avg_r": -0.0219,
+   "sum_r": -23.43,
+   "pf": 0.963,
+   "t": -0.47,
+   "ret": -0.1459,
+   "maxdd": 0.3399,
+   "sharpe": -0.22,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 15.45,
+   "by_year": {
+    "2021": 25.27,
+    "2022": 1.94,
+    "2023": -50.64
+   },
+   "by_symbol": {
+    "BTCUSDT": -15.59,
+    "ETHUSDT": -7.84
+   },
+   "exits": {
+    "stop": 519,
+    "time": 428,
+    "trail": 121
+   }
+  },
+  "majors|s_test": {
+   "trades": 1047,
+   "taken": 1047,
+   "win": 0.376,
+   "avg_r": 0.0233,
+   "sum_r": 24.42,
+   "pf": 1.04,
+   "t": 0.48,
+   "ret": 0.0767,
+   "maxdd": 0.2846,
+   "sharpe": 0.24,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 15.16,
+   "by_year": {
+    "2024": 43.21,
+    "2025": -41.6,
+    "2026": 22.82
+   },
+   "by_symbol": {
+    "BTCUSDT": -5.43,
+    "ETHUSDT": 29.85
+   },
+   "exits": {
+    "stop": 505,
+    "time": 408,
+    "trail": 134
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1292,
+   "taken": 1292,
+   "win": 0.363,
+   "avg_r": -0.0372,
+   "sum_r": -48.08,
+   "pf": 0.938,
+   "t": -0.88,
+   "ret": -0.2526,
+   "maxdd": 0.3576,
+   "sharpe": -0.42,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 15.38,
+   "by_year": {
+    "2021": 16.31,
+    "2022": -10.28,
+    "2023": -54.11
+   },
+   "by_symbol": {
+    "BTCUSDT": -23.99,
+    "ETHUSDT": -24.09
+   },
+   "exits": {
+    "stop": 636,
+    "time": 509,
+    "trail": 147
+   }
+  },
+  "majors|s_test": {
+   "trades": 1265,
+   "taken": 1265,
+   "win": 0.384,
+   "avg_r": 0.0161,
+   "sum_r": 20.38,
+   "pf": 1.028,
+   "t": 0.38,
+   "ret": 0.0469,
+   "maxdd": 0.3378,
+   "sharpe": 0.18,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.074,
+   "avg_hold_h": 15.42,
+   "by_year": {
+    "2024": 35.75,
+    "2025": -41.01,
+    "2026": 25.64
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.78,
+    "ETHUSDT": 13.6
+   },
+   "exits": {
+    "stop": 605,
+    "time": 513,
+    "trail": 147
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 880,
+   "taken": 880,
+   "win": 0.292,
+   "avg_r": 0.0105,
+   "sum_r": 9.26,
+   "pf": 1.015,
+   "t": 0.15,
+   "ret": -0.0247,
+   "maxdd": 0.3295,
+   "sharpe": 0.06,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 27.74,
+   "by_year": {
+    "2021": 13.78,
+    "2022": 0.15,
+    "2023": -4.67
+   },
+   "by_symbol": {
+    "BTCUSDT": -15.02,
+    "ETHUSDT": 24.29
+   },
+   "exits": {
+    "stop": 496,
+    "trail": 261,
+    "time": 123
+   },
+   "stress_ret": -0.1673
+  },
+  "majors|s_test": {
+   "trades": 852,
+   "taken": 852,
+   "win": 0.316,
+   "avg_r": 0.1243,
+   "sum_r": 105.91,
+   "pf": 1.183,
+   "t": 1.71,
+   "ret": 0.5809,
+   "maxdd": 0.1423,
+   "sharpe": 0.84,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.073,
+   "avg_hold_h": 26.45,
+   "by_year": {
+    "2024": 55.61,
+    "2025": 25.62,
+    "2026": 24.68
+   },
+   "by_symbol": {
+    "BTCUSDT": 42.17,
+    "ETHUSDT": 63.74
+   },
+   "exits": {
+    "stop": 471,
+    "trail": 281,
+    "time": 100
+   },
+   "stress_ret": 0.2827
+  },
+  "majors|s_dev": {
+   "trades": 1106,
+   "taken": 1106,
+   "win": 0.372,
+   "avg_r": 0.4406,
+   "sum_r": 487.28,
+   "pf": 1.729,
+   "t": 6.13,
+   "ret": 9.1874,
+   "maxdd": 0.0843,
+   "sharpe": 2.31,
+   "pos_months": 0.76,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 27.65,
+   "by_year": {
+    "2015": 46.96,
+    "2016": 32.49,
+    "2017": 99.46,
+    "2018": 131.74,
+    "2019": 67.82,
+    "2020": 108.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 339.23,
+    "ETHUSDT": 148.05
+   },
+   "exits": {
+    "stop": 553,
+    "trail": 402,
+    "time": 151
+   },
+   "stress_ret": 6.5108
+  },
+  "majors|s_all": {
+   "trades": 2838,
+   "taken": 2838,
+   "win": 0.33,
+   "avg_r": 0.2123,
+   "sum_r": 602.45,
+   "pf": 1.325,
+   "t": 5.07,
+   "ret": 14.8633,
+   "maxdd": 0.3295,
+   "sharpe": 1.29,
+   "pos_months": 0.66,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 27.31,
+   "by_year": {
+    "2015": 46.96,
+    "2016": 32.49,
+    "2017": 99.46,
+    "2018": 131.74,
+    "2019": 67.82,
+    "2020": 108.81,
+    "2021": 13.78,
+    "2022": 0.15,
+    "2023": -4.67,
+    "2024": 55.61,
+    "2025": 25.62,
+    "2026": 24.68
+   },
+   "by_symbol": {
+    "BTCUSDT": 366.38,
+    "ETHUSDT": 236.08
+   },
+   "exits": {
+    "stop": 1520,
+    "trail": 944,
+    "time": 374
+   },
+   "stress_ret": 7.0986
+  },
+  "alts|s_alts": {
+   "trades": 5560,
+   "taken": 4943,
+   "win": 0.312,
+   "avg_r": 0.0465,
+   "sum_r": 258.81,
+   "pf": 1.07,
+   "t": 1.73,
+   "ret": 0.7554,
+   "maxdd": 0.5268,
+   "sharpe": 0.47,
+   "pos_months": 0.51,
+   "avg_cost_r": 0.05,
+   "avg_hold_h": 26.28,
+   "by_year": {
+    "2022": 157.35,
+    "2023": -66.24,
+    "2024": 89.45,
+    "2025": 155.07,
+    "2026": -76.81
+   },
+   "by_symbol": {
+    "ADAUSDT": 56.94,
+    "AVAXUSDT": 122.19,
+    "BNBUSDT": -76.22,
+    "DOGEUSDT": 18.65,
+    "LINKUSDT": 34.31,
+    "LTCUSDT": -35.21,
+    "SOLUSDT": 75.82,
+    "XRPUSDT": 62.33
+   },
+   "exits": {
+    "stop": 3099,
+    "trail": 1797,
+    "time": 664
+   },
+   "stress_ret": -0.3885
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 1039,
+   "taken": 1039,
+   "win": 0.288,
+   "avg_r": 0.0091,
+   "sum_r": 9.5,
+   "pf": 1.013,
+   "t": 0.14,
+   "ret": -0.0331,
+   "maxdd": 0.3398,
+   "sharpe": 0.06,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 27.19,
+   "by_year": {
+    "2021": 19.47,
+    "2022": 8.61,
+    "2023": -18.59
+   },
+   "by_symbol": {
+    "BTCUSDT": -11.78,
+    "ETHUSDT": 21.28
+   },
+   "exits": {
+    "stop": 585,
+    "trail": 308,
+    "time": 146
+   }
+  },
+  "majors|s_test": {
+   "trades": 991,
+   "taken": 991,
+   "win": 0.317,
+   "avg_r": 0.0926,
+   "sum_r": 91.8,
+   "pf": 1.136,
+   "t": 1.4,
+   "ret": 0.4615,
+   "maxdd": 0.1799,
+   "sharpe": 0.69,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 27.58,
+   "by_year": {
+    "2024": 51.29,
+    "2025": 33.97,
+    "2026": 6.53
+   },
+   "by_symbol": {
+    "BTCUSDT": 47.03,
+    "ETHUSDT": 44.77
+   },
+   "exits": {
+    "stop": 555,
+    "trail": 314,
+    "time": 122
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 802,
+   "taken": 802,
+   "win": 0.267,
+   "avg_r": -0.026,
+   "sum_r": -20.84,
+   "pf": 0.964,
+   "t": -0.33,
+   "ret": -0.1585,
+   "maxdd": 0.3326,
+   "sharpe": -0.16,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 34.16,
+   "by_year": {
+    "2021": -6.21,
+    "2022": 4.42,
+    "2023": -19.05
+   },
+   "by_symbol": {
+    "BTCUSDT": -25.73,
+    "ETHUSDT": 4.89
+   },
+   "exits": {
+    "stop": 467,
+    "trail": 321,
+    "time": 14
+   }
+  },
+  "majors|s_test": {
+   "trades": 777,
+   "taken": 777,
+   "win": 0.304,
+   "avg_r": 0.1399,
+   "sum_r": 108.74,
+   "pf": 1.201,
+   "t": 1.7,
+   "ret": 0.594,
+   "maxdd": 0.1532,
+   "sharpe": 0.86,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 32.52,
+   "by_year": {
+    "2024": 58.91,
+    "2025": 35.13,
+    "2026": 14.7
+   },
+   "by_symbol": {
+    "BTCUSDT": 30.66,
+    "ETHUSDT": 78.08
+   },
+   "exits": {
+    "stop": 440,
+    "trail": 324,
+    "time": 13
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 920,
+   "taken": 920,
+   "win": 0.259,
+   "avg_r": -0.0156,
+   "sum_r": -14.32,
+   "pf": 0.978,
+   "t": -0.21,
+   "ret": -0.142,
+   "maxdd": 0.337,
+   "sharpe": -0.1,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 34.2,
+   "by_year": {
+    "2021": 12.17,
+    "2022": 3.81,
+    "2023": -30.31
+   },
+   "by_symbol": {
+    "BTCUSDT": -23.21,
+    "ETHUSDT": 8.88
+   },
+   "exits": {
+    "stop": 534,
+    "trail": 359,
+    "time": 27
+   }
+  },
+  "majors|s_test": {
+   "trades": 875,
+   "taken": 875,
+   "win": 0.307,
+   "avg_r": 0.141,
+   "sum_r": 123.41,
+   "pf": 1.202,
+   "t": 1.82,
+   "ret": 0.6987,
+   "maxdd": 0.1606,
+   "sharpe": 0.92,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.07,
+   "avg_hold_h": 34.53,
+   "by_year": {
+    "2024": 66.62,
+    "2025": 49.87,
+    "2026": 6.93
+   },
+   "by_symbol": {
+    "BTCUSDT": 49.24,
+    "ETHUSDT": 74.17
+   },
+   "exits": {
+    "stop": 505,
+    "trail": 350,
+    "time": 20
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 782,
+   "taken": 782,
+   "win": 0.266,
+   "avg_r": -0.0213,
+   "sum_r": -16.63,
+   "pf": 0.97,
+   "t": -0.27,
+   "ret": -0.1394,
+   "maxdd": 0.2864,
+   "sharpe": -0.13,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 36.12,
+   "by_year": {
+    "2021": -9.04,
+    "2022": 6.05,
+    "2023": -13.63
+   },
+   "by_symbol": {
+    "BTCUSDT": -18.67,
+    "ETHUSDT": 2.04
+   },
+   "exits": {
+    "stop": 456,
+    "trail": 326
+   }
+  },
+  "majors|s_test": {
+   "trades": 757,
+   "taken": 757,
+   "win": 0.297,
+   "avg_r": 0.1333,
+   "sum_r": 100.94,
+   "pf": 1.189,
+   "t": 1.6,
+   "ret": 0.5351,
+   "maxdd": 0.1532,
+   "sharpe": 0.8,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 33.93,
+   "by_year": {
+    "2024": 53.48,
+    "2025": 36.11,
+    "2026": 11.35
+   },
+   "by_symbol": {
+    "BTCUSDT": 23.61,
+    "ETHUSDT": 77.33
+   },
+   "exits": {
+    "stop": 433,
+    "trail": 324
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 854,
+   "taken": 854,
+   "win": 0.268,
+   "avg_r": 0.0285,
+   "sum_r": 24.3,
+   "pf": 1.04,
+   "t": 0.36,
+   "ret": 0.0447,
+   "maxdd": 0.1849,
+   "sharpe": 0.17,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.06,
+   "avg_hold_h": 39.02,
+   "by_year": {
+    "2021": 11.0,
+    "2022": 14.46,
+    "2023": -1.17
+   },
+   "by_symbol": {
+    "BTCUSDT": -1.11,
+    "ETHUSDT": 25.4
+   },
+   "exits": {
+    "stop": 486,
+    "trail": 367,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 834,
+   "taken": 834,
+   "win": 0.306,
+   "avg_r": 0.1409,
+   "sum_r": 117.55,
+   "pf": 1.201,
+   "t": 1.75,
+   "ret": 0.6489,
+   "maxdd": 0.1606,
+   "sharpe": 0.89,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.069,
+   "avg_hold_h": 36.98,
+   "by_year": {
+    "2024": 58.32,
+    "2025": 56.69,
+    "2026": 2.54
+   },
+   "by_symbol": {
+    "BTCUSDT": 40.7,
+    "ETHUSDT": 76.84
+   },
+   "exits": {
+    "stop": 483,
+    "trail": 351
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 684,
+   "taken": 684,
+   "win": 0.424,
+   "avg_r": 0.0312,
+   "sum_r": 21.32,
+   "pf": 1.074,
+   "t": 0.69,
+   "ret": 0.0938,
+   "maxdd": 0.1655,
+   "sharpe": 0.34,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 8.22,
+   "by_year": {
+    "2021": 16.74,
+    "2022": 7.43,
+    "2023": -2.86
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.3,
+    "ETHUSDT": 10.02
+   },
+   "exits": {
+    "time": 319,
+    "trail": 203,
+    "stop": 162
+   },
+   "stress_ret": -0.0103
+  },
+  "majors|s_test": {
+   "trades": 804,
+   "taken": 804,
+   "win": 0.447,
+   "avg_r": 0.1102,
+   "sum_r": 88.62,
+   "pf": 1.265,
+   "t": 2.45,
+   "ret": 0.5212,
+   "maxdd": 0.1112,
+   "sharpe": 1.19,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 8.39,
+   "by_year": {
+    "2024": 51.34,
+    "2025": 12.16,
+    "2026": 25.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.58,
+    "ETHUSDT": 67.04
+   },
+   "exits": {
+    "time": 373,
+    "trail": 243,
+    "stop": 188
+   },
+   "stress_ret": 0.2677
+  },
+  "majors|s_dev": {
+   "trades": 914,
+   "taken": 914,
+   "win": 0.497,
+   "avg_r": 0.2027,
+   "sum_r": 185.3,
+   "pf": 1.59,
+   "t": 4.97,
+   "ret": 1.4667,
+   "maxdd": 0.0504,
+   "sharpe": 1.81,
+   "pos_months": 0.71,
+   "avg_cost_r": 0.058,
+   "avg_hold_h": 8.62,
+   "by_year": {
+    "2015": 15.64,
+    "2016": 11.17,
+    "2017": 34.86,
+    "2018": 59.71,
+    "2019": 17.37,
+    "2020": 46.53
+   },
+   "by_symbol": {
+    "BTCUSDT": 113.59,
+    "ETHUSDT": 71.7
+   },
+   "exits": {
+    "time": 443,
+    "trail": 304,
+    "stop": 167
+   },
+   "stress_ret": 1.1561
+  },
+  "majors|s_all": {
+   "trades": 2402,
+   "taken": 2402,
+   "win": 0.459,
+   "avg_r": 0.1229,
+   "sum_r": 295.23,
+   "pf": 1.316,
+   "t": 4.88,
+   "ret": 3.104,
+   "maxdd": 0.1655,
+   "sharpe": 1.22,
+   "pos_months": 0.63,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 8.43,
+   "by_year": {
+    "2015": 15.64,
+    "2016": 11.17,
+    "2017": 34.86,
+    "2018": 59.71,
+    "2019": 17.37,
+    "2020": 46.53,
+    "2021": 16.74,
+    "2022": 7.43,
+    "2023": -2.86,
+    "2024": 51.34,
+    "2025": 12.16,
+    "2026": 25.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 146.47,
+    "ETHUSDT": 148.76
+   },
+   "exits": {
+    "time": 1135,
+    "trail": 750,
+    "stop": 517
+   },
+   "stress_ret": 1.7049
+  },
+  "alts|s_alts": {
+   "trades": 4494,
+   "taken": 4241,
+   "win": 0.421,
+   "avg_r": 0.0307,
+   "sum_r": 138.15,
+   "pf": 1.072,
+   "t": 1.66,
+   "ret": 0.3767,
+   "maxdd": 0.3779,
+   "sharpe": 0.36,
+   "pos_months": 0.51,
+   "avg_cost_r": 0.049,
+   "avg_hold_h": 8.22,
+   "by_year": {
+    "2022": 101.96,
+    "2023": -43.27,
+    "2024": 44.18,
+    "2025": 86.4,
+    "2026": -51.11
+   },
+   "by_symbol": {
+    "ADAUSDT": 25.02,
+    "AVAXUSDT": 56.53,
+    "BNBUSDT": -44.15,
+    "DOGEUSDT": 15.75,
+    "LINKUSDT": 50.48,
+    "LTCUSDT": 12.42,
+    "SOLUSDT": 51.01,
+    "XRPUSDT": -28.9
+   },
+   "exits": {
+    "time": 1987,
+    "trail": 1379,
+    "stop": 1128
+   },
+   "stress_ret": -0.271
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 791,
+   "taken": 791,
+   "win": 0.429,
+   "avg_r": 0.054,
+   "sum_r": 42.69,
+   "pf": 1.128,
+   "t": 1.23,
+   "ret": 0.2106,
+   "maxdd": 0.16,
+   "sharpe": 0.6,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 8.23,
+   "by_year": {
+    "2021": 31.57,
+    "2022": 9.37,
+    "2023": 1.74
+   },
+   "by_symbol": {
+    "BTCUSDT": 31.81,
+    "ETHUSDT": 10.88
+   },
+   "exits": {
+    "time": 368,
+    "trail": 230,
+    "stop": 193
+   }
+  },
+  "majors|s_test": {
+   "trades": 939,
+   "taken": 939,
+   "win": 0.437,
+   "avg_r": 0.0823,
+   "sum_r": 77.3,
+   "pf": 1.194,
+   "t": 2.02,
+   "ret": 0.4327,
+   "maxdd": 0.1481,
+   "sharpe": 0.98,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 8.45,
+   "by_year": {
+    "2024": 38.85,
+    "2025": 19.81,
+    "2026": 18.65
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.2,
+    "ETHUSDT": 59.1
+   },
+   "exits": {
+    "time": 442,
+    "trail": 275,
+    "stop": 222
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 662,
+   "taken": 662,
+   "win": 0.385,
+   "avg_r": 0.0207,
+   "sum_r": 13.71,
+   "pf": 1.042,
+   "t": 0.39,
+   "ret": 0.0473,
+   "maxdd": 0.1798,
+   "sharpe": 0.19,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 12.14,
+   "by_year": {
+    "2021": 15.15,
+    "2022": 11.83,
+    "2023": -13.27
+   },
+   "by_symbol": {
+    "BTCUSDT": 12.46,
+    "ETHUSDT": 1.25
+   },
+   "exits": {
+    "trail": 354,
+    "stop": 176,
+    "time": 132
+   }
+  },
+  "majors|s_test": {
+   "trades": 767,
+   "taken": 767,
+   "win": 0.408,
+   "avg_r": 0.1111,
+   "sum_r": 85.21,
+   "pf": 1.232,
+   "t": 2.15,
+   "ret": 0.4888,
+   "maxdd": 0.1383,
+   "sharpe": 1.07,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 12.16,
+   "by_year": {
+    "2024": 49.88,
+    "2025": 5.77,
+    "2026": 29.55
+   },
+   "by_symbol": {
+    "BTCUSDT": 19.25,
+    "ETHUSDT": 65.96
+   },
+   "exits": {
+    "trail": 403,
+    "stop": 214,
+    "time": 150
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 764,
+   "taken": 764,
+   "win": 0.397,
+   "avg_r": 0.053,
+   "sum_r": 40.52,
+   "pf": 1.109,
+   "t": 1.03,
+   "ret": 0.1899,
+   "maxdd": 0.1941,
+   "sharpe": 0.49,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 12.1,
+   "by_year": {
+    "2021": 28.64,
+    "2022": 18.97,
+    "2023": -7.09
+   },
+   "by_symbol": {
+    "BTCUSDT": 33.34,
+    "ETHUSDT": 7.18
+   },
+   "exits": {
+    "trail": 402,
+    "stop": 211,
+    "time": 151
+   }
+  },
+  "majors|s_test": {
+   "trades": 895,
+   "taken": 895,
+   "win": 0.402,
+   "avg_r": 0.0815,
+   "sum_r": 72.93,
+   "pf": 1.169,
+   "t": 1.74,
+   "ret": 0.3956,
+   "maxdd": 0.191,
+   "sharpe": 0.87,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 12.43,
+   "by_year": {
+    "2024": 39.97,
+    "2025": 7.15,
+    "2026": 25.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.91,
+    "ETHUSDT": 56.02
+   },
+   "exits": {
+    "trail": 454,
+    "stop": 254,
+    "time": 187
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 627,
+   "taken": 627,
+   "win": 0.37,
+   "avg_r": 0.0545,
+   "sum_r": 34.19,
+   "pf": 1.108,
+   "t": 0.89,
+   "ret": 0.1541,
+   "maxdd": 0.1276,
+   "sharpe": 0.43,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 16.12,
+   "by_year": {
+    "2021": 7.84,
+    "2022": 23.12,
+    "2023": 3.22
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.19,
+    "ETHUSDT": 17.99
+   },
+   "exits": {
+    "trail": 439,
+    "stop": 173,
+    "time": 15
+   }
+  },
+  "majors|s_test": {
+   "trades": 717,
+   "taken": 717,
+   "win": 0.385,
+   "avg_r": 0.1472,
+   "sum_r": 105.51,
+   "pf": 1.297,
+   "t": 2.47,
+   "ret": 0.6389,
+   "maxdd": 0.1133,
+   "sharpe": 1.25,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 15.78,
+   "by_year": {
+    "2024": 48.06,
+    "2025": 18.5,
+    "2026": 38.94
+   },
+   "by_symbol": {
+    "BTCUSDT": 27.33,
+    "ETHUSDT": 78.18
+   },
+   "exits": {
+    "trail": 505,
+    "stop": 202,
+    "time": 10
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 722,
+   "taken": 722,
+   "win": 0.377,
+   "avg_r": 0.094,
+   "sum_r": 67.86,
+   "pf": 1.187,
+   "t": 1.58,
+   "ret": 0.3565,
+   "maxdd": 0.1597,
+   "sharpe": 0.76,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 16.13,
+   "by_year": {
+    "2021": 15.69,
+    "2022": 42.69,
+    "2023": 9.48
+   },
+   "by_symbol": {
+    "BTCUSDT": 34.61,
+    "ETHUSDT": 33.24
+   },
+   "exits": {
+    "trail": 496,
+    "stop": 206,
+    "time": 20
+   }
+  },
+  "majors|s_test": {
+   "trades": 837,
+   "taken": 837,
+   "win": 0.368,
+   "avg_r": 0.0902,
+   "sum_r": 75.53,
+   "pf": 1.177,
+   "t": 1.69,
+   "ret": 0.4058,
+   "maxdd": 0.176,
+   "sharpe": 0.85,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 16.4,
+   "by_year": {
+    "2024": 38.09,
+    "2025": 17.78,
+    "2026": 19.66
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.13,
+    "ETHUSDT": 58.4
+   },
+   "exits": {
+    "trail": 580,
+    "stop": 243,
+    "time": 14
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 623,
+   "taken": 623,
+   "win": 0.364,
+   "avg_r": 0.0591,
+   "sum_r": 36.8,
+   "pf": 1.117,
+   "t": 0.94,
+   "ret": 0.1683,
+   "maxdd": 0.1378,
+   "sharpe": 0.45,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 16.92,
+   "by_year": {
+    "2021": 7.61,
+    "2022": 28.94,
+    "2023": 0.25
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.71,
+    "ETHUSDT": 19.08
+   },
+   "exits": {
+    "trail": 452,
+    "stop": 171
+   }
+  },
+  "majors|s_test": {
+   "trades": 712,
+   "taken": 712,
+   "win": 0.385,
+   "avg_r": 0.1466,
+   "sum_r": 104.35,
+   "pf": 1.295,
+   "t": 2.46,
+   "ret": 0.6299,
+   "maxdd": 0.113,
+   "sharpe": 1.25,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 16.26,
+   "by_year": {
+    "2024": 46.21,
+    "2025": 18.02,
+    "2026": 40.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 26.21,
+    "ETHUSDT": 78.14
+   },
+   "exits": {
+    "trail": 510,
+    "stop": 200,
+    "time": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 716,
+   "taken": 716,
+   "win": 0.374,
+   "avg_r": 0.1009,
+   "sum_r": 72.28,
+   "pf": 1.201,
+   "t": 1.67,
+   "ret": 0.3856,
+   "maxdd": 0.1582,
+   "sharpe": 0.8,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 16.95,
+   "by_year": {
+    "2021": 15.46,
+    "2022": 48.88,
+    "2023": 7.94
+   },
+   "by_symbol": {
+    "BTCUSDT": 38.34,
+    "ETHUSDT": 33.94
+   },
+   "exits": {
+    "trail": 513,
+    "stop": 203
+   }
+  },
+  "majors|s_test": {
+   "trades": 828,
+   "taken": 828,
+   "win": 0.367,
+   "avg_r": 0.0923,
+   "sum_r": 76.46,
+   "pf": 1.181,
+   "t": 1.72,
+   "ret": 0.4131,
+   "maxdd": 0.1597,
+   "sharpe": 0.87,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.07,
+   "avg_hold_h": 17.0,
+   "by_year": {
+    "2024": 36.24,
+    "2025": 21.14,
+    "2026": 19.08
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.04,
+    "ETHUSDT": 56.41
+   },
+   "exits": {
+    "trail": 585,
+    "stop": 240,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 623,
+   "taken": 623,
+   "win": 0.364,
+   "avg_r": 0.0591,
+   "sum_r": 36.8,
+   "pf": 1.117,
+   "t": 0.94,
+   "ret": 0.1683,
+   "maxdd": 0.1378,
+   "sharpe": 0.45,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 16.92,
+   "by_year": {
+    "2021": 7.61,
+    "2022": 28.94,
+    "2023": 0.25
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.71,
+    "ETHUSDT": 19.08
+   },
+   "exits": {
+    "trail": 452,
+    "stop": 171
+   }
+  },
+  "majors|s_test": {
+   "trades": 712,
+   "taken": 712,
+   "win": 0.385,
+   "avg_r": 0.1453,
+   "sum_r": 103.44,
+   "pf": 1.293,
+   "t": 2.44,
+   "ret": 0.6224,
+   "maxdd": 0.1158,
+   "sharpe": 1.24,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 16.28,
+   "by_year": {
+    "2024": 46.21,
+    "2025": 17.4,
+    "2026": 39.83
+   },
+   "by_symbol": {
+    "BTCUSDT": 25.3,
+    "ETHUSDT": 78.14
+   },
+   "exits": {
+    "trail": 512,
+    "stop": 200
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 716,
+   "taken": 716,
+   "win": 0.374,
+   "avg_r": 0.1009,
+   "sum_r": 72.28,
+   "pf": 1.201,
+   "t": 1.67,
+   "ret": 0.3856,
+   "maxdd": 0.1582,
+   "sharpe": 0.8,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 16.95,
+   "by_year": {
+    "2021": 15.46,
+    "2022": 48.88,
+    "2023": 7.94
+   },
+   "by_symbol": {
+    "BTCUSDT": 38.34,
+    "ETHUSDT": 33.94
+   },
+   "exits": {
+    "trail": 513,
+    "stop": 203
+   }
+  },
+  "majors|s_test": {
+   "trades": 828,
+   "taken": 828,
+   "win": 0.367,
+   "avg_r": 0.0905,
+   "sum_r": 74.95,
+   "pf": 1.177,
+   "t": 1.68,
+   "ret": 0.4025,
+   "maxdd": 0.1648,
+   "sharpe": 0.85,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.07,
+   "avg_hold_h": 17.05,
+   "by_year": {
+    "2024": 36.24,
+    "2025": 19.92,
+    "2026": 18.8
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.54,
+    "ETHUSDT": 56.41
+   },
+   "exits": {
+    "trail": 588,
+    "stop": 240
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 670,
+   "taken": 670,
+   "win": 0.433,
+   "avg_r": 0.0308,
+   "sum_r": 20.61,
+   "pf": 1.067,
+   "t": 0.64,
+   "ret": 0.0878,
+   "maxdd": 0.1954,
+   "sharpe": 0.31,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 9.16,
+   "by_year": {
+    "2021": 18.83,
+    "2022": 10.19,
+    "2023": -8.42
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.28,
+    "ETHUSDT": 11.33
+   },
+   "exits": {
+    "time": 406,
+    "stop": 236,
+    "trail": 28
+   }
+  },
+  "majors|s_test": {
+   "trades": 783,
+   "taken": 783,
+   "win": 0.453,
+   "avg_r": 0.1129,
+   "sum_r": 88.42,
+   "pf": 1.252,
+   "t": 2.3,
+   "ret": 0.5142,
+   "maxdd": 0.1056,
+   "sharpe": 1.16,
+   "pos_months": 0.73,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 9.23,
+   "by_year": {
+    "2024": 55.8,
+    "2025": 12.12,
+    "2026": 20.51
+   },
+   "by_symbol": {
+    "BTCUSDT": 32.31,
+    "ETHUSDT": 56.11
+   },
+   "exits": {
+    "time": 475,
+    "stop": 261,
+    "trail": 47
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 774,
+   "taken": 774,
+   "win": 0.437,
+   "avg_r": 0.0531,
+   "sum_r": 41.08,
+   "pf": 1.116,
+   "t": 1.15,
+   "ret": 0.1992,
+   "maxdd": 0.1931,
+   "sharpe": 0.55,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 9.19,
+   "by_year": {
+    "2021": 32.49,
+    "2022": 10.96,
+    "2023": -2.37
+   },
+   "by_symbol": {
+    "BTCUSDT": 28.78,
+    "ETHUSDT": 12.3
+   },
+   "exits": {
+    "time": 468,
+    "stop": 272,
+    "trail": 34
+   }
+  },
+  "majors|s_test": {
+   "trades": 917,
+   "taken": 917,
+   "win": 0.443,
+   "avg_r": 0.0815,
+   "sum_r": 74.73,
+   "pf": 1.179,
+   "t": 1.84,
+   "ret": 0.409,
+   "maxdd": 0.135,
+   "sharpe": 0.92,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 9.26,
+   "by_year": {
+    "2024": 42.63,
+    "2025": 18.39,
+    "2026": 13.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 27.8,
+    "ETHUSDT": 46.93
+   },
+   "exits": {
+    "time": 558,
+    "stop": 307,
+    "trail": 52
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 635,
+   "taken": 635,
+   "win": 0.381,
+   "avg_r": 0.045,
+   "sum_r": 28.61,
+   "pf": 1.078,
+   "t": 0.69,
+   "ret": 0.1173,
+   "maxdd": 0.2161,
+   "sharpe": 0.32,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 15.16,
+   "by_year": {
+    "2021": 31.28,
+    "2022": 14.61,
+    "2023": -17.28
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.98,
+    "ETHUSDT": 9.62
+   },
+   "exits": {
+    "stop": 299,
+    "time": 256,
+    "trail": 80
+   }
+  },
+  "majors|s_test": {
+   "trades": 727,
+   "taken": 727,
+   "win": 0.402,
+   "avg_r": 0.1056,
+   "sum_r": 76.8,
+   "pf": 1.187,
+   "t": 1.78,
+   "ret": 0.4199,
+   "maxdd": 0.1344,
+   "sharpe": 0.9,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 15.37,
+   "by_year": {
+    "2024": 49.39,
+    "2025": 2.77,
+    "2026": 24.64
+   },
+   "by_symbol": {
+    "BTCUSDT": 27.83,
+    "ETHUSDT": 48.97
+   },
+   "exits": {
+    "stop": 330,
+    "time": 291,
+    "trail": 106
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 735,
+   "taken": 735,
+   "win": 0.388,
+   "avg_r": 0.0702,
+   "sum_r": 51.62,
+   "pf": 1.122,
+   "t": 1.14,
+   "ret": 0.244,
+   "maxdd": 0.2447,
+   "sharpe": 0.53,
+   "pos_months": 0.72,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 15.19,
+   "by_year": {
+    "2021": 45.97,
+    "2022": 16.93,
+    "2023": -11.29
+   },
+   "by_symbol": {
+    "BTCUSDT": 35.61,
+    "ETHUSDT": 16.0
+   },
+   "exits": {
+    "stop": 345,
+    "time": 293,
+    "trail": 97
+   }
+  },
+  "majors|s_test": {
+   "trades": 852,
+   "taken": 852,
+   "win": 0.405,
+   "avg_r": 0.0916,
+   "sum_r": 78.04,
+   "pf": 1.164,
+   "t": 1.71,
+   "ret": 0.423,
+   "maxdd": 0.1674,
+   "sharpe": 0.86,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.072,
+   "avg_hold_h": 15.5,
+   "by_year": {
+    "2024": 45.2,
+    "2025": 6.3,
+    "2026": 26.53
+   },
+   "by_symbol": {
+    "BTCUSDT": 34.33,
+    "ETHUSDT": 43.71
+   },
+   "exits": {
+    "stop": 387,
+    "time": 352,
+    "trail": 113
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 567,
+   "taken": 567,
+   "win": 0.319,
+   "avg_r": 0.0913,
+   "sum_r": 51.77,
+   "pf": 1.137,
+   "t": 0.97,
+   "ret": 0.2272,
+   "maxdd": 0.1866,
+   "sharpe": 0.46,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.064,
+   "avg_hold_h": 27.19,
+   "by_year": {
+    "2021": 5.63,
+    "2022": 25.24,
+    "2023": 20.9
+   },
+   "by_symbol": {
+    "BTCUSDT": 22.13,
+    "ETHUSDT": 29.64
+   },
+   "exits": {
+    "stop": 309,
+    "trail": 177,
+    "time": 81
+   }
+  },
+  "majors|s_test": {
+   "trades": 628,
+   "taken": 628,
+   "win": 0.318,
+   "avg_r": 0.1652,
+   "sum_r": 103.76,
+   "pf": 1.247,
+   "t": 1.92,
+   "ret": 0.5947,
+   "maxdd": 0.1101,
+   "sharpe": 0.97,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 26.44,
+   "by_year": {
+    "2024": 44.22,
+    "2025": 32.78,
+    "2026": 26.76
+   },
+   "by_symbol": {
+    "BTCUSDT": 36.55,
+    "ETHUSDT": 67.21
+   },
+   "exits": {
+    "stop": 336,
+    "trail": 230,
+    "time": 62
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 650,
+   "taken": 650,
+   "win": 0.311,
+   "avg_r": 0.1132,
+   "sum_r": 73.56,
+   "pf": 1.169,
+   "t": 1.27,
+   "ret": 0.3536,
+   "maxdd": 0.2214,
+   "sharpe": 0.59,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.066,
+   "avg_hold_h": 26.86,
+   "by_year": {
+    "2021": 15.13,
+    "2022": 36.68,
+    "2023": 21.75
+   },
+   "by_symbol": {
+    "BTCUSDT": 40.17,
+    "ETHUSDT": 33.38
+   },
+   "exits": {
+    "stop": 353,
+    "trail": 210,
+    "time": 87
+   }
+  },
+  "majors|s_test": {
+   "trades": 725,
+   "taken": 725,
+   "win": 0.31,
+   "avg_r": 0.1036,
+   "sum_r": 75.14,
+   "pf": 1.153,
+   "t": 1.33,
+   "ret": 0.3756,
+   "maxdd": 0.1339,
+   "sharpe": 0.67,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.071,
+   "avg_hold_h": 27.09,
+   "by_year": {
+    "2024": 31.59,
+    "2025": 30.62,
+    "2026": 12.92
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.82,
+    "ETHUSDT": 53.31
+   },
+   "exits": {
+    "stop": 394,
+    "trail": 257,
+    "time": 74
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 522,
+   "taken": 522,
+   "win": 0.287,
+   "avg_r": 0.1226,
+   "sum_r": 64.0,
+   "pf": 1.176,
+   "t": 1.14,
+   "ret": 0.2974,
+   "maxdd": 0.1805,
+   "sharpe": 0.54,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.063,
+   "avg_hold_h": 35.17,
+   "by_year": {
+    "2021": 17.12,
+    "2022": 31.07,
+    "2023": 15.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 27.3,
+    "ETHUSDT": 36.7
+   },
+   "exits": {
+    "stop": 292,
+    "trail": 212,
+    "time": 18
+   }
+  },
+  "majors|s_test": {
+   "trades": 595,
+   "taken": 595,
+   "win": 0.304,
+   "avg_r": 0.171,
+   "sum_r": 101.73,
+   "pf": 1.249,
+   "t": 1.83,
+   "ret": 0.5703,
+   "maxdd": 0.1218,
+   "sharpe": 0.95,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.07,
+   "avg_hold_h": 31.36,
+   "by_year": {
+    "2024": 41.84,
+    "2025": 40.14,
+    "2026": 19.74
+   },
+   "by_symbol": {
+    "BTCUSDT": 35.16,
+    "ETHUSDT": 66.57
+   },
+   "exits": {
+    "stop": 329,
+    "trail": 258,
+    "time": 8
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 596,
+   "taken": 596,
+   "win": 0.285,
+   "avg_r": 0.1334,
+   "sum_r": 79.52,
+   "pf": 1.193,
+   "t": 1.33,
+   "ret": 0.3883,
+   "maxdd": 0.1918,
+   "sharpe": 0.62,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.065,
+   "avg_hold_h": 34.23,
+   "by_year": {
+    "2021": 20.78,
+    "2022": 42.56,
+    "2023": 16.19
+   },
+   "by_symbol": {
+    "BTCUSDT": 39.45,
+    "ETHUSDT": 40.07
+   },
+   "exits": {
+    "stop": 329,
+    "trail": 248,
+    "time": 19
+   }
+  },
+  "majors|s_test": {
+   "trades": 673,
+   "taken": 673,
+   "win": 0.302,
+   "avg_r": 0.1393,
+   "sum_r": 93.73,
+   "pf": 1.201,
+   "t": 1.61,
+   "ret": 0.5008,
+   "maxdd": 0.1229,
+   "sharpe": 0.83,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.069,
+   "avg_hold_h": 32.46,
+   "by_year": {
+    "2024": 28.0,
+    "2025": 49.91,
+    "2026": 15.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 42.13,
+    "ETHUSDT": 51.59
+   },
+   "exits": {
+    "stop": 378,
+    "trail": 283,
+    "time": 12
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 510,
+   "taken": 510,
+   "win": 0.284,
+   "avg_r": 0.1222,
+   "sum_r": 62.34,
+   "pf": 1.176,
+   "t": 1.12,
+   "ret": 0.2885,
+   "maxdd": 0.1594,
+   "sharpe": 0.53,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 38.56,
+   "by_year": {
+    "2021": 12.3,
+    "2022": 29.2,
+    "2023": 20.84
+   },
+   "by_symbol": {
+    "BTCUSDT": 32.48,
+    "ETHUSDT": 29.86
+   },
+   "exits": {
+    "stop": 285,
+    "trail": 225
+   }
+  },
+  "majors|s_test": {
+   "trades": 583,
+   "taken": 583,
+   "win": 0.302,
+   "avg_r": 0.1782,
+   "sum_r": 103.9,
+   "pf": 1.259,
+   "t": 1.88,
+   "ret": 0.5876,
+   "maxdd": 0.1184,
+   "sharpe": 0.98,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.07,
+   "avg_hold_h": 32.49,
+   "by_year": {
+    "2024": 42.22,
+    "2025": 44.33,
+    "2026": 17.35
+   },
+   "by_symbol": {
+    "BTCUSDT": 37.35,
+    "ETHUSDT": 66.55
+   },
+   "exits": {
+    "stop": 323,
+    "trail": 260
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"1h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 566,
+   "taken": 566,
+   "win": 0.293,
+   "avg_r": 0.1788,
+   "sum_r": 101.22,
+   "pf": 1.264,
+   "t": 1.71,
+   "ret": 0.5503,
+   "maxdd": 0.1064,
+   "sharpe": 0.8,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.062,
+   "avg_hold_h": 38.97,
+   "by_year": {
+    "2021": 15.96,
+    "2022": 42.87,
+    "2023": 42.39
+   },
+   "by_symbol": {
+    "BTCUSDT": 49.97,
+    "ETHUSDT": 51.25
+   },
+   "exits": {
+    "stop": 305,
+    "trail": 260,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 651,
+   "taken": 651,
+   "win": 0.296,
+   "avg_r": 0.1538,
+   "sum_r": 100.15,
+   "pf": 1.221,
+   "t": 1.7,
+   "ret": 0.5448,
+   "maxdd": 0.123,
+   "sharpe": 0.88,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.069,
+   "avg_hold_h": 34.27,
+   "by_year": {
+    "2024": 27.49,
+    "2025": 60.27,
+    "2026": 12.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 43.12,
+    "ETHUSDT": 57.03
+   },
+   "exits": {
+    "stop": 366,
+    "trail": 285
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 273,
+   "taken": 273,
+   "win": 0.509,
+   "avg_r": 0.1322,
+   "sum_r": 36.09,
+   "pf": 1.669,
+   "t": 2.79,
+   "ret": 0.1946,
+   "maxdd": 0.0332,
+   "sharpe": 1.42,
+   "pos_months": 0.69,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 11.27,
+   "by_year": {
+    "2021": 13.02,
+    "2022": 6.48,
+    "2023": 16.6
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.19,
+    "ETHUSDT": 21.91
+   },
+   "exits": {
+    "time": 235,
+    "trail": 19,
+    "stop": 19
+   }
+  },
+  "majors|s_test": {
+   "trades": 343,
+   "taken": 343,
+   "win": 0.481,
+   "avg_r": 0.0627,
+   "sum_r": 21.5,
+   "pf": 1.254,
+   "t": 1.54,
+   "ret": 0.1101,
+   "maxdd": 0.0441,
+   "sharpe": 0.89,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.28,
+   "by_year": {
+    "2024": 13.36,
+    "2025": 9.61,
+    "2026": -1.47
+   },
+   "by_symbol": {
+    "BTCUSDT": -5.47,
+    "ETHUSDT": 26.97
+   },
+   "exits": {
+    "time": 299,
+    "stop": 32,
+    "trail": 12
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 341,
+   "taken": 341,
+   "win": 0.487,
+   "avg_r": 0.0959,
+   "sum_r": 32.7,
+   "pf": 1.468,
+   "t": 2.33,
+   "ret": 0.1739,
+   "maxdd": 0.0352,
+   "sharpe": 1.19,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 11.28,
+   "by_year": {
+    "2021": 11.75,
+    "2022": 5.37,
+    "2023": 15.58
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.94,
+    "ETHUSDT": 25.76
+   },
+   "exits": {
+    "time": 294,
+    "stop": 26,
+    "trail": 21
+   }
+  },
+  "majors|s_test": {
+   "trades": 417,
+   "taken": 417,
+   "win": 0.475,
+   "avg_r": 0.0752,
+   "sum_r": 31.36,
+   "pf": 1.314,
+   "t": 1.86,
+   "ret": 0.1644,
+   "maxdd": 0.0591,
+   "sharpe": 1.05,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.33,
+   "by_year": {
+    "2024": 26.88,
+    "2025": 8.19,
+    "2026": -3.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.29,
+    "ETHUSDT": 26.07
+   },
+   "exits": {
+    "time": 366,
+    "stop": 37,
+    "trail": 14
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 251,
+   "taken": 251,
+   "win": 0.49,
+   "avg_r": 0.1759,
+   "sum_r": 44.15,
+   "pf": 1.595,
+   "t": 2.21,
+   "ret": 0.2379,
+   "maxdd": 0.0372,
+   "sharpe": 1.07,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 20.5,
+   "by_year": {
+    "2021": 12.23,
+    "2022": 5.73,
+    "2023": 26.19
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.04,
+    "ETHUSDT": 23.11
+   },
+   "exits": {
+    "time": 170,
+    "trail": 43,
+    "stop": 38
+   }
+  },
+  "majors|s_test": {
+   "trades": 307,
+   "taken": 307,
+   "win": 0.469,
+   "avg_r": 0.0996,
+   "sum_r": 30.57,
+   "pf": 1.313,
+   "t": 1.74,
+   "ret": 0.1593,
+   "maxdd": 0.0629,
+   "sharpe": 0.97,
+   "pos_months": 0.7,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 20.8,
+   "by_year": {
+    "2024": 12.65,
+    "2025": 16.29,
+    "2026": 1.63
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.14,
+    "ETHUSDT": 21.43
+   },
+   "exits": {
+    "time": 216,
+    "stop": 54,
+    "trail": 37
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 315,
+   "taken": 315,
+   "win": 0.457,
+   "avg_r": 0.0934,
+   "sum_r": 29.41,
+   "pf": 1.287,
+   "t": 1.39,
+   "ret": 0.1489,
+   "maxdd": 0.0522,
+   "sharpe": 0.68,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 20.48,
+   "by_year": {
+    "2021": 12.86,
+    "2022": 0.16,
+    "2023": 16.39
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.32,
+    "ETHUSDT": 22.09
+   },
+   "exits": {
+    "time": 213,
+    "trail": 51,
+    "stop": 51
+   }
+  },
+  "majors|s_test": {
+   "trades": 374,
+   "taken": 374,
+   "win": 0.463,
+   "avg_r": 0.0955,
+   "sum_r": 35.71,
+   "pf": 1.294,
+   "t": 1.71,
+   "ret": 0.1867,
+   "maxdd": 0.0684,
+   "sharpe": 0.92,
+   "pos_months": 0.7,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 20.91,
+   "by_year": {
+    "2024": 22.87,
+    "2025": 11.91,
+    "2026": 0.93
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.5,
+    "ETHUSDT": 19.21
+   },
+   "exits": {
+    "time": 264,
+    "stop": 66,
+    "trail": 44
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 229,
+   "taken": 229,
+   "win": 0.441,
+   "avg_r": 0.2652,
+   "sum_r": 60.73,
+   "pf": 1.65,
+   "t": 2.27,
+   "ret": 0.3379,
+   "maxdd": 0.0645,
+   "sharpe": 1.14,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 43.04,
+   "by_year": {
+    "2021": 7.67,
+    "2022": 17.85,
+    "2023": 35.21
+   },
+   "by_symbol": {
+    "BTCUSDT": 33.99,
+    "ETHUSDT": 26.74
+   },
+   "exits": {
+    "trail": 102,
+    "time": 68,
+    "stop": 59
+   }
+  },
+  "majors|s_test": {
+   "trades": 266,
+   "taken": 266,
+   "win": 0.41,
+   "avg_r": 0.1676,
+   "sum_r": 44.57,
+   "pf": 1.366,
+   "t": 1.83,
+   "ret": 0.2356,
+   "maxdd": 0.0982,
+   "sharpe": 0.95,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 42.5,
+   "by_year": {
+    "2024": 10.58,
+    "2025": 25.25,
+    "2026": 8.75
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.62,
+    "ETHUSDT": 34.95
+   },
+   "exits": {
+    "trail": 122,
+    "stop": 77,
+    "time": 67
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 288,
+   "taken": 288,
+   "win": 0.41,
+   "avg_r": 0.1679,
+   "sum_r": 48.35,
+   "pf": 1.376,
+   "t": 1.71,
+   "ret": 0.2556,
+   "maxdd": 0.0689,
+   "sharpe": 0.85,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 42.95,
+   "by_year": {
+    "2021": 7.34,
+    "2022": 15.0,
+    "2023": 26.01
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.54,
+    "ETHUSDT": 32.8
+   },
+   "exits": {
+    "trail": 119,
+    "time": 86,
+    "stop": 83
+   }
+  },
+  "majors|s_test": {
+   "trades": 325,
+   "taken": 325,
+   "win": 0.4,
+   "avg_r": 0.1296,
+   "sum_r": 42.12,
+   "pf": 1.278,
+   "t": 1.59,
+   "ret": 0.2181,
+   "maxdd": 0.109,
+   "sharpe": 0.82,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 42.61,
+   "by_year": {
+    "2024": 20.0,
+    "2025": 18.02,
+    "2026": 4.1
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.06,
+    "ETHUSDT": 25.06
+   },
+   "exits": {
+    "trail": 150,
+    "stop": 92,
+    "time": 83
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 204,
+   "taken": 204,
+   "win": 0.422,
+   "avg_r": 0.3554,
+   "sum_r": 72.5,
+   "pf": 1.783,
+   "t": 2.45,
+   "ret": 0.413,
+   "maxdd": 0.0621,
+   "sharpe": 1.18,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 60.25,
+   "by_year": {
+    "2021": 11.35,
+    "2022": 18.1,
+    "2023": 43.05
+   },
+   "by_symbol": {
+    "BTCUSDT": 42.0,
+    "ETHUSDT": 30.5
+   },
+   "exits": {
+    "trail": 127,
+    "stop": 59,
+    "time": 18
+   }
+  },
+  "majors|s_test": {
+   "trades": 246,
+   "taken": 246,
+   "win": 0.382,
+   "avg_r": 0.2289,
+   "sum_r": 56.3,
+   "pf": 1.46,
+   "t": 2.01,
+   "ret": 0.3058,
+   "maxdd": 0.0792,
+   "sharpe": 1.1,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 55.45,
+   "by_year": {
+    "2024": 11.35,
+    "2025": 32.0,
+    "2026": 12.95
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.36,
+    "ETHUSDT": 41.94
+   },
+   "exits": {
+    "trail": 158,
+    "stop": 78,
+    "time": 10
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 261,
+   "taken": 261,
+   "win": 0.391,
+   "avg_r": 0.2177,
+   "sum_r": 56.81,
+   "pf": 1.435,
+   "t": 1.82,
+   "ret": 0.3045,
+   "maxdd": 0.077,
+   "sharpe": 0.87,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 60.76,
+   "by_year": {
+    "2021": 8.52,
+    "2022": 15.11,
+    "2023": 33.18
+   },
+   "by_symbol": {
+    "BTCUSDT": 24.33,
+    "ETHUSDT": 32.48
+   },
+   "exits": {
+    "trail": 154,
+    "stop": 83,
+    "time": 24
+   }
+  },
+  "majors|s_test": {
+   "trades": 300,
+   "taken": 300,
+   "win": 0.367,
+   "avg_r": 0.1478,
+   "sum_r": 44.34,
+   "pf": 1.288,
+   "t": 1.51,
+   "ret": 0.2281,
+   "maxdd": 0.1099,
+   "sharpe": 0.81,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 55.69,
+   "by_year": {
+    "2024": 16.67,
+    "2025": 22.22,
+    "2026": 5.46
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.6,
+    "ETHUSDT": 32.75
+   },
+   "exits": {
+    "trail": 191,
+    "stop": 96,
+    "time": 13
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 200,
+   "taken": 200,
+   "win": 0.42,
+   "avg_r": 0.3477,
+   "sum_r": 69.54,
+   "pf": 1.765,
+   "t": 2.42,
+   "ret": 0.3936,
+   "maxdd": 0.0585,
+   "sharpe": 1.19,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 67.91,
+   "by_year": {
+    "2021": 7.64,
+    "2022": 19.28,
+    "2023": 42.61
+   },
+   "by_symbol": {
+    "BTCUSDT": 40.82,
+    "ETHUSDT": 28.72
+   },
+   "exits": {
+    "trail": 141,
+    "stop": 58,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 243,
+   "taken": 243,
+   "win": 0.379,
+   "avg_r": 0.2249,
+   "sum_r": 54.65,
+   "pf": 1.449,
+   "t": 1.96,
+   "ret": 0.2954,
+   "maxdd": 0.0767,
+   "sharpe": 1.07,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 57.19,
+   "by_year": {
+    "2024": 10.33,
+    "2025": 30.5,
+    "2026": 13.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 13.18,
+    "ETHUSDT": 41.47
+   },
+   "exits": {
+    "trail": 166,
+    "stop": 77
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 253,
+   "taken": 253,
+   "win": 0.391,
+   "avg_r": 0.2188,
+   "sum_r": 55.35,
+   "pf": 1.44,
+   "t": 1.82,
+   "ret": 0.2963,
+   "maxdd": 0.0675,
+   "sharpe": 0.89,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 70.29,
+   "by_year": {
+    "2021": 4.43,
+    "2022": 18.02,
+    "2023": 32.9
+   },
+   "by_symbol": {
+    "BTCUSDT": 22.14,
+    "ETHUSDT": 33.21
+   },
+   "exits": {
+    "trail": 171,
+    "stop": 81,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 295,
+   "taken": 295,
+   "win": 0.359,
+   "avg_r": 0.1328,
+   "sum_r": 39.19,
+   "pf": 1.254,
+   "t": 1.35,
+   "ret": 0.1973,
+   "maxdd": 0.0992,
+   "sharpe": 0.72,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 58.0,
+   "by_year": {
+    "2024": 14.76,
+    "2025": 18.1,
+    "2026": 6.32
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.79,
+    "ETHUSDT": 28.4
+   },
+   "exits": {
+    "trail": 200,
+    "stop": 95
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 269,
+   "taken": 269,
+   "win": 0.517,
+   "avg_r": 0.1277,
+   "sum_r": 34.36,
+   "pf": 1.64,
+   "t": 2.7,
+   "ret": 0.1845,
+   "maxdd": 0.0332,
+   "sharpe": 1.42,
+   "pos_months": 0.69,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 11.56,
+   "by_year": {
+    "2021": 12.85,
+    "2022": 6.98,
+    "2023": 14.53
+   },
+   "by_symbol": {
+    "BTCUSDT": 12.11,
+    "ETHUSDT": 22.25
+   },
+   "exits": {
+    "time": 243,
+    "stop": 23,
+    "trail": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 340,
+   "taken": 340,
+   "win": 0.482,
+   "avg_r": 0.0598,
+   "sum_r": 20.32,
+   "pf": 1.244,
+   "t": 1.5,
+   "ret": 0.1037,
+   "maxdd": 0.0472,
+   "sharpe": 0.84,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.4,
+   "by_year": {
+    "2024": 14.6,
+    "2025": 7.22,
+    "2026": -1.5
+   },
+   "by_symbol": {
+    "BTCUSDT": -4.8,
+    "ETHUSDT": 25.11
+   },
+   "exits": {
+    "time": 304,
+    "stop": 33,
+    "trail": 3
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 337,
+   "taken": 337,
+   "win": 0.49,
+   "avg_r": 0.086,
+   "sum_r": 28.98,
+   "pf": 1.414,
+   "t": 2.12,
+   "ret": 0.1527,
+   "maxdd": 0.0352,
+   "sharpe": 1.13,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 11.51,
+   "by_year": {
+    "2021": 10.58,
+    "2022": 5.88,
+    "2023": 12.52
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.87,
+    "ETHUSDT": 24.11
+   },
+   "exits": {
+    "time": 302,
+    "stop": 30,
+    "trail": 5
+   }
+  },
+  "majors|s_test": {
+   "trades": 413,
+   "taken": 413,
+   "win": 0.477,
+   "avg_r": 0.074,
+   "sum_r": 30.56,
+   "pf": 1.311,
+   "t": 1.85,
+   "ret": 0.16,
+   "maxdd": 0.0621,
+   "sharpe": 1.02,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.43,
+   "by_year": {
+    "2024": 28.75,
+    "2025": 5.56,
+    "2026": -3.74
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.72,
+    "ETHUSDT": 24.85
+   },
+   "exits": {
+    "time": 371,
+    "stop": 38,
+    "trail": 4
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 245,
+   "taken": 245,
+   "win": 0.498,
+   "avg_r": 0.1654,
+   "sum_r": 40.52,
+   "pf": 1.532,
+   "t": 2.11,
+   "ret": 0.2162,
+   "maxdd": 0.0506,
+   "sharpe": 1.02,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 21.66,
+   "by_year": {
+    "2021": 12.23,
+    "2022": 8.4,
+    "2023": 19.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.64,
+    "ETHUSDT": 24.88
+   },
+   "exits": {
+    "time": 188,
+    "stop": 48,
+    "trail": 9
+   }
+  },
+  "majors|s_test": {
+   "trades": 305,
+   "taken": 305,
+   "win": 0.475,
+   "avg_r": 0.1001,
+   "sum_r": 30.54,
+   "pf": 1.308,
+   "t": 1.72,
+   "ret": 0.1589,
+   "maxdd": 0.0629,
+   "sharpe": 0.92,
+   "pos_months": 0.64,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 21.47,
+   "by_year": {
+    "2024": 14.38,
+    "2025": 12.61,
+    "2026": 3.55
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.89,
+    "ETHUSDT": 21.65
+   },
+   "exits": {
+    "time": 234,
+    "stop": 63,
+    "trail": 8
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 309,
+   "taken": 309,
+   "win": 0.46,
+   "avg_r": 0.0735,
+   "sum_r": 22.72,
+   "pf": 1.215,
+   "t": 1.12,
+   "ret": 0.1119,
+   "maxdd": 0.0614,
+   "sharpe": 0.55,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 21.41,
+   "by_year": {
+    "2021": 11.85,
+    "2022": 2.04,
+    "2023": 8.83
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.86,
+    "ETHUSDT": 20.87
+   },
+   "exits": {
+    "time": 232,
+    "stop": 66,
+    "trail": 11
+   }
+  },
+  "majors|s_test": {
+   "trades": 371,
+   "taken": 371,
+   "win": 0.469,
+   "avg_r": 0.0992,
+   "sum_r": 36.79,
+   "pf": 1.3,
+   "t": 1.75,
+   "ret": 0.1929,
+   "maxdd": 0.0678,
+   "sharpe": 0.92,
+   "pos_months": 0.7,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 21.54,
+   "by_year": {
+    "2024": 25.6,
+    "2025": 8.2,
+    "2026": 2.99
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.37,
+    "ETHUSDT": 20.42
+   },
+   "exits": {
+    "time": 285,
+    "stop": 77,
+    "trail": 9
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 218,
+   "taken": 218,
+   "win": 0.454,
+   "avg_r": 0.273,
+   "sum_r": 59.51,
+   "pf": 1.594,
+   "t": 2.29,
+   "ret": 0.3293,
+   "maxdd": 0.0775,
+   "sharpe": 1.14,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 51.62,
+   "by_year": {
+    "2021": 7.88,
+    "2022": 25.36,
+    "2023": 26.27
+   },
+   "by_symbol": {
+    "BTCUSDT": 22.58,
+    "ETHUSDT": 36.93
+   },
+   "exits": {
+    "time": 107,
+    "stop": 82,
+    "trail": 29
+   }
+  },
+  "majors|s_test": {
+   "trades": 258,
+   "taken": 258,
+   "win": 0.403,
+   "avg_r": 0.1845,
+   "sum_r": 47.6,
+   "pf": 1.355,
+   "t": 1.67,
+   "ret": 0.2484,
+   "maxdd": 0.0894,
+   "sharpe": 0.93,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 50.75,
+   "by_year": {
+    "2024": 13.59,
+    "2025": 18.0,
+    "2026": 16.01
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.71,
+    "ETHUSDT": 39.89
+   },
+   "exits": {
+    "time": 120,
+    "stop": 112,
+    "trail": 26
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 277,
+   "taken": 277,
+   "win": 0.412,
+   "avg_r": 0.1415,
+   "sum_r": 39.2,
+   "pf": 1.283,
+   "t": 1.42,
+   "ret": 0.1993,
+   "maxdd": 0.0759,
+   "sharpe": 0.71,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 49.9,
+   "by_year": {
+    "2021": 3.77,
+    "2022": 20.91,
+    "2023": 14.52
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.29,
+    "ETHUSDT": 36.91
+   },
+   "exits": {
+    "time": 127,
+    "stop": 117,
+    "trail": 33
+   }
+  },
+  "majors|s_test": {
+   "trades": 315,
+   "taken": 315,
+   "win": 0.387,
+   "avg_r": 0.1141,
+   "sum_r": 35.95,
+   "pf": 1.216,
+   "t": 1.2,
+   "ret": 0.1758,
+   "maxdd": 0.1125,
+   "sharpe": 0.65,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 50.64,
+   "by_year": {
+    "2024": 15.51,
+    "2025": 9.66,
+    "2026": 10.78
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.38,
+    "ETHUSDT": 25.58
+   },
+   "exits": {
+    "time": 145,
+    "stop": 137,
+    "trail": 33
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 186,
+   "taken": 186,
+   "win": 0.403,
+   "avg_r": 0.3438,
+   "sum_r": 63.94,
+   "pf": 1.639,
+   "t": 2.23,
+   "ret": 0.3545,
+   "maxdd": 0.0827,
+   "sharpe": 1.13,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 89.5,
+   "by_year": {
+    "2021": 7.61,
+    "2022": 20.97,
+    "2023": 35.35
+   },
+   "by_symbol": {
+    "BTCUSDT": 29.25,
+    "ETHUSDT": 34.69
+   },
+   "exits": {
+    "stop": 83,
+    "trail": 52,
+    "time": 51
+   }
+  },
+  "majors|s_test": {
+   "trades": 221,
+   "taken": 221,
+   "win": 0.362,
+   "avg_r": 0.3573,
+   "sum_r": 78.96,
+   "pf": 1.575,
+   "t": 2.1,
+   "ret": 0.4397,
+   "maxdd": 0.085,
+   "sharpe": 1.13,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 85.86,
+   "by_year": {
+    "2024": 23.23,
+    "2025": 19.48,
+    "2026": 36.25
+   },
+   "by_symbol": {
+    "BTCUSDT": 31.37,
+    "ETHUSDT": 47.59
+   },
+   "exits": {
+    "stop": 118,
+    "time": 56,
+    "trail": 47
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 238,
+   "taken": 238,
+   "win": 0.37,
+   "avg_r": 0.2364,
+   "sum_r": 56.26,
+   "pf": 1.408,
+   "t": 1.74,
+   "ret": 0.2971,
+   "maxdd": 0.0866,
+   "sharpe": 0.84,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 85.41,
+   "by_year": {
+    "2021": 5.82,
+    "2022": 12.2,
+    "2023": 38.24
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.25,
+    "ETHUSDT": 40.01
+   },
+   "exits": {
+    "stop": 117,
+    "time": 67,
+    "trail": 54
+   }
+  },
+  "majors|s_test": {
+   "trades": 268,
+   "taken": 268,
+   "win": 0.347,
+   "avg_r": 0.2512,
+   "sum_r": 67.32,
+   "pf": 1.395,
+   "t": 1.73,
+   "ret": 0.3554,
+   "maxdd": 0.0961,
+   "sharpe": 0.91,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 84.94,
+   "by_year": {
+    "2024": 25.41,
+    "2025": 8.99,
+    "2026": 32.92
+   },
+   "by_symbol": {
+    "BTCUSDT": 24.06,
+    "ETHUSDT": 43.27
+   },
+   "exits": {
+    "stop": 147,
+    "time": 66,
+    "trail": 55
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 158,
+   "taken": 158,
+   "win": 0.386,
+   "avg_r": 0.3638,
+   "sum_r": 57.48,
+   "pf": 1.649,
+   "t": 2.09,
+   "ret": 0.3144,
+   "maxdd": 0.0865,
+   "sharpe": 1.03,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 151.14,
+   "by_year": {
+    "2021": 11.77,
+    "2022": 20.6,
+    "2023": 25.11
+   },
+   "by_symbol": {
+    "BTCUSDT": 28.62,
+    "ETHUSDT": 28.87
+   },
+   "exits": {
+    "trail": 80,
+    "stop": 71,
+    "time": 7
+   }
+  },
+  "majors|s_test": {
+   "trades": 194,
+   "taken": 194,
+   "win": 0.335,
+   "avg_r": 0.3644,
+   "sum_r": 70.69,
+   "pf": 1.576,
+   "t": 1.81,
+   "ret": 0.3787,
+   "maxdd": 0.0691,
+   "sharpe": 0.99,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 116.53,
+   "by_year": {
+    "2024": 8.5,
+    "2025": 18.04,
+    "2026": 44.15
+   },
+   "by_symbol": {
+    "BTCUSDT": 25.96,
+    "ETHUSDT": 44.73
+   },
+   "exits": {
+    "stop": 103,
+    "trail": 88,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 2.0}": {
+  "majors|s_val": {
+   "trades": 189,
+   "taken": 189,
+   "win": 0.36,
+   "avg_r": 0.2345,
+   "sum_r": 44.33,
+   "pf": 1.398,
+   "t": 1.58,
+   "ret": 0.2315,
+   "maxdd": 0.0576,
+   "sharpe": 0.8,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 154.3,
+   "by_year": {
+    "2021": 0.64,
+    "2022": 17.51,
+    "2023": 26.17
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.52,
+    "ETHUSDT": 22.81
+   },
+   "exits": {
+    "stop": 91,
+    "trail": 88,
+    "time": 10
+   }
+  },
+  "majors|s_test": {
+   "trades": 226,
+   "taken": 226,
+   "win": 0.327,
+   "avg_r": 0.2788,
+   "sum_r": 63.01,
+   "pf": 1.433,
+   "t": 1.57,
+   "ret": 0.3249,
+   "maxdd": 0.0745,
+   "sharpe": 0.85,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 119.03,
+   "by_year": {
+    "2024": 11.54,
+    "2025": 6.2,
+    "2026": 45.27
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.92,
+    "ETHUSDT": 47.09
+   },
+   "exits": {
+    "stop": 123,
+    "trail": 100,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 117,
+   "taken": 117,
+   "win": 0.513,
+   "avg_r": 0.1796,
+   "sum_r": 21.01,
+   "pf": 1.888,
+   "t": 2.13,
+   "ret": 0.1089,
+   "maxdd": 0.018,
+   "sharpe": 1.04,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 11.02,
+   "by_year": {
+    "2021": -2.11,
+    "2022": 6.34,
+    "2023": 16.78
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.88,
+    "ETHUSDT": 12.13
+   },
+   "exits": {
+    "time": 98,
+    "trail": 10,
+    "stop": 9
+   }
+  },
+  "majors|s_test": {
+   "trades": 165,
+   "taken": 165,
+   "win": 0.461,
+   "avg_r": 0.086,
+   "sum_r": 14.19,
+   "pf": 1.323,
+   "t": 1.31,
+   "ret": 0.0718,
+   "maxdd": 0.0378,
+   "sharpe": 0.81,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 11.03,
+   "by_year": {
+    "2024": 3.68,
+    "2025": 5.75,
+    "2026": 4.76
+   },
+   "by_symbol": {
+    "BTCUSDT": -8.22,
+    "ETHUSDT": 22.41
+   },
+   "exits": {
+    "time": 135,
+    "stop": 21,
+    "trail": 9
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 147,
+   "taken": 147,
+   "win": 0.51,
+   "avg_r": 0.1586,
+   "sum_r": 23.32,
+   "pf": 1.79,
+   "t": 2.17,
+   "ret": 0.1214,
+   "maxdd": 0.0208,
+   "sharpe": 1.06,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 11.0,
+   "by_year": {
+    "2021": 0.59,
+    "2022": 5.87,
+    "2023": 16.86
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.89,
+    "ETHUSDT": 16.43
+   },
+   "exits": {
+    "time": 123,
+    "trail": 13,
+    "stop": 11
+   }
+  },
+  "majors|s_test": {
+   "trades": 196,
+   "taken": 196,
+   "win": 0.439,
+   "avg_r": 0.0845,
+   "sum_r": 16.56,
+   "pf": 1.313,
+   "t": 1.22,
+   "ret": 0.0836,
+   "maxdd": 0.0423,
+   "sharpe": 0.74,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.1,
+   "by_year": {
+    "2024": 11.41,
+    "2025": 1.76,
+    "2026": 3.39
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.79,
+    "ETHUSDT": 20.35
+   },
+   "exits": {
+    "time": 163,
+    "stop": 24,
+    "trail": 9
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 112,
+   "taken": 112,
+   "win": 0.482,
+   "avg_r": 0.1562,
+   "sum_r": 17.5,
+   "pf": 1.502,
+   "t": 1.44,
+   "ret": 0.0886,
+   "maxdd": 0.0323,
+   "sharpe": 0.71,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 20.01,
+   "by_year": {
+    "2021": -2.55,
+    "2022": 10.28,
+    "2023": 9.77
+   },
+   "by_symbol": {
+    "BTCUSDT": 12.29,
+    "ETHUSDT": 5.21
+   },
+   "exits": {
+    "time": 74,
+    "stop": 19,
+    "trail": 19
+   }
+  },
+  "majors|s_test": {
+   "trades": 157,
+   "taken": 157,
+   "win": 0.497,
+   "avg_r": 0.1599,
+   "sum_r": 25.1,
+   "pf": 1.485,
+   "t": 1.77,
+   "ret": 0.13,
+   "maxdd": 0.0451,
+   "sharpe": 1.05,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 19.85,
+   "by_year": {
+    "2024": 5.94,
+    "2025": 7.98,
+    "2026": 11.18
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.26,
+    "ETHUSDT": 22.84
+   },
+   "exits": {
+    "time": 103,
+    "stop": 33,
+    "trail": 21
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 140,
+   "taken": 140,
+   "win": 0.464,
+   "avg_r": 0.1066,
+   "sum_r": 14.93,
+   "pf": 1.319,
+   "t": 1.12,
+   "ret": 0.0741,
+   "maxdd": 0.0389,
+   "sharpe": 0.56,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 19.78,
+   "by_year": {
+    "2021": 1.7,
+    "2022": 7.97,
+    "2023": 5.26
+   },
+   "by_symbol": {
+    "BTCUSDT": 3.83,
+    "ETHUSDT": 11.09
+   },
+   "exits": {
+    "time": 89,
+    "stop": 26,
+    "trail": 25
+   }
+  },
+  "majors|s_test": {
+   "trades": 186,
+   "taken": 186,
+   "win": 0.484,
+   "avg_r": 0.1628,
+   "sum_r": 30.27,
+   "pf": 1.469,
+   "t": 1.73,
+   "ret": 0.158,
+   "maxdd": 0.0576,
+   "sharpe": 1.02,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 19.94,
+   "by_year": {
+    "2024": 17.41,
+    "2025": 0.33,
+    "2026": 12.54
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.06,
+    "ETHUSDT": 21.22
+   },
+   "exits": {
+    "time": 123,
+    "stop": 40,
+    "trail": 23
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 111,
+   "taken": 111,
+   "win": 0.432,
+   "avg_r": 0.202,
+   "sum_r": 22.43,
+   "pf": 1.518,
+   "t": 1.28,
+   "ret": 0.1126,
+   "maxdd": 0.0576,
+   "sharpe": 0.61,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 42.12,
+   "by_year": {
+    "2021": -8.38,
+    "2022": 11.1,
+    "2023": 19.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.47,
+    "ETHUSDT": 11.95
+   },
+   "exits": {
+    "trail": 46,
+    "time": 36,
+    "stop": 29
+   }
+  },
+  "majors|s_test": {
+   "trades": 144,
+   "taken": 144,
+   "win": 0.424,
+   "avg_r": 0.282,
+   "sum_r": 40.61,
+   "pf": 1.611,
+   "t": 2.0,
+   "ret": 0.2164,
+   "maxdd": 0.04,
+   "sharpe": 1.1,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 38.3,
+   "by_year": {
+    "2024": 6.7,
+    "2025": 14.28,
+    "2026": 19.63
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.3,
+    "ETHUSDT": 34.31
+   },
+   "exits": {
+    "trail": 68,
+    "stop": 45,
+    "time": 31
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 139,
+   "taken": 139,
+   "win": 0.417,
+   "avg_r": 0.1383,
+   "sum_r": 19.23,
+   "pf": 1.327,
+   "t": 1.03,
+   "ret": 0.0942,
+   "maxdd": 0.051,
+   "sharpe": 0.5,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 40.99,
+   "by_year": {
+    "2021": -3.2,
+    "2022": 8.05,
+    "2023": 14.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.78,
+    "ETHUSDT": 17.44
+   },
+   "exits": {
+    "trail": 57,
+    "time": 43,
+    "stop": 39
+   }
+  },
+  "majors|s_test": {
+   "trades": 170,
+   "taken": 170,
+   "win": 0.406,
+   "avg_r": 0.2432,
+   "sum_r": 41.34,
+   "pf": 1.507,
+   "t": 1.88,
+   "ret": 0.2195,
+   "maxdd": 0.0542,
+   "sharpe": 1.03,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 38.75,
+   "by_year": {
+    "2024": 17.01,
+    "2025": 3.25,
+    "2026": 21.08
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.81,
+    "ETHUSDT": 31.52
+   },
+   "exits": {
+    "trail": 81,
+    "stop": 53,
+    "time": 36
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 102,
+   "taken": 102,
+   "win": 0.431,
+   "avg_r": 0.3673,
+   "sum_r": 37.46,
+   "pf": 1.848,
+   "t": 1.72,
+   "ret": 0.1967,
+   "maxdd": 0.0545,
+   "sharpe": 0.88,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 59.97,
+   "by_year": {
+    "2021": -7.74,
+    "2022": 13.05,
+    "2023": 32.15
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.32,
+    "ETHUSDT": 17.14
+   },
+   "exits": {
+    "trail": 62,
+    "stop": 30,
+    "time": 10
+   }
+  },
+  "majors|s_test": {
+   "trades": 140,
+   "taken": 140,
+   "win": 0.4,
+   "avg_r": 0.3449,
+   "sum_r": 48.28,
+   "pf": 1.707,
+   "t": 2.12,
+   "ret": 0.2613,
+   "maxdd": 0.0416,
+   "sharpe": 1.21,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 48.95,
+   "by_year": {
+    "2024": 9.9,
+    "2025": 19.71,
+    "2026": 18.67
+   },
+   "by_symbol": {
+    "BTCUSDT": 13.21,
+    "ETHUSDT": 35.07
+   },
+   "exits": {
+    "trail": 90,
+    "stop": 45,
+    "time": 5
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 130,
+   "taken": 130,
+   "win": 0.4,
+   "avg_r": 0.2313,
+   "sum_r": 30.07,
+   "pf": 1.493,
+   "t": 1.33,
+   "ret": 0.1525,
+   "maxdd": 0.0461,
+   "sharpe": 0.68,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 57.74,
+   "by_year": {
+    "2021": -4.1,
+    "2022": 8.53,
+    "2023": 25.64
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.51,
+    "ETHUSDT": 18.56
+   },
+   "exits": {
+    "trail": 78,
+    "stop": 40,
+    "time": 12
+   }
+  },
+  "majors|s_test": {
+   "trades": 165,
+   "taken": 165,
+   "win": 0.382,
+   "avg_r": 0.2497,
+   "sum_r": 41.2,
+   "pf": 1.486,
+   "t": 1.75,
+   "ret": 0.2167,
+   "maxdd": 0.0558,
+   "sharpe": 0.98,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 49.41,
+   "by_year": {
+    "2024": 13.81,
+    "2025": 7.94,
+    "2026": 19.45
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.89,
+    "ETHUSDT": 31.31
+   },
+   "exits": {
+    "trail": 105,
+    "stop": 54,
+    "time": 6
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 100,
+   "taken": 100,
+   "win": 0.43,
+   "avg_r": 0.3839,
+   "sum_r": 38.39,
+   "pf": 1.882,
+   "t": 1.82,
+   "ret": 0.2023,
+   "maxdd": 0.0562,
+   "sharpe": 0.92,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 73.45,
+   "by_year": {
+    "2021": -8.09,
+    "2022": 14.56,
+    "2023": 31.92
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.57,
+    "ETHUSDT": 17.82
+   },
+   "exits": {
+    "trail": 69,
+    "stop": 30,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 140,
+   "taken": 140,
+   "win": 0.4,
+   "avg_r": 0.3323,
+   "sum_r": 46.52,
+   "pf": 1.673,
+   "t": 2.03,
+   "ret": 0.2502,
+   "maxdd": 0.0416,
+   "sharpe": 1.16,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 50.72,
+   "by_year": {
+    "2024": 9.36,
+    "2025": 18.49,
+    "2026": 18.67
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.8,
+    "ETHUSDT": 34.72
+   },
+   "exits": {
+    "trail": 95,
+    "stop": 45
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 127,
+   "taken": 127,
+   "win": 0.394,
+   "avg_r": 0.2451,
+   "sum_r": 31.13,
+   "pf": 1.518,
+   "t": 1.41,
+   "ret": 0.1588,
+   "maxdd": 0.0408,
+   "sharpe": 0.72,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 69.48,
+   "by_year": {
+    "2021": -4.82,
+    "2022": 10.04,
+    "2023": 25.92
+   },
+   "by_symbol": {
+    "BTCUSDT": 12.27,
+    "ETHUSDT": 18.86
+   },
+   "exits": {
+    "trail": 86,
+    "stop": 40,
+    "time": 1
+   }
+  },
+  "majors|s_test": {
+   "trades": 164,
+   "taken": 164,
+   "win": 0.378,
+   "avg_r": 0.2428,
+   "sum_r": 39.81,
+   "pf": 1.465,
+   "t": 1.68,
+   "ret": 0.2081,
+   "maxdd": 0.0574,
+   "sharpe": 0.95,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 51.4,
+   "by_year": {
+    "2024": 13.27,
+    "2025": 7.09,
+    "2026": 19.45
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.85,
+    "ETHUSDT": 30.96
+   },
+   "exits": {
+    "trail": 110,
+    "stop": 54
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 117,
+   "taken": 117,
+   "win": 0.521,
+   "avg_r": 0.1744,
+   "sum_r": 20.41,
+   "pf": 1.844,
+   "t": 2.21,
+   "ret": 0.1059,
+   "maxdd": 0.0173,
+   "sharpe": 1.14,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 11.33,
+   "by_year": {
+    "2021": 0.15,
+    "2022": 6.23,
+    "2023": 14.03
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.29,
+    "ETHUSDT": 13.12
+   },
+   "exits": {
+    "time": 103,
+    "stop": 11,
+    "trail": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 162,
+   "taken": 162,
+   "win": 0.463,
+   "avg_r": 0.08,
+   "sum_r": 12.97,
+   "pf": 1.304,
+   "t": 1.26,
+   "ret": 0.0654,
+   "maxdd": 0.0444,
+   "sharpe": 0.74,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 11.25,
+   "by_year": {
+    "2024": 4.99,
+    "2025": 3.36,
+    "2026": 4.61
+   },
+   "by_symbol": {
+    "BTCUSDT": -7.48,
+    "ETHUSDT": 20.45
+   },
+   "exits": {
+    "time": 139,
+    "stop": 21,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 12, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 147,
+   "taken": 147,
+   "win": 0.51,
+   "avg_r": 0.1384,
+   "sum_r": 20.35,
+   "pf": 1.662,
+   "t": 2.05,
+   "ret": 0.1054,
+   "maxdd": 0.0222,
+   "sharpe": 1.07,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 11.25,
+   "by_year": {
+    "2021": 1.85,
+    "2022": 5.38,
+    "2023": 13.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.29,
+    "ETHUSDT": 15.05
+   },
+   "exits": {
+    "time": 128,
+    "stop": 14,
+    "trail": 5
+   }
+  },
+  "majors|s_test": {
+   "trades": 193,
+   "taken": 193,
+   "win": 0.44,
+   "avg_r": 0.0795,
+   "sum_r": 15.34,
+   "pf": 1.298,
+   "t": 1.16,
+   "ret": 0.0771,
+   "maxdd": 0.0488,
+   "sharpe": 0.68,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 11.27,
+   "by_year": {
+    "2024": 12.72,
+    "2025": -0.63,
+    "2026": 3.24
+   },
+   "by_symbol": {
+    "BTCUSDT": -3.05,
+    "ETHUSDT": 18.38
+   },
+   "exits": {
+    "time": 167,
+    "stop": 24,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 112,
+   "taken": 112,
+   "win": 0.482,
+   "avg_r": 0.1209,
+   "sum_r": 13.55,
+   "pf": 1.347,
+   "t": 1.12,
+   "ret": 0.0674,
+   "maxdd": 0.0376,
+   "sharpe": 0.56,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 20.99,
+   "by_year": {
+    "2021": -3.64,
+    "2022": 12.29,
+    "2023": 4.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.19,
+    "ETHUSDT": 4.36
+   },
+   "exits": {
+    "time": 83,
+    "stop": 25,
+    "trail": 4
+   }
+  },
+  "majors|s_test": {
+   "trades": 154,
+   "taken": 154,
+   "win": 0.494,
+   "avg_r": 0.1327,
+   "sum_r": 20.44,
+   "pf": 1.39,
+   "t": 1.48,
+   "ret": 0.1041,
+   "maxdd": 0.0589,
+   "sharpe": 0.81,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 20.75,
+   "by_year": {
+    "2024": 7.32,
+    "2025": 2.17,
+    "2026": 10.94
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.56,
+    "ETHUSDT": 17.87
+   },
+   "exits": {
+    "time": 111,
+    "stop": 35,
+    "trail": 8
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 24, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 140,
+   "taken": 140,
+   "win": 0.457,
+   "avg_r": 0.0613,
+   "sum_r": 8.58,
+   "pf": 1.166,
+   "t": 0.65,
+   "ret": 0.0408,
+   "maxdd": 0.0457,
+   "sharpe": 0.33,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 20.61,
+   "by_year": {
+    "2021": -0.53,
+    "2022": 9.55,
+    "2023": -0.44
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.83,
+    "ETHUSDT": 7.74
+   },
+   "exits": {
+    "time": 100,
+    "stop": 34,
+    "trail": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 183,
+   "taken": 183,
+   "win": 0.486,
+   "avg_r": 0.1442,
+   "sum_r": 26.38,
+   "pf": 1.408,
+   "t": 1.54,
+   "ret": 0.1358,
+   "maxdd": 0.073,
+   "sharpe": 0.86,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 20.74,
+   "by_year": {
+    "2024": 19.16,
+    "2025": -5.35,
+    "2026": 12.58
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.77,
+    "ETHUSDT": 16.62
+   },
+   "exits": {
+    "time": 132,
+    "stop": 43,
+    "trail": 8
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 109,
+   "taken": 109,
+   "win": 0.431,
+   "avg_r": 0.2168,
+   "sum_r": 23.63,
+   "pf": 1.463,
+   "t": 1.29,
+   "ret": 0.1191,
+   "maxdd": 0.0619,
+   "sharpe": 0.65,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 51.2,
+   "by_year": {
+    "2021": -6.19,
+    "2022": 12.19,
+    "2023": 17.62
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.44,
+    "ETHUSDT": 15.2
+   },
+   "exits": {
+    "time": 54,
+    "stop": 41,
+    "trail": 14
+   }
+  },
+  "majors|s_test": {
+   "trades": 140,
+   "taken": 140,
+   "win": 0.414,
+   "avg_r": 0.2902,
+   "sum_r": 40.62,
+   "pf": 1.556,
+   "t": 1.69,
+   "ret": 0.2113,
+   "maxdd": 0.0488,
+   "sharpe": 0.98,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 47.37,
+   "by_year": {
+    "2024": 5.44,
+    "2025": 8.45,
+    "2026": 26.73
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.93,
+    "ETHUSDT": 32.69
+   },
+   "exits": {
+    "stop": 64,
+    "time": 60,
+    "trail": 16
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 72, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 137,
+   "taken": 137,
+   "win": 0.409,
+   "avg_r": 0.1259,
+   "sum_r": 17.24,
+   "pf": 1.251,
+   "t": 0.89,
+   "ret": 0.0832,
+   "maxdd": 0.0498,
+   "sharpe": 0.45,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 49.05,
+   "by_year": {
+    "2021": -2.29,
+    "2022": 8.62,
+    "2023": 10.92
+   },
+   "by_symbol": {
+    "BTCUSDT": -1.48,
+    "ETHUSDT": 18.72
+   },
+   "exits": {
+    "time": 64,
+    "stop": 56,
+    "trail": 17
+   }
+  },
+  "majors|s_test": {
+   "trades": 166,
+   "taken": 166,
+   "win": 0.392,
+   "avg_r": 0.2045,
+   "sum_r": 33.95,
+   "pf": 1.383,
+   "t": 1.37,
+   "ret": 0.1709,
+   "maxdd": 0.0648,
+   "sharpe": 0.79,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 47.36,
+   "by_year": {
+    "2024": 7.8,
+    "2025": -1.64,
+    "2026": 27.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.36,
+    "ETHUSDT": 26.59
+   },
+   "exits": {
+    "stop": 77,
+    "time": 70,
+    "trail": 19
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 97,
+   "taken": 97,
+   "win": 0.402,
+   "avg_r": 0.4264,
+   "sum_r": 41.36,
+   "pf": 1.802,
+   "t": 1.79,
+   "ret": 0.2181,
+   "maxdd": 0.0575,
+   "sharpe": 0.92,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 89.01,
+   "by_year": {
+    "2021": -4.68,
+    "2022": 16.45,
+    "2023": 29.59
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.03,
+    "ETHUSDT": 24.34
+   },
+   "exits": {
+    "stop": 42,
+    "time": 31,
+    "trail": 24
+   }
+  },
+  "majors|s_test": {
+   "trades": 131,
+   "taken": 131,
+   "win": 0.389,
+   "avg_r": 0.4675,
+   "sum_r": 61.25,
+   "pf": 1.792,
+   "t": 2.2,
+   "ret": 0.338,
+   "maxdd": 0.055,
+   "sharpe": 1.18,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 81.0,
+   "by_year": {
+    "2024": 17.04,
+    "2025": 9.71,
+    "2026": 34.5
+   },
+   "by_symbol": {
+    "BTCUSDT": 23.5,
+    "ETHUSDT": 37.75
+   },
+   "exits": {
+    "stop": 67,
+    "time": 34,
+    "trail": 30
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 122,
+   "taken": 122,
+   "win": 0.385,
+   "avg_r": 0.2799,
+   "sum_r": 34.15,
+   "pf": 1.499,
+   "t": 1.43,
+   "ret": 0.1742,
+   "maxdd": 0.0583,
+   "sharpe": 0.73,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.032,
+   "avg_hold_h": 86.4,
+   "by_year": {
+    "2021": -1.39,
+    "2022": 11.74,
+    "2023": 23.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.92,
+    "ETHUSDT": 26.23
+   },
+   "exits": {
+    "stop": 57,
+    "time": 39,
+    "trail": 26
+   }
+  },
+  "majors|s_test": {
+   "trades": 154,
+   "taken": 154,
+   "win": 0.364,
+   "avg_r": 0.3596,
+   "sum_r": 55.38,
+   "pf": 1.593,
+   "t": 1.92,
+   "ret": 0.2981,
+   "maxdd": 0.0764,
+   "sharpe": 1.02,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 80.02,
+   "by_year": {
+    "2024": 18.97,
+    "2025": 0.92,
+    "2026": 35.5
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.0,
+    "ETHUSDT": 35.39
+   },
+   "exits": {
+    "stop": 81,
+    "time": 39,
+    "trail": 34
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 85,
+   "taken": 85,
+   "win": 0.365,
+   "avg_r": 0.5604,
+   "sum_r": 47.63,
+   "pf": 2.011,
+   "t": 2.09,
+   "ret": 0.2583,
+   "maxdd": 0.0529,
+   "sharpe": 1.07,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 153.62,
+   "by_year": {
+    "2021": 4.27,
+    "2022": 13.87,
+    "2023": 29.49
+   },
+   "by_symbol": {
+    "BTCUSDT": 24.99,
+    "ETHUSDT": 22.65
+   },
+   "exits": {
+    "trail": 45,
+    "stop": 36,
+    "time": 4
+   }
+  },
+  "majors|s_test": {
+   "trades": 122,
+   "taken": 122,
+   "win": 0.377,
+   "avg_r": 0.5068,
+   "sum_r": 61.83,
+   "pf": 1.843,
+   "t": 2.04,
+   "ret": 0.3381,
+   "maxdd": 0.0605,
+   "sharpe": 1.14,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 126.17,
+   "by_year": {
+    "2024": 14.68,
+    "2025": 7.74,
+    "2026": 39.41
+   },
+   "by_symbol": {
+    "BTCUSDT": 22.29,
+    "ETHUSDT": 39.53
+   },
+   "exits": {
+    "stop": 61,
+    "trail": 57,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"vb\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 3.0}": {
+  "majors|s_val": {
+   "trades": 106,
+   "taken": 106,
+   "win": 0.358,
+   "avg_r": 0.3628,
+   "sum_r": 38.45,
+   "pf": 1.612,
+   "t": 1.63,
+   "ret": 0.2014,
+   "maxdd": 0.0577,
+   "sharpe": 0.84,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.031,
+   "avg_hold_h": 150.36,
+   "by_year": {
+    "2021": 6.4,
+    "2022": 8.95,
+    "2023": 23.1
+   },
+   "by_symbol": {
+    "BTCUSDT": 19.64,
+    "ETHUSDT": 18.81
+   },
+   "exits": {
+    "trail": 51,
+    "stop": 50,
+    "time": 5
+   }
+  },
+  "majors|s_test": {
+   "trades": 137,
+   "taken": 137,
+   "win": 0.365,
+   "avg_r": 0.4691,
+   "sum_r": 64.26,
+   "pf": 1.766,
+   "t": 2.03,
+   "ret": 0.3521,
+   "maxdd": 0.0716,
+   "sharpe": 1.14,
+   "pos_months": 0.58,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 130.59,
+   "by_year": {
+    "2024": 15.5,
+    "2025": 4.35,
+    "2026": 44.41
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.78,
+    "ETHUSDT": 45.49
+   },
+   "exits": {
+    "stop": 71,
+    "trail": 61,
+    "time": 5
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 332,
+   "taken": 332,
+   "win": 0.37,
+   "avg_r": 0.0818,
+   "sum_r": 27.14,
+   "pf": 1.156,
+   "t": 0.88,
+   "ret": 0.1252,
+   "maxdd": 0.0992,
+   "sharpe": 0.43,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.028,
+   "avg_hold_h": 62.09,
+   "by_year": {
+    "2021": -1.88,
+    "2022": -5.3,
+    "2023": 34.32
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.98,
+    "ETHUSDT": 10.16
+   },
+   "exits": {
+    "trail": 193,
+    "stop": 113,
+    "time": 26
+   }
+  },
+  "majors|s_test": {
+   "trades": 306,
+   "taken": 306,
+   "win": 0.395,
+   "avg_r": 0.2122,
+   "sum_r": 64.92,
+   "pf": 1.436,
+   "t": 2.17,
+   "ret": 0.3601,
+   "maxdd": 0.1373,
+   "sharpe": 1.15,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 61.62,
+   "by_year": {
+    "2024": 26.84,
+    "2025": 38.95,
+    "2026": -0.87
+   },
+   "by_symbol": {
+    "BTCUSDT": 24.6,
+    "ETHUSDT": 40.33
+   },
+   "exits": {
+    "trail": 191,
+    "stop": 94,
+    "time": 21
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 175,
+   "taken": 175,
+   "win": 0.411,
+   "avg_r": 0.1424,
+   "sum_r": 24.93,
+   "pf": 1.286,
+   "t": 1.14,
+   "ret": 0.1237,
+   "maxdd": 0.0887,
+   "sharpe": 0.62,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 62.67,
+   "by_year": {
+    "2021": 1.33,
+    "2022": -7.13,
+    "2023": 30.73
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.28,
+    "ETHUSDT": 10.64
+   },
+   "exits": {
+    "trail": 107,
+    "stop": 53,
+    "time": 15
+   }
+  },
+  "majors|s_test": {
+   "trades": 165,
+   "taken": 165,
+   "win": 0.4,
+   "avg_r": 0.2692,
+   "sum_r": 44.42,
+   "pf": 1.556,
+   "t": 1.88,
+   "ret": 0.2347,
+   "maxdd": 0.0874,
+   "sharpe": 0.99,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 66.75,
+   "by_year": {
+    "2024": 12.29,
+    "2025": 27.63,
+    "2026": 4.5
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.41,
+    "ETHUSDT": 24.01
+   },
+   "exits": {
+    "trail": 105,
+    "stop": 45,
+    "time": 15
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 440,
+   "taken": 440,
+   "win": 0.339,
+   "avg_r": -0.0065,
+   "sum_r": -2.86,
+   "pf": 0.988,
+   "t": -0.08,
+   "ret": -0.0349,
+   "maxdd": 0.1818,
+   "sharpe": -0.05,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.028,
+   "avg_hold_h": 61.73,
+   "by_year": {
+    "2021": -19.65,
+    "2022": -10.6,
+    "2023": 27.4
+   },
+   "by_symbol": {
+    "BTCUSDT": -6.27,
+    "ETHUSDT": 3.41
+   },
+   "exits": {
+    "trail": 241,
+    "stop": 163,
+    "time": 36
+   }
+  },
+  "majors|s_test": {
+   "trades": 398,
+   "taken": 398,
+   "win": 0.372,
+   "avg_r": 0.1153,
+   "sum_r": 45.89,
+   "pf": 1.229,
+   "t": 1.42,
+   "ret": 0.2328,
+   "maxdd": 0.1738,
+   "sharpe": 0.74,
+   "pos_months": 0.67,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 62.92,
+   "by_year": {
+    "2024": 30.94,
+    "2025": 29.0,
+    "2026": -14.06
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.71,
+    "ETHUSDT": 29.18
+   },
+   "exits": {
+    "trail": 251,
+    "stop": 119,
+    "time": 28
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 229,
+   "taken": 229,
+   "win": 0.371,
+   "avg_r": 0.0573,
+   "sum_r": 13.11,
+   "pf": 1.106,
+   "t": 0.54,
+   "ret": 0.0568,
+   "maxdd": 0.1561,
+   "sharpe": 0.28,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 64.46,
+   "by_year": {
+    "2021": -4.22,
+    "2022": -16.43,
+    "2023": 33.76
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.04,
+    "ETHUSDT": 6.07
+   },
+   "exits": {
+    "trail": 130,
+    "stop": 77,
+    "time": 22
+   }
+  },
+  "majors|s_test": {
+   "trades": 218,
+   "taken": 218,
+   "win": 0.372,
+   "avg_r": 0.1447,
+   "sum_r": 31.55,
+   "pf": 1.287,
+   "t": 1.23,
+   "ret": 0.1555,
+   "maxdd": 0.1356,
+   "sharpe": 0.65,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 66.47,
+   "by_year": {
+    "2024": 12.31,
+    "2025": 17.96,
+    "2026": 1.28
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.76,
+    "ETHUSDT": 12.8
+   },
+   "exits": {
+    "trail": 139,
+    "stop": 61,
+    "time": 18
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 318,
+   "taken": 318,
+   "win": 0.381,
+   "avg_r": 0.1043,
+   "sum_r": 33.18,
+   "pf": 1.203,
+   "t": 1.1,
+   "ret": 0.1607,
+   "maxdd": 0.083,
+   "sharpe": 0.53,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.028,
+   "avg_hold_h": 68.17,
+   "by_year": {
+    "2021": -2.6,
+    "2022": 1.43,
+    "2023": 34.36
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.82,
+    "ETHUSDT": 11.36
+   },
+   "exits": {
+    "trail": 214,
+    "stop": 104
+   }
+  },
+  "majors|s_test": {
+   "trades": 292,
+   "taken": 292,
+   "win": 0.38,
+   "avg_r": 0.2038,
+   "sum_r": 59.52,
+   "pf": 1.411,
+   "t": 1.98,
+   "ret": 0.3233,
+   "maxdd": 0.1352,
+   "sharpe": 1.04,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 67.82,
+   "by_year": {
+    "2024": 23.92,
+    "2025": 35.97,
+    "2026": -0.37
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.62,
+    "ETHUSDT": 37.9
+   },
+   "exits": {
+    "trail": 203,
+    "stop": 89
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 170,
+   "taken": 170,
+   "win": 0.412,
+   "avg_r": 0.1471,
+   "sum_r": 25.0,
+   "pf": 1.295,
+   "t": 1.18,
+   "ret": 0.1244,
+   "maxdd": 0.0783,
+   "sharpe": 0.62,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 67.14,
+   "by_year": {
+    "2021": 0.28,
+    "2022": -4.79,
+    "2023": 29.51
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.31,
+    "ETHUSDT": 7.7
+   },
+   "exits": {
+    "trail": 120,
+    "stop": 50
+   }
+  },
+  "majors|s_test": {
+   "trades": 155,
+   "taken": 155,
+   "win": 0.374,
+   "avg_r": 0.2453,
+   "sum_r": 38.03,
+   "pf": 1.487,
+   "t": 1.59,
+   "ret": 0.1952,
+   "maxdd": 0.0896,
+   "sharpe": 0.84,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 76.43,
+   "by_year": {
+    "2024": 9.97,
+    "2025": 24.05,
+    "2026": 4.01
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.76,
+    "ETHUSDT": 21.27
+   },
+   "exits": {
+    "trail": 113,
+    "stop": 42
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 418,
+   "taken": 418,
+   "win": 0.34,
+   "avg_r": 0.0036,
+   "sum_r": 1.5,
+   "pf": 1.006,
+   "t": 0.05,
+   "ret": -0.0129,
+   "maxdd": 0.1528,
+   "sharpe": 0.02,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.028,
+   "avg_hold_h": 69.62,
+   "by_year": {
+    "2021": -19.73,
+    "2022": -6.35,
+    "2023": 27.58
+   },
+   "by_symbol": {
+    "BTCUSDT": -7.6,
+    "ETHUSDT": 9.1
+   },
+   "exits": {
+    "trail": 267,
+    "stop": 151
+   }
+  },
+  "majors|s_test": {
+   "trades": 374,
+   "taken": 374,
+   "win": 0.358,
+   "avg_r": 0.1153,
+   "sum_r": 43.11,
+   "pf": 1.225,
+   "t": 1.32,
+   "ret": 0.2152,
+   "maxdd": 0.1718,
+   "sharpe": 0.69,
+   "pos_months": 0.61,
+   "avg_cost_r": 0.034,
+   "avg_hold_h": 70.74,
+   "by_year": {
+    "2024": 29.46,
+    "2025": 28.25,
+    "2026": -14.59
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.86,
+    "ETHUSDT": 28.26
+   },
+   "exits": {
+    "trail": 262,
+    "stop": 111,
+    "time": 1
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 221,
+   "taken": 221,
+   "win": 0.367,
+   "avg_r": 0.0467,
+   "sum_r": 10.33,
+   "pf": 1.086,
+   "t": 0.44,
+   "ret": 0.0423,
+   "maxdd": 0.1492,
+   "sharpe": 0.22,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 71.05,
+   "by_year": {
+    "2021": -5.01,
+    "2022": -16.07,
+    "2023": 31.41
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.3,
+    "ETHUSDT": 4.03
+   },
+   "exits": {
+    "trail": 148,
+    "stop": 73
+   }
+  },
+  "majors|s_test": {
+   "trades": 203,
+   "taken": 203,
+   "win": 0.355,
+   "avg_r": 0.1492,
+   "sum_r": 30.28,
+   "pf": 1.288,
+   "t": 1.16,
+   "ret": 0.1473,
+   "maxdd": 0.1336,
+   "sharpe": 0.61,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 77.19,
+   "by_year": {
+    "2024": 10.97,
+    "2025": 18.52,
+    "2026": 0.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.4,
+    "ETHUSDT": 13.88
+   },
+   "exits": {
+    "trail": 146,
+    "stop": 56,
+    "time": 1
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 295,
+   "taken": 295,
+   "win": 0.339,
+   "avg_r": 0.1376,
+   "sum_r": 40.6,
+   "pf": 1.227,
+   "t": 1.23,
+   "ret": 0.1993,
+   "maxdd": 0.1041,
+   "sharpe": 0.62,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 86.59,
+   "by_year": {
+    "2021": 14.21,
+    "2022": -7.29,
+    "2023": 33.67
+   },
+   "by_symbol": {
+    "BTCUSDT": 13.65,
+    "ETHUSDT": 26.95
+   },
+   "exits": {
+    "stop": 157,
+    "time": 73,
+    "trail": 65
+   },
+   "stress_ret": 0.1732
+  },
+  "majors|s_test": {
+   "trades": 270,
+   "taken": 270,
+   "win": 0.359,
+   "avg_r": 0.2604,
+   "sum_r": 70.32,
+   "pf": 1.435,
+   "t": 1.92,
+   "ret": 0.382,
+   "maxdd": 0.1083,
+   "sharpe": 1.02,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 90.02,
+   "by_year": {
+    "2024": 26.51,
+    "2025": 19.95,
+    "2026": 23.85
+   },
+   "by_symbol": {
+    "BTCUSDT": 25.06,
+    "ETHUSDT": 45.26
+   },
+   "exits": {
+    "stop": 139,
+    "time": 73,
+    "trail": 58
+   },
+   "stress_ret": 0.339
+  },
+  "majors|s_dev": {
+   "trades": 404,
+   "taken": 404,
+   "win": 0.406,
+   "avg_r": 0.6357,
+   "sum_r": 256.84,
+   "pf": 2.143,
+   "t": 4.96,
+   "ret": 2.2619,
+   "maxdd": 0.0586,
+   "sharpe": 1.9,
+   "pos_months": 0.65,
+   "avg_cost_r": 0.034,
+   "avg_hold_h": 86.82,
+   "by_year": {
+    "2015": 19.5,
+    "2016": 42.55,
+    "2017": 31.68,
+    "2018": 50.27,
+    "2019": 47.88,
+    "2020": 64.96
+   },
+   "by_symbol": {
+    "BTCUSDT": 170.18,
+    "ETHUSDT": 86.66
+   },
+   "exits": {
+    "stop": 192,
+    "trail": 119,
+    "time": 93
+   },
+   "stress_ret": 2.089
+  },
+  "majors|s_all": {
+   "trades": 969,
+   "taken": 969,
+   "win": 0.373,
+   "avg_r": 0.3782,
+   "sum_r": 366.47,
+   "pf": 1.649,
+   "t": 5.11,
+   "ret": 4.6746,
+   "maxdd": 0.1083,
+   "sharpe": 1.38,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 87.63,
+   "by_year": {
+    "2015": 19.5,
+    "2016": 42.55,
+    "2017": 31.68,
+    "2018": 50.27,
+    "2019": 47.88,
+    "2020": 64.96,
+    "2021": 12.93,
+    "2022": -7.29,
+    "2023": 33.67,
+    "2024": 26.51,
+    "2025": 19.95,
+    "2026": 23.85
+   },
+   "by_symbol": {
+    "BTCUSDT": 208.89,
+    "ETHUSDT": 157.58
+   },
+   "exits": {
+    "stop": 488,
+    "trail": 242,
+    "time": 239
+   },
+   "stress_ret": 4.091
+  },
+  "alts|s_alts": {
+   "trades": 1898,
+   "taken": 1662,
+   "win": 0.352,
+   "avg_r": 0.1336,
+   "sum_r": 253.64,
+   "pf": 1.221,
+   "t": 2.98,
+   "ret": 1.3922,
+   "maxdd": 0.3349,
+   "sharpe": 0.8,
+   "pos_months": 0.56,
+   "avg_cost_r": 0.024,
+   "avg_hold_h": 84.85,
+   "by_year": {
+    "2022": 46.69,
+    "2023": 43.71,
+    "2024": 57.79,
+    "2025": 77.66,
+    "2026": 27.79
+   },
+   "by_symbol": {
+    "ADAUSDT": 62.0,
+    "AVAXUSDT": 30.43,
+    "BNBUSDT": 42.76,
+    "DOGEUSDT": 24.57,
+    "LINKUSDT": 13.5,
+    "LTCUSDT": -7.2,
+    "SOLUSDT": 69.97,
+    "XRPUSDT": 17.61
+   },
+   "exits": {
+    "stop": 995,
+    "trail": 462,
+    "time": 441
+   },
+   "stress_ret": 1.0406
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 156,
+   "taken": 156,
+   "win": 0.34,
+   "avg_r": 0.2627,
+   "sum_r": 40.99,
+   "pf": 1.436,
+   "t": 1.62,
+   "ret": 0.2126,
+   "maxdd": 0.108,
+   "sharpe": 0.87,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 86.95,
+   "by_year": {
+    "2021": 16.76,
+    "2022": -13.22,
+    "2023": 37.44
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.3,
+    "ETHUSDT": 25.69
+   },
+   "exits": {
+    "stop": 81,
+    "time": 39,
+    "trail": 36
+   }
+  },
+  "majors|s_test": {
+   "trades": 147,
+   "taken": 147,
+   "win": 0.354,
+   "avg_r": 0.353,
+   "sum_r": 51.88,
+   "pf": 1.59,
+   "t": 1.69,
+   "ret": 0.2694,
+   "maxdd": 0.0786,
+   "sharpe": 0.92,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.039,
+   "avg_hold_h": 89.74,
+   "by_year": {
+    "2024": 14.27,
+    "2025": 20.49,
+    "2026": 17.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 22.14,
+    "ETHUSDT": 29.74
+   },
+   "exits": {
+    "stop": 73,
+    "time": 41,
+    "trail": 33
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 382,
+   "taken": 382,
+   "win": 0.325,
+   "avg_r": 0.0566,
+   "sum_r": 21.6,
+   "pf": 1.09,
+   "t": 0.59,
+   "ret": 0.0861,
+   "maxdd": 0.128,
+   "sharpe": 0.29,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 82.32,
+   "by_year": {
+    "2021": 5.23,
+    "2022": -15.85,
+    "2023": 32.22
+   },
+   "by_symbol": {
+    "BTCUSDT": -8.24,
+    "ETHUSDT": 29.84
+   },
+   "exits": {
+    "stop": 215,
+    "time": 96,
+    "trail": 71
+   }
+  },
+  "majors|s_test": {
+   "trades": 348,
+   "taken": 348,
+   "win": 0.333,
+   "avg_r": 0.1347,
+   "sum_r": 46.89,
+   "pf": 1.214,
+   "t": 1.19,
+   "ret": 0.2248,
+   "maxdd": 0.1378,
+   "sharpe": 0.61,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 88.31,
+   "by_year": {
+    "2024": 26.4,
+    "2025": 9.35,
+    "2026": 11.15
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.73,
+    "ETHUSDT": 39.16
+   },
+   "exits": {
+    "stop": 189,
+    "time": 86,
+    "trail": 73
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 209,
+   "taken": 209,
+   "win": 0.316,
+   "avg_r": 0.2125,
+   "sum_r": 44.42,
+   "pf": 1.336,
+   "t": 1.38,
+   "ret": 0.2239,
+   "maxdd": 0.1541,
+   "sharpe": 0.68,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 84.24,
+   "by_year": {
+    "2021": 13.55,
+    "2022": -21.85,
+    "2023": 52.72
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.18,
+    "ETHUSDT": 29.24
+   },
+   "exits": {
+    "stop": 117,
+    "time": 55,
+    "trail": 37
+   }
+  },
+  "majors|s_test": {
+   "trades": 199,
+   "taken": 199,
+   "win": 0.307,
+   "avg_r": 0.1614,
+   "sum_r": 32.11,
+   "pf": 1.25,
+   "t": 0.97,
+   "ret": 0.1464,
+   "maxdd": 0.1548,
+   "sharpe": 0.51,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 87.68,
+   "by_year": {
+    "2024": 11.55,
+    "2025": 7.19,
+    "2026": 13.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.13,
+    "ETHUSDT": 14.99
+   },
+   "exits": {
+    "stop": 107,
+    "time": 54,
+    "trail": 38
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 227,
+   "taken": 227,
+   "win": 0.3,
+   "avg_r": 0.2348,
+   "sum_r": 53.3,
+   "pf": 1.356,
+   "t": 1.46,
+   "ret": 0.2735,
+   "maxdd": 0.1133,
+   "sharpe": 0.69,
+   "pos_months": 0.53,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 148.72,
+   "by_year": {
+    "2021": 19.33,
+    "2022": 3.25,
+    "2023": 30.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 34.95,
+    "ETHUSDT": 18.35
+   },
+   "exits": {
+    "stop": 126,
+    "trail": 92,
+    "time": 9
+   }
+  },
+  "majors|s_test": {
+   "trades": 218,
+   "taken": 218,
+   "win": 0.312,
+   "avg_r": 0.2976,
+   "sum_r": 64.87,
+   "pf": 1.468,
+   "t": 1.72,
+   "ret": 0.3424,
+   "maxdd": 0.0826,
+   "sharpe": 0.95,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 133.08,
+   "by_year": {
+    "2024": 18.18,
+    "2025": 14.12,
+    "2026": 32.57
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.97,
+    "ETHUSDT": 43.9
+   },
+   "exits": {
+    "stop": 113,
+    "trail": 101,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 131,
+   "taken": 131,
+   "win": 0.298,
+   "avg_r": 0.2314,
+   "sum_r": 30.32,
+   "pf": 1.352,
+   "t": 1.22,
+   "ret": 0.151,
+   "maxdd": 0.1015,
+   "sharpe": 0.62,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 132.92,
+   "by_year": {
+    "2021": 15.11,
+    "2022": -10.64,
+    "2023": 25.84
+   },
+   "by_symbol": {
+    "BTCUSDT": 18.98,
+    "ETHUSDT": 11.34
+   },
+   "exits": {
+    "stop": 71,
+    "trail": 57,
+    "time": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 119,
+   "taken": 119,
+   "win": 0.286,
+   "avg_r": 0.4156,
+   "sum_r": 49.45,
+   "pf": 1.633,
+   "t": 1.53,
+   "ret": 0.2514,
+   "maxdd": 0.0869,
+   "sharpe": 0.88,
+   "pos_months": 0.3,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 134.17,
+   "by_year": {
+    "2024": 13.59,
+    "2025": 12.88,
+    "2026": 22.99
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.08,
+    "ETHUSDT": 28.38
+   },
+   "exits": {
+    "stop": 62,
+    "trail": 53,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 273,
+   "taken": 273,
+   "win": 0.286,
+   "avg_r": 0.1271,
+   "sum_r": 34.7,
+   "pf": 1.189,
+   "t": 0.93,
+   "ret": 0.1597,
+   "maxdd": 0.1183,
+   "sharpe": 0.45,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.027,
+   "avg_hold_h": 146.41,
+   "by_year": {
+    "2021": 0.4,
+    "2022": 0.3,
+    "2023": 33.99
+   },
+   "by_symbol": {
+    "BTCUSDT": 12.17,
+    "ETHUSDT": 22.53
+   },
+   "exits": {
+    "stop": 157,
+    "trail": 104,
+    "time": 12
+   }
+  },
+  "majors|s_test": {
+   "trades": 262,
+   "taken": 262,
+   "win": 0.302,
+   "avg_r": 0.2058,
+   "sum_r": 53.91,
+   "pf": 1.312,
+   "t": 1.35,
+   "ret": 0.2673,
+   "maxdd": 0.0971,
+   "sharpe": 0.71,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.033,
+   "avg_hold_h": 135.54,
+   "by_year": {
+    "2024": 16.74,
+    "2025": 2.58,
+    "2026": 34.59
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.04,
+    "ETHUSDT": 39.87
+   },
+   "exits": {
+    "stop": 143,
+    "trail": 113,
+    "time": 6
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 174,
+   "taken": 174,
+   "win": 0.264,
+   "avg_r": 0.0971,
+   "sum_r": 16.89,
+   "pf": 1.14,
+   "t": 0.6,
+   "ret": 0.0724,
+   "maxdd": 0.1644,
+   "sharpe": 0.3,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 134.45,
+   "by_year": {
+    "2021": 6.96,
+    "2022": -21.9,
+    "2023": 31.83
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.75,
+    "ETHUSDT": 9.14
+   },
+   "exits": {
+    "stop": 104,
+    "trail": 67,
+    "time": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 154,
+   "taken": 154,
+   "win": 0.279,
+   "avg_r": 0.2686,
+   "sum_r": 41.37,
+   "pf": 1.391,
+   "t": 1.2,
+   "ret": 0.1977,
+   "maxdd": 0.1277,
+   "sharpe": 0.67,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.034,
+   "avg_hold_h": 143.34,
+   "by_year": {
+    "2024": 16.66,
+    "2025": 2.37,
+    "2026": 22.34
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.89,
+    "ETHUSDT": 20.48
+   },
+   "exits": {
+    "stop": 88,
+    "trail": 60,
+    "time": 6
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 242,
+   "taken": 242,
+   "win": 0.335,
+   "avg_r": 0.0091,
+   "sum_r": 2.19,
+   "pf": 1.017,
+   "t": 0.09,
+   "ret": 0.0005,
+   "maxdd": 0.1117,
+   "sharpe": 0.04,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 57.34,
+   "by_year": {
+    "2021": -6.04,
+    "2022": -2.05,
+    "2023": 10.28
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.39,
+    "ETHUSDT": -2.19
+   },
+   "exits": {
+    "trail": 145,
+    "stop": 85,
+    "time": 12
+   }
+  },
+  "majors|s_test": {
+   "trades": 225,
+   "taken": 225,
+   "win": 0.391,
+   "avg_r": 0.1939,
+   "sum_r": 43.64,
+   "pf": 1.384,
+   "t": 1.67,
+   "ret": 0.2291,
+   "maxdd": 0.081,
+   "sharpe": 0.92,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 56.2,
+   "by_year": {
+    "2024": 17.12,
+    "2025": 27.12,
+    "2026": -0.6
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.16,
+    "ETHUSDT": 28.47
+   },
+   "exits": {
+    "trail": 134,
+    "stop": 76,
+    "time": 15
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 134,
+   "taken": 134,
+   "win": 0.381,
+   "avg_r": 0.0787,
+   "sum_r": 10.55,
+   "pf": 1.157,
+   "t": 0.61,
+   "ret": 0.0488,
+   "maxdd": 0.0602,
+   "sharpe": 0.32,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 59.48,
+   "by_year": {
+    "2021": 2.68,
+    "2022": -2.88,
+    "2023": 10.75
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.85,
+    "ETHUSDT": 2.7
+   },
+   "exits": {
+    "trail": 83,
+    "stop": 45,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 118,
+   "taken": 118,
+   "win": 0.415,
+   "avg_r": 0.2844,
+   "sum_r": 33.56,
+   "pf": 1.589,
+   "t": 1.65,
+   "ret": 0.1731,
+   "maxdd": 0.0598,
+   "sharpe": 0.91,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.039,
+   "avg_hold_h": 64.98,
+   "by_year": {
+    "2024": 12.95,
+    "2025": 22.17,
+    "2026": -1.56
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.93,
+    "ETHUSDT": 25.63
+   },
+   "exits": {
+    "trail": 73,
+    "stop": 35,
+    "time": 10
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 261,
+   "taken": 261,
+   "win": 0.322,
+   "avg_r": -0.0174,
+   "sum_r": -4.55,
+   "pf": 0.968,
+   "t": -0.19,
+   "ret": -0.0332,
+   "maxdd": 0.1376,
+   "sharpe": -0.09,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 57.98,
+   "by_year": {
+    "2021": -7.02,
+    "2022": -5.91,
+    "2023": 8.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.17,
+    "ETHUSDT": -4.73
+   },
+   "exits": {
+    "trail": 161,
+    "stop": 89,
+    "time": 11
+   }
+  },
+  "majors|s_test": {
+   "trades": 243,
+   "taken": 243,
+   "win": 0.387,
+   "avg_r": 0.1554,
+   "sum_r": 37.77,
+   "pf": 1.299,
+   "t": 1.42,
+   "ret": 0.1931,
+   "maxdd": 0.0924,
+   "sharpe": 0.79,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 55.04,
+   "by_year": {
+    "2024": 17.08,
+    "2025": 21.24,
+    "2026": -0.54
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.47,
+    "ETHUSDT": 23.29
+   },
+   "exits": {
+    "trail": 146,
+    "stop": 83,
+    "time": 14
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 147,
+   "taken": 147,
+   "win": 0.361,
+   "avg_r": 0.0342,
+   "sum_r": 5.02,
+   "pf": 1.065,
+   "t": 0.28,
+   "ret": 0.0198,
+   "maxdd": 0.0745,
+   "sharpe": 0.14,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 60.45,
+   "by_year": {
+    "2021": 0.7,
+    "2022": -4.91,
+    "2023": 9.23
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.71,
+    "ETHUSDT": 0.32
+   },
+   "exits": {
+    "trail": 92,
+    "stop": 49,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 130,
+   "taken": 130,
+   "win": 0.408,
+   "avg_r": 0.2212,
+   "sum_r": 28.76,
+   "pf": 1.439,
+   "t": 1.38,
+   "ret": 0.1449,
+   "maxdd": 0.0658,
+   "sharpe": 0.76,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 61.34,
+   "by_year": {
+    "2024": 11.68,
+    "2025": 19.06,
+    "2026": -1.98
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.17,
+    "ETHUSDT": 20.59
+   },
+   "exits": {
+    "trail": 82,
+    "stop": 40,
+    "time": 8
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 235,
+   "taken": 235,
+   "win": 0.336,
+   "avg_r": 0.0141,
+   "sum_r": 3.31,
+   "pf": 1.026,
+   "t": 0.14,
+   "ret": 0.0064,
+   "maxdd": 0.0998,
+   "sharpe": 0.07,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 61.36,
+   "by_year": {
+    "2021": -8.94,
+    "2022": 1.56,
+    "2023": 10.69
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.18,
+    "ETHUSDT": -3.86
+   },
+   "exits": {
+    "trail": 154,
+    "stop": 81
+   }
+  },
+  "majors|s_test": {
+   "trades": 215,
+   "taken": 215,
+   "win": 0.381,
+   "avg_r": 0.201,
+   "sum_r": 43.21,
+   "pf": 1.389,
+   "t": 1.64,
+   "ret": 0.2257,
+   "maxdd": 0.0791,
+   "sharpe": 0.91,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 61.71,
+   "by_year": {
+    "2024": 16.17,
+    "2025": 26.78,
+    "2026": 0.26
+   },
+   "by_symbol": {
+    "BTCUSDT": 16.84,
+    "ETHUSDT": 26.37
+   },
+   "exits": {
+    "trail": 142,
+    "stop": 73
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 132,
+   "taken": 132,
+   "win": 0.379,
+   "avg_r": 0.065,
+   "sum_r": 8.58,
+   "pf": 1.129,
+   "t": 0.5,
+   "ret": 0.0385,
+   "maxdd": 0.0618,
+   "sharpe": 0.26,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 62.3,
+   "by_year": {
+    "2021": 0.56,
+    "2022": -2.39,
+    "2023": 10.41
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.55,
+    "ETHUSDT": 1.02
+   },
+   "exits": {
+    "trail": 88,
+    "stop": 44
+   }
+  },
+  "majors|s_test": {
+   "trades": 112,
+   "taken": 112,
+   "win": 0.393,
+   "avg_r": 0.2797,
+   "sum_r": 31.32,
+   "pf": 1.557,
+   "t": 1.52,
+   "ret": 0.1594,
+   "maxdd": 0.0598,
+   "sharpe": 0.84,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.039,
+   "avg_hold_h": 72.62,
+   "by_year": {
+    "2024": 10.75,
+    "2025": 22.13,
+    "2026": -1.56
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.3,
+    "ETHUSDT": 23.02
+   },
+   "exits": {
+    "trail": 79,
+    "stop": 33
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 255,
+   "taken": 255,
+   "win": 0.322,
+   "avg_r": -0.0186,
+   "sum_r": -4.75,
+   "pf": 0.966,
+   "t": -0.2,
+   "ret": -0.034,
+   "maxdd": 0.1319,
+   "sharpe": -0.1,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.028,
+   "avg_hold_h": 61.07,
+   "by_year": {
+    "2021": -9.92,
+    "2022": -3.61,
+    "2023": 8.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.65,
+    "ETHUSDT": -6.4
+   },
+   "exits": {
+    "trail": 169,
+    "stop": 86
+   }
+  },
+  "majors|s_test": {
+   "trades": 233,
+   "taken": 233,
+   "win": 0.386,
+   "avg_r": 0.1625,
+   "sum_r": 37.85,
+   "pf": 1.307,
+   "t": 1.41,
+   "ret": 0.1928,
+   "maxdd": 0.0905,
+   "sharpe": 0.78,
+   "pos_months": 0.55,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 59.96,
+   "by_year": {
+    "2024": 16.93,
+    "2025": 21.63,
+    "2026": -0.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 15.12,
+    "ETHUSDT": 22.73
+   },
+   "exits": {
+    "trail": 153,
+    "stop": 80
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 145,
+   "taken": 145,
+   "win": 0.359,
+   "avg_r": 0.021,
+   "sum_r": 3.05,
+   "pf": 1.04,
+   "t": 0.17,
+   "ret": 0.0098,
+   "maxdd": 0.0725,
+   "sharpe": 0.09,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 63.02,
+   "by_year": {
+    "2021": -1.42,
+    "2022": -4.42,
+    "2023": 8.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.41,
+    "ETHUSDT": -1.36
+   },
+   "exits": {
+    "trail": 97,
+    "stop": 48
+   }
+  },
+  "majors|s_test": {
+   "trades": 124,
+   "taken": 124,
+   "win": 0.403,
+   "avg_r": 0.2264,
+   "sum_r": 28.07,
+   "pf": 1.435,
+   "t": 1.34,
+   "ret": 0.1402,
+   "maxdd": 0.0658,
+   "sharpe": 0.74,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 67.79,
+   "by_year": {
+    "2024": 10.3,
+    "2025": 19.75,
+    "2026": -1.98
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.55,
+    "ETHUSDT": 19.52
+   },
+   "exits": {
+    "trail": 86,
+    "stop": 38
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 212,
+   "taken": 212,
+   "win": 0.33,
+   "avg_r": 0.1012,
+   "sum_r": 21.46,
+   "pf": 1.162,
+   "t": 0.82,
+   "ret": 0.0992,
+   "maxdd": 0.0989,
+   "sharpe": 0.43,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.03,
+   "avg_hold_h": 84.89,
+   "by_year": {
+    "2021": 8.78,
+    "2022": -1.13,
+    "2023": 13.81
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.57,
+    "ETHUSDT": 14.89
+   },
+   "exits": {
+    "stop": 115,
+    "trail": 49,
+    "time": 48
+   }
+  },
+  "majors|s_test": {
+   "trades": 202,
+   "taken": 202,
+   "win": 0.332,
+   "avg_r": 0.1942,
+   "sum_r": 39.22,
+   "pf": 1.319,
+   "t": 1.36,
+   "ret": 0.197,
+   "maxdd": 0.0774,
+   "sharpe": 0.78,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.036,
+   "avg_hold_h": 82.61,
+   "by_year": {
+    "2024": 20.76,
+    "2025": 11.81,
+    "2026": 6.65
+   },
+   "by_symbol": {
+    "BTCUSDT": 13.06,
+    "ETHUSDT": 26.16
+   },
+   "exits": {
+    "stop": 103,
+    "time": 51,
+    "trail": 48
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 115,
+   "taken": 115,
+   "win": 0.357,
+   "avg_r": 0.2464,
+   "sum_r": 28.34,
+   "pf": 1.416,
+   "t": 1.4,
+   "ret": 0.1435,
+   "maxdd": 0.0639,
+   "sharpe": 0.74,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 89.26,
+   "by_year": {
+    "2021": 15.68,
+    "2022": -7.24,
+    "2023": 19.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.29,
+    "ETHUSDT": 17.05
+   },
+   "exits": {
+    "stop": 57,
+    "trail": 29,
+    "time": 29
+   }
+  },
+  "majors|s_test": {
+   "trades": 107,
+   "taken": 107,
+   "win": 0.364,
+   "avg_r": 0.3453,
+   "sum_r": 36.95,
+   "pf": 1.581,
+   "t": 1.62,
+   "ret": 0.1898,
+   "maxdd": 0.0717,
+   "sharpe": 0.91,
+   "pos_months": 0.3,
+   "avg_cost_r": 0.039,
+   "avg_hold_h": 87.52,
+   "by_year": {
+    "2024": 23.84,
+    "2025": 16.63,
+    "2026": -3.52
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.44,
+    "ETHUSDT": 28.51
+   },
+   "exits": {
+    "stop": 51,
+    "time": 32,
+    "trail": 24
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 230,
+   "taken": 230,
+   "win": 0.326,
+   "avg_r": 0.0816,
+   "sum_r": 18.77,
+   "pf": 1.131,
+   "t": 0.71,
+   "ret": 0.0841,
+   "maxdd": 0.1047,
+   "sharpe": 0.36,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 84.93,
+   "by_year": {
+    "2021": 7.98,
+    "2022": -4.22,
+    "2023": 15.01
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.35,
+    "ETHUSDT": 14.42
+   },
+   "exits": {
+    "stop": 126,
+    "time": 55,
+    "trail": 49
+   }
+  },
+  "majors|s_test": {
+   "trades": 217,
+   "taken": 217,
+   "win": 0.327,
+   "avg_r": 0.1906,
+   "sum_r": 41.35,
+   "pf": 1.311,
+   "t": 1.4,
+   "ret": 0.2087,
+   "maxdd": 0.0845,
+   "sharpe": 0.8,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 82.84,
+   "by_year": {
+    "2024": 26.36,
+    "2025": 8.73,
+    "2026": 6.26
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.81,
+    "ETHUSDT": 26.54
+   },
+   "exits": {
+    "stop": 112,
+    "time": 55,
+    "trail": 50
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 128,
+   "taken": 128,
+   "win": 0.344,
+   "avg_r": 0.185,
+   "sum_r": 23.68,
+   "pf": 1.309,
+   "t": 1.16,
+   "ret": 0.1169,
+   "maxdd": 0.0742,
+   "sharpe": 0.61,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 89.14,
+   "by_year": {
+    "2021": 13.49,
+    "2022": -8.33,
+    "2023": 18.52
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.61,
+    "ETHUSDT": 17.06
+   },
+   "exits": {
+    "stop": 66,
+    "time": 34,
+    "trail": 28
+   }
+  },
+  "majors|s_test": {
+   "trades": 117,
+   "taken": 117,
+   "win": 0.342,
+   "avg_r": 0.3161,
+   "sum_r": 36.98,
+   "pf": 1.525,
+   "t": 1.57,
+   "ret": 0.189,
+   "maxdd": 0.0817,
+   "sharpe": 0.88,
+   "pos_months": 0.3,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 86.24,
+   "by_year": {
+    "2024": 24.98,
+    "2025": 16.63,
+    "2026": -4.63
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.53,
+    "ETHUSDT": 25.45
+   },
+   "exits": {
+    "stop": 57,
+    "time": 34,
+    "trail": 26
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 187,
+   "taken": 187,
+   "win": 0.289,
+   "avg_r": 0.0949,
+   "sum_r": 17.75,
+   "pf": 1.141,
+   "t": 0.63,
+   "ret": 0.0773,
+   "maxdd": 0.1004,
+   "sharpe": 0.32,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 128.07,
+   "by_year": {
+    "2021": 8.99,
+    "2022": -2.15,
+    "2023": 10.9
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.58,
+    "ETHUSDT": 6.17
+   },
+   "exits": {
+    "stop": 107,
+    "trail": 74,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 174,
+   "taken": 174,
+   "win": 0.282,
+   "avg_r": 0.2097,
+   "sum_r": 36.48,
+   "pf": 1.319,
+   "t": 1.17,
+   "ret": 0.1775,
+   "maxdd": 0.0915,
+   "sharpe": 0.63,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.035,
+   "avg_hold_h": 118.03,
+   "by_year": {
+    "2024": 9.21,
+    "2025": 11.97,
+    "2026": 15.31
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.77,
+    "ETHUSDT": 18.71
+   },
+   "exits": {
+    "stop": 92,
+    "trail": 78,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 103,
+   "taken": 103,
+   "win": 0.301,
+   "avg_r": 0.2204,
+   "sum_r": 22.71,
+   "pf": 1.335,
+   "t": 1.06,
+   "ret": 0.1113,
+   "maxdd": 0.0755,
+   "sharpe": 0.54,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 128.91,
+   "by_year": {
+    "2021": 14.7,
+    "2022": -8.58,
+    "2023": 16.59
+   },
+   "by_symbol": {
+    "BTCUSDT": 14.4,
+    "ETHUSDT": 8.31
+   },
+   "exits": {
+    "stop": 55,
+    "trail": 45,
+    "time": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 88,
+   "taken": 88,
+   "win": 0.307,
+   "avg_r": 0.4475,
+   "sum_r": 39.38,
+   "pf": 1.698,
+   "t": 1.55,
+   "ret": 0.2016,
+   "maxdd": 0.0554,
+   "sharpe": 0.87,
+   "pos_months": 0.27,
+   "avg_cost_r": 0.038,
+   "avg_hold_h": 136.73,
+   "by_year": {
+    "2024": 18.15,
+    "2025": 16.63,
+    "2026": 4.61
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.32,
+    "ETHUSDT": 22.06
+   },
+   "exits": {
+    "stop": 43,
+    "trail": 42,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 204,
+   "taken": 204,
+   "win": 0.284,
+   "avg_r": 0.0403,
+   "sum_r": 8.23,
+   "pf": 1.059,
+   "t": 0.29,
+   "ret": 0.0268,
+   "maxdd": 0.1117,
+   "sharpe": 0.14,
+   "pos_months": 0.5,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 124.68,
+   "by_year": {
+    "2021": 5.64,
+    "2022": -7.16,
+    "2023": 9.75
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.03,
+    "ETHUSDT": 1.21
+   },
+   "exits": {
+    "stop": 120,
+    "trail": 78,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 185,
+   "taken": 185,
+   "win": 0.281,
+   "avg_r": 0.2024,
+   "sum_r": 37.44,
+   "pf": 1.311,
+   "t": 1.17,
+   "ret": 0.1816,
+   "maxdd": 0.0812,
+   "sharpe": 0.63,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.034,
+   "avg_hold_h": 121.2,
+   "by_year": {
+    "2024": 11.82,
+    "2025": 8.32,
+    "2026": 17.3
+   },
+   "by_symbol": {
+    "BTCUSDT": 20.04,
+    "ETHUSDT": 17.4
+   },
+   "exits": {
+    "stop": 99,
+    "trail": 81,
+    "time": 5
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"4h\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 114,
+   "taken": 114,
+   "win": 0.307,
+   "avg_r": 0.1514,
+   "sum_r": 17.26,
+   "pf": 1.227,
+   "t": 0.79,
+   "ret": 0.081,
+   "maxdd": 0.0851,
+   "sharpe": 0.4,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.029,
+   "avg_hold_h": 129.41,
+   "by_year": {
+    "2021": 12.17,
+    "2022": -9.48,
+    "2023": 14.57
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.72,
+    "ETHUSDT": 6.55
+   },
+   "exits": {
+    "stop": 64,
+    "trail": 47,
+    "time": 3
+   }
+  },
+  "majors|s_test": {
+   "trades": 95,
+   "taken": 95,
+   "win": 0.305,
+   "avg_r": 0.4397,
+   "sum_r": 41.77,
+   "pf": 1.699,
+   "t": 1.6,
+   "ret": 0.2151,
+   "maxdd": 0.0648,
+   "sharpe": 0.9,
+   "pos_months": 0.3,
+   "avg_cost_r": 0.037,
+   "avg_hold_h": 138.73,
+   "by_year": {
+    "2024": 19.48,
+    "2025": 16.05,
+    "2026": 6.24
+   },
+   "by_symbol": {
+    "BTCUSDT": 21.26,
+    "ETHUSDT": 20.51
+   },
+   "exits": {
+    "stop": 47,
+    "trail": 44,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 84,
+   "taken": 84,
+   "win": 0.452,
+   "avg_r": 0.0333,
+   "sum_r": 2.8,
+   "pf": 1.101,
+   "t": 0.34,
+   "ret": 0.0129,
+   "maxdd": 0.0448,
+   "sharpe": 0.19,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 139.13,
+   "by_year": {
+    "2021": -0.11,
+    "2022": 4.29,
+    "2023": -1.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.87,
+    "ETHUSDT": -0.07
+   },
+   "exits": {
+    "time": 54,
+    "stop": 17,
+    "trail": 13
+   }
+  },
+  "majors|s_test": {
+   "trades": 69,
+   "taken": 69,
+   "win": 0.507,
+   "avg_r": 0.1421,
+   "sum_r": 9.8,
+   "pf": 1.384,
+   "t": 1.09,
+   "ret": 0.0487,
+   "maxdd": 0.0323,
+   "sharpe": 0.61,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 134.3,
+   "by_year": {
+    "2024": 0.34,
+    "2025": 1.46,
+    "2026": 8.0
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.09,
+    "ETHUSDT": 5.71
+   },
+   "exits": {
+    "time": 42,
+    "stop": 17,
+    "trail": 10
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 49,
+   "taken": 49,
+   "win": 0.531,
+   "avg_r": 0.1582,
+   "sum_r": 7.75,
+   "pf": 1.561,
+   "t": 1.23,
+   "ret": 0.0389,
+   "maxdd": 0.0115,
+   "sharpe": 0.66,
+   "pos_months": 0.28,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 141.41,
+   "by_year": {
+    "2021": 2.64,
+    "2022": 0.54,
+    "2023": 4.57
+   },
+   "by_symbol": {
+    "BTCUSDT": 3.41,
+    "ETHUSDT": 4.34
+   },
+   "exits": {
+    "time": 33,
+    "trail": 9,
+    "stop": 7
+   }
+  },
+  "majors|s_test": {
+   "trades": 45,
+   "taken": 45,
+   "win": 0.511,
+   "avg_r": 0.0659,
+   "sum_r": 2.96,
+   "pf": 1.152,
+   "t": 0.39,
+   "ret": 0.0139,
+   "maxdd": 0.0283,
+   "sharpe": 0.21,
+   "pos_months": 0.3,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 127.44,
+   "by_year": {
+    "2024": 1.13,
+    "2025": 1.28,
+    "2026": 0.55
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.41,
+    "ETHUSDT": 1.56
+   },
+   "exits": {
+    "time": 25,
+    "stop": 15,
+    "trail": 5
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 107,
+   "taken": 107,
+   "win": 0.458,
+   "avg_r": 0.0742,
+   "sum_r": 7.94,
+   "pf": 1.223,
+   "t": 0.73,
+   "ret": 0.038,
+   "maxdd": 0.0383,
+   "sharpe": 0.39,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 139.29,
+   "by_year": {
+    "2021": 1.14,
+    "2022": -0.89,
+    "2023": 7.69
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.12,
+    "ETHUSDT": 2.82
+   },
+   "exits": {
+    "time": 69,
+    "stop": 22,
+    "trail": 16
+   }
+  },
+  "majors|s_test": {
+   "trades": 102,
+   "taken": 102,
+   "win": 0.48,
+   "avg_r": 0.0309,
+   "sum_r": 3.15,
+   "pf": 1.079,
+   "t": 0.3,
+   "ret": 0.0139,
+   "maxdd": 0.0509,
+   "sharpe": 0.16,
+   "pos_months": 0.48,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 137.38,
+   "by_year": {
+    "2024": -3.23,
+    "2025": 0.09,
+    "2026": 6.3
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.15,
+    "ETHUSDT": 2.01
+   },
+   "exits": {
+    "time": 62,
+    "stop": 29,
+    "trail": 11
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 63,
+   "taken": 63,
+   "win": 0.508,
+   "avg_r": 0.2198,
+   "sum_r": 13.85,
+   "pf": 1.693,
+   "t": 1.47,
+   "ret": 0.0697,
+   "maxdd": 0.0313,
+   "sharpe": 0.79,
+   "pos_months": 0.31,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 139.23,
+   "by_year": {
+    "2021": 4.88,
+    "2022": -4.63,
+    "2023": 13.6
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.7,
+    "ETHUSDT": 7.15
+   },
+   "exits": {
+    "time": 41,
+    "trail": 11,
+    "stop": 11
+   }
+  },
+  "majors|s_test": {
+   "trades": 61,
+   "taken": 61,
+   "win": 0.508,
+   "avg_r": 0.0503,
+   "sum_r": 3.07,
+   "pf": 1.119,
+   "t": 0.36,
+   "ret": 0.0141,
+   "maxdd": 0.0414,
+   "sharpe": 0.18,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 132.9,
+   "by_year": {
+    "2024": 0.34,
+    "2025": 2.87,
+    "2026": -0.14
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.8,
+    "ETHUSDT": 0.27
+   },
+   "exits": {
+    "time": 36,
+    "stop": 20,
+    "trail": 5
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 61,
+   "taken": 61,
+   "win": 0.443,
+   "avg_r": 0.1235,
+   "sum_r": 7.53,
+   "pf": 1.267,
+   "t": 0.77,
+   "ret": 0.0365,
+   "maxdd": 0.0525,
+   "sharpe": 0.41,
+   "pos_months": 0.44,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 329.86,
+   "by_year": {
+    "2021": 7.66,
+    "2022": 3.63,
+    "2023": -3.76
+   },
+   "by_symbol": {
+    "BTCUSDT": 3.52,
+    "ETHUSDT": 4.01
+   },
+   "exits": {
+    "trail": 27,
+    "stop": 21,
+    "time": 13
+   }
+  },
+  "majors|s_test": {
+   "trades": 52,
+   "taken": 52,
+   "win": 0.365,
+   "avg_r": 0.2339,
+   "sum_r": 12.16,
+   "pf": 1.462,
+   "t": 1.03,
+   "ret": 0.0597,
+   "maxdd": 0.0472,
+   "sharpe": 0.55,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 285.54,
+   "by_year": {
+    "2024": -1.96,
+    "2025": 1.28,
+    "2026": 12.85
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.09,
+    "ETHUSDT": 6.07
+   },
+   "exits": {
+    "trail": 31,
+    "stop": 15,
+    "time": 6
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 34,
+   "taken": 34,
+   "win": 0.529,
+   "avg_r": 0.3351,
+   "sum_r": 11.39,
+   "pf": 1.784,
+   "t": 1.44,
+   "ret": 0.0574,
+   "maxdd": 0.0259,
+   "sharpe": 0.74,
+   "pos_months": 0.28,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 325.31,
+   "by_year": {
+    "2021": 9.26,
+    "2022": -1.66,
+    "2023": 3.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 3.18,
+    "ETHUSDT": 8.21
+   },
+   "exits": {
+    "trail": 16,
+    "stop": 11,
+    "time": 7
+   }
+  },
+  "majors|s_test": {
+   "trades": 35,
+   "taken": 35,
+   "win": 0.257,
+   "avg_r": -0.0068,
+   "sum_r": -0.24,
+   "pf": 0.988,
+   "t": -0.03,
+   "ret": -0.0028,
+   "maxdd": 0.0392,
+   "sharpe": -0.01,
+   "pos_months": 0.18,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 259.12,
+   "by_year": {
+    "2024": -0.33,
+    "2025": -0.05,
+    "2026": 0.13
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.78,
+    "ETHUSDT": -1.02
+   },
+   "exits": {
+    "trail": 18,
+    "stop": 13,
+    "time": 4
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 76,
+   "taken": 76,
+   "win": 0.447,
+   "avg_r": 0.2404,
+   "sum_r": 18.27,
+   "pf": 1.521,
+   "t": 1.43,
+   "ret": 0.0922,
+   "maxdd": 0.0343,
+   "sharpe": 0.77,
+   "pos_months": 0.47,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 317.02,
+   "by_year": {
+    "2021": 10.66,
+    "2022": 0.99,
+    "2023": 6.62
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.19,
+    "ETHUSDT": 10.08
+   },
+   "exits": {
+    "trail": 36,
+    "stop": 25,
+    "time": 15
+   }
+  },
+  "majors|s_test": {
+   "trades": 77,
+   "taken": 77,
+   "win": 0.351,
+   "avg_r": 0.0703,
+   "sum_r": 5.41,
+   "pf": 1.135,
+   "t": 0.42,
+   "ret": 0.024,
+   "maxdd": 0.0589,
+   "sharpe": 0.22,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 309.25,
+   "by_year": {
+    "2024": -4.65,
+    "2025": -1.62,
+    "2026": 11.68
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.97,
+    "ETHUSDT": 4.44
+   },
+   "exits": {
+    "trail": 37,
+    "stop": 27,
+    "time": 13
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 45,
+   "taken": 45,
+   "win": 0.489,
+   "avg_r": 0.4019,
+   "sum_r": 18.09,
+   "pf": 1.885,
+   "t": 1.67,
+   "ret": 0.0921,
+   "maxdd": 0.0298,
+   "sharpe": 0.88,
+   "pos_months": 0.31,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 300.64,
+   "by_year": {
+    "2021": 10.91,
+    "2022": -4.94,
+    "2023": 12.12
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.75,
+    "ETHUSDT": 12.34
+   },
+   "exits": {
+    "trail": 22,
+    "stop": 15,
+    "time": 8
+   }
+  },
+  "majors|s_test": {
+   "trades": 47,
+   "taken": 47,
+   "win": 0.277,
+   "avg_r": -0.0318,
+   "sum_r": -1.5,
+   "pf": 0.943,
+   "t": -0.15,
+   "ret": -0.0094,
+   "maxdd": 0.0497,
+   "sharpe": -0.08,
+   "pos_months": 0.21,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 302.64,
+   "by_year": {
+    "2024": -2.39,
+    "2025": 0.92,
+    "2026": -0.02
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.24,
+    "ETHUSDT": -3.74
+   },
+   "exits": {
+    "trail": 22,
+    "stop": 17,
+    "time": 8
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 83,
+   "taken": 83,
+   "win": 0.446,
+   "avg_r": 0.0332,
+   "sum_r": 2.75,
+   "pf": 1.088,
+   "t": 0.3,
+   "ret": 0.0123,
+   "maxdd": 0.0489,
+   "sharpe": 0.16,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 144.12,
+   "by_year": {
+    "2021": 0.83,
+    "2022": 4.83,
+    "2023": -2.91
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.3,
+    "ETHUSDT": -3.55
+   },
+   "exits": {
+    "time": 59,
+    "stop": 22,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 68,
+   "taken": 68,
+   "win": 0.5,
+   "avg_r": 0.189,
+   "sum_r": 12.86,
+   "pf": 1.511,
+   "t": 1.32,
+   "ret": 0.0646,
+   "maxdd": 0.0262,
+   "sharpe": 0.79,
+   "pos_months": 0.45,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 141.95,
+   "by_year": {
+    "2024": 3.21,
+    "2025": 1.65,
+    "2026": 8.0
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.74,
+    "ETHUSDT": 6.11
+   },
+   "exits": {
+    "time": 48,
+    "stop": 19,
+    "trail": 1
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 48,
+   "taken": 48,
+   "win": 0.521,
+   "avg_r": 0.1848,
+   "sum_r": 8.87,
+   "pf": 1.578,
+   "t": 1.2,
+   "ret": 0.0444,
+   "maxdd": 0.0163,
+   "sharpe": 0.65,
+   "pos_months": 0.28,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 146.84,
+   "by_year": {
+    "2021": 3.58,
+    "2022": 0.54,
+    "2023": 4.75
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.02,
+    "ETHUSDT": 1.85
+   },
+   "exits": {
+    "time": 36,
+    "stop": 10,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 44,
+   "taken": 44,
+   "win": 0.523,
+   "avg_r": 0.1478,
+   "sum_r": 6.5,
+   "pf": 1.348,
+   "t": 0.77,
+   "ret": 0.0318,
+   "maxdd": 0.019,
+   "sharpe": 0.46,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 133.6,
+   "by_year": {
+    "2024": 4.67,
+    "2025": 1.28,
+    "2026": 0.55
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.11,
+    "ETHUSDT": 1.39
+   },
+   "exits": {
+    "time": 28,
+    "stop": 16
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 106,
+   "taken": 106,
+   "win": 0.453,
+   "avg_r": 0.0852,
+   "sum_r": 9.03,
+   "pf": 1.231,
+   "t": 0.74,
+   "ret": 0.0432,
+   "maxdd": 0.0402,
+   "sharpe": 0.36,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 144.58,
+   "by_year": {
+    "2021": 2.49,
+    "2022": -0.45,
+    "2023": 6.98
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.69,
+    "ETHUSDT": -0.66
+   },
+   "exits": {
+    "time": 76,
+    "stop": 28,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 101,
+   "taken": 101,
+   "win": 0.465,
+   "avg_r": 0.0516,
+   "sum_r": 5.21,
+   "pf": 1.13,
+   "t": 0.47,
+   "ret": 0.0242,
+   "maxdd": 0.0485,
+   "sharpe": 0.27,
+   "pos_months": 0.52,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 142.58,
+   "by_year": {
+    "2024": -0.37,
+    "2025": -0.72,
+    "2026": 6.3
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.8,
+    "ETHUSDT": 2.41
+   },
+   "exits": {
+    "time": 68,
+    "stop": 31,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 62,
+   "taken": 62,
+   "win": 0.5,
+   "avg_r": 0.253,
+   "sum_r": 15.69,
+   "pf": 1.726,
+   "t": 1.47,
+   "ret": 0.0792,
+   "maxdd": 0.0345,
+   "sharpe": 0.69,
+   "pos_months": 0.31,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 144.03,
+   "by_year": {
+    "2021": 5.82,
+    "2022": -4.73,
+    "2023": 14.6
+   },
+   "by_symbol": {
+    "BTCUSDT": 11.03,
+    "ETHUSDT": 4.66
+   },
+   "exits": {
+    "time": 45,
+    "stop": 15,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 60,
+   "taken": 60,
+   "win": 0.517,
+   "avg_r": 0.1102,
+   "sum_r": 6.61,
+   "pf": 1.265,
+   "t": 0.7,
+   "ret": 0.0319,
+   "maxdd": 0.0414,
+   "sharpe": 0.39,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 137.51,
+   "by_year": {
+    "2024": 3.88,
+    "2025": 2.87,
+    "2026": -0.14
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.5,
+    "ETHUSDT": 0.11
+   },
+   "exits": {
+    "time": 39,
+    "stop": 21
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 57,
+   "taken": 57,
+   "win": 0.491,
+   "avg_r": 0.2414,
+   "sum_r": 13.76,
+   "pf": 1.497,
+   "t": 1.29,
+   "ret": 0.0573,
+   "maxdd": 0.0296,
+   "sharpe": 0.58,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 428.54,
+   "by_year": {
+    "2021": 5.69,
+    "2022": 5.37,
+    "2023": 2.7
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.83,
+    "ETHUSDT": 2.92
+   },
+   "exits": {
+    "time": 26,
+    "stop": 25,
+    "trail": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 47,
+   "taken": 47,
+   "win": 0.404,
+   "avg_r": 0.5239,
+   "sum_r": 24.62,
+   "pf": 1.944,
+   "t": 1.72,
+   "ret": 0.1261,
+   "maxdd": 0.043,
+   "sharpe": 0.9,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 398.49,
+   "by_year": {
+    "2024": 9.52,
+    "2025": 1.41,
+    "2026": 13.7
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.12,
+    "ETHUSDT": 14.5
+   },
+   "exits": {
+    "stop": 22,
+    "time": 20,
+    "trail": 5
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 32,
+   "taken": 32,
+   "win": 0.5,
+   "avg_r": 0.4202,
+   "sum_r": 13.45,
+   "pf": 1.872,
+   "t": 1.56,
+   "ret": 0.0564,
+   "maxdd": 0.0209,
+   "sharpe": 0.68,
+   "pos_months": 0.22,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 410.91,
+   "by_year": {
+    "2021": 7.28,
+    "2022": -2.1,
+    "2023": 8.26
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.29,
+    "ETHUSDT": 6.15
+   },
+   "exits": {
+    "stop": 13,
+    "time": 13,
+    "trail": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 31,
+   "taken": 31,
+   "win": 0.323,
+   "avg_r": 0.4112,
+   "sum_r": 12.75,
+   "pf": 1.662,
+   "t": 1.01,
+   "ret": 0.0623,
+   "maxdd": 0.0306,
+   "sharpe": 0.52,
+   "pos_months": 0.21,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 360.77,
+   "by_year": {
+    "2024": 12.49,
+    "2025": -0.98,
+    "2026": 1.24
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.75,
+    "ETHUSDT": 6.0
+   },
+   "exits": {
+    "stop": 16,
+    "time": 12,
+    "trail": 3
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 71,
+   "taken": 71,
+   "win": 0.451,
+   "avg_r": 0.3936,
+   "sum_r": 27.95,
+   "pf": 1.752,
+   "t": 1.76,
+   "ret": 0.1315,
+   "maxdd": 0.027,
+   "sharpe": 0.87,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 420.66,
+   "by_year": {
+    "2021": 9.81,
+    "2022": 2.34,
+    "2023": 15.79
+   },
+   "by_symbol": {
+    "BTCUSDT": 17.02,
+    "ETHUSDT": 10.93
+   },
+   "exits": {
+    "stop": 33,
+    "time": 30,
+    "trail": 8
+   }
+  },
+  "majors|s_test": {
+   "trades": 69,
+   "taken": 69,
+   "win": 0.377,
+   "avg_r": 0.2719,
+   "sum_r": 18.76,
+   "pf": 1.484,
+   "t": 1.21,
+   "ret": 0.0931,
+   "maxdd": 0.0497,
+   "sharpe": 0.63,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 409.56,
+   "by_year": {
+    "2024": 6.7,
+    "2025": -1.62,
+    "2026": 13.67
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.81,
+    "ETHUSDT": 10.95
+   },
+   "exits": {
+    "stop": 33,
+    "time": 28,
+    "trail": 8
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 20, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 42,
+   "taken": 42,
+   "win": 0.429,
+   "avg_r": 0.5557,
+   "sum_r": 23.34,
+   "pf": 2.016,
+   "t": 1.64,
+   "ret": 0.1067,
+   "maxdd": 0.0406,
+   "sharpe": 0.79,
+   "pos_months": 0.22,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 394.44,
+   "by_year": {
+    "2021": 8.94,
+    "2022": -7.16,
+    "2023": 21.56
+   },
+   "by_symbol": {
+    "BTCUSDT": 10.83,
+    "ETHUSDT": 12.51
+   },
+   "exits": {
+    "stop": 19,
+    "time": 15,
+    "trail": 8
+   }
+  },
+  "majors|s_test": {
+   "trades": 43,
+   "taken": 43,
+   "win": 0.326,
+   "avg_r": 0.2807,
+   "sum_r": 12.07,
+   "pf": 1.464,
+   "t": 0.9,
+   "ret": 0.0582,
+   "maxdd": 0.0554,
+   "sharpe": 0.45,
+   "pos_months": 0.24,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 403.82,
+   "by_year": {
+    "2024": 10.43,
+    "2025": 0.42,
+    "2026": 1.22
+   },
+   "by_symbol": {
+    "BTCUSDT": 8.62,
+    "ETHUSDT": 3.45
+   },
+   "exits": {
+    "stop": 22,
+    "time": 18,
+    "trail": 3
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 67,
+   "taken": 67,
+   "win": 0.478,
+   "avg_r": 0.0291,
+   "sum_r": 1.95,
+   "pf": 1.091,
+   "t": 0.27,
+   "ret": 0.0088,
+   "maxdd": 0.0448,
+   "sharpe": 0.14,
+   "pos_months": 0.31,
+   "avg_cost_r": 0.01,
+   "avg_hold_h": 140.99,
+   "by_year": {
+    "2021": -1.26,
+    "2022": 3.38,
+    "2023": -0.17
+   },
+   "by_symbol": {
+    "BTCUSDT": -1.54,
+    "ETHUSDT": 3.49
+   },
+   "exits": {
+    "time": 46,
+    "stop": 12,
+    "trail": 9
+   }
+  },
+  "majors|s_test": {
+   "trades": 47,
+   "taken": 47,
+   "win": 0.511,
+   "avg_r": 0.1696,
+   "sum_r": 7.97,
+   "pf": 1.511,
+   "t": 1.14,
+   "ret": 0.0397,
+   "maxdd": 0.0212,
+   "sharpe": 0.6,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 131.24,
+   "by_year": {
+    "2024": -0.19,
+    "2025": 1.27,
+    "2026": 6.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.63,
+    "ETHUSDT": 5.34
+   },
+   "exits": {
+    "time": 29,
+    "stop": 10,
+    "trail": 8
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 46,
+   "taken": 46,
+   "win": 0.5,
+   "avg_r": 0.0437,
+   "sum_r": 2.01,
+   "pf": 1.148,
+   "t": 0.35,
+   "ret": 0.0095,
+   "maxdd": 0.0315,
+   "sharpe": 0.19,
+   "pos_months": 0.25,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 142.91,
+   "by_year": {
+    "2021": -0.96,
+    "2022": 0.54,
+    "2023": 2.43
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.76,
+    "ETHUSDT": 2.76
+   },
+   "exits": {
+    "time": 31,
+    "trail": 9,
+    "stop": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 34,
+   "taken": 34,
+   "win": 0.5,
+   "avg_r": 0.0351,
+   "sum_r": 1.19,
+   "pf": 1.083,
+   "t": 0.19,
+   "ret": 0.0054,
+   "maxdd": 0.0222,
+   "sharpe": 0.1,
+   "pos_months": 0.21,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 124.79,
+   "by_year": {
+    "2024": -0.39,
+    "2025": 1.04,
+    "2026": 0.55
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.77,
+    "ETHUSDT": 1.97
+   },
+   "exits": {
+    "time": 19,
+    "stop": 10,
+    "trail": 5
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 71,
+   "taken": 71,
+   "win": 0.493,
+   "avg_r": 0.0792,
+   "sum_r": 5.62,
+   "pf": 1.263,
+   "t": 0.73,
+   "ret": 0.0274,
+   "maxdd": 0.0293,
+   "sharpe": 0.4,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 140.57,
+   "by_year": {
+    "2021": -0.85,
+    "2022": 3.29,
+    "2023": 3.18
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.74,
+    "ETHUSDT": 4.88
+   },
+   "exits": {
+    "time": 48,
+    "stop": 12,
+    "trail": 11
+   }
+  },
+  "majors|s_test": {
+   "trades": 54,
+   "taken": 54,
+   "win": 0.537,
+   "avg_r": 0.2124,
+   "sum_r": 11.47,
+   "pf": 1.671,
+   "t": 1.47,
+   "ret": 0.0578,
+   "maxdd": 0.0261,
+   "sharpe": 0.75,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 134.58,
+   "by_year": {
+    "2024": -1.2,
+    "2025": 3.89,
+    "2026": 8.78
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.01,
+    "ETHUSDT": 7.46
+   },
+   "exits": {
+    "time": 34,
+    "stop": 11,
+    "trail": 9
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 49,
+   "taken": 49,
+   "win": 0.51,
+   "avg_r": 0.1099,
+   "sum_r": 5.38,
+   "pf": 1.394,
+   "t": 0.87,
+   "ret": 0.0266,
+   "maxdd": 0.0202,
+   "sharpe": 0.47,
+   "pos_months": 0.28,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 143.82,
+   "by_year": {
+    "2021": -0.96,
+    "2022": 0.46,
+    "2023": 5.89
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.22,
+    "ETHUSDT": 4.16
+   },
+   "exits": {
+    "time": 33,
+    "trail": 10,
+    "stop": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 39,
+   "taken": 39,
+   "win": 0.538,
+   "avg_r": 0.1458,
+   "sum_r": 5.69,
+   "pf": 1.382,
+   "t": 0.81,
+   "ret": 0.0279,
+   "maxdd": 0.0222,
+   "sharpe": 0.42,
+   "pos_months": 0.24,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 131.44,
+   "by_year": {
+    "2024": -0.39,
+    "2025": 3.63,
+    "2026": 2.44
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.6,
+    "ETHUSDT": 4.09
+   },
+   "exits": {
+    "time": 24,
+    "stop": 10,
+    "trail": 5
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 47,
+   "taken": 47,
+   "win": 0.511,
+   "avg_r": 0.1761,
+   "sum_r": 8.27,
+   "pf": 1.439,
+   "t": 1.0,
+   "ret": 0.0408,
+   "maxdd": 0.0401,
+   "sharpe": 0.54,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 361.57,
+   "by_year": {
+    "2021": 6.19,
+    "2022": 2.53,
+    "2023": -0.45
+   },
+   "by_symbol": {
+    "BTCUSDT": -1.81,
+    "ETHUSDT": 10.09
+   },
+   "exits": {
+    "trail": 23,
+    "stop": 14,
+    "time": 10
+   }
+  },
+  "majors|s_test": {
+   "trades": 36,
+   "taken": 36,
+   "win": 0.472,
+   "avg_r": 0.1587,
+   "sum_r": 5.71,
+   "pf": 1.363,
+   "t": 0.75,
+   "ret": 0.0279,
+   "maxdd": 0.0281,
+   "sharpe": 0.4,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 281.84,
+   "by_year": {
+    "2024": -1.27,
+    "2025": 1.6,
+    "2026": 5.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.06,
+    "ETHUSDT": 3.65
+   },
+   "exits": {
+    "trail": 22,
+    "stop": 9,
+    "time": 5
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 30,
+   "taken": 30,
+   "win": 0.5,
+   "avg_r": 0.2578,
+   "sum_r": 7.73,
+   "pf": 1.665,
+   "t": 1.08,
+   "ret": 0.0384,
+   "maxdd": 0.0262,
+   "sharpe": 0.59,
+   "pos_months": 0.22,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 342.83,
+   "by_year": {
+    "2021": 5.64,
+    "2022": -1.66,
+    "2023": 3.75
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.5,
+    "ETHUSDT": 8.24
+   },
+   "exits": {
+    "trail": 16,
+    "stop": 8,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 26,
+   "taken": 26,
+   "win": 0.308,
+   "avg_r": -0.0543,
+   "sum_r": -1.41,
+   "pf": 0.906,
+   "t": -0.21,
+   "ret": -0.0078,
+   "maxdd": 0.0255,
+   "sharpe": -0.11,
+   "pos_months": 0.15,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 245.16,
+   "by_year": {
+    "2024": -0.89,
+    "2025": -0.66,
+    "2026": 0.13
+   },
+   "by_symbol": {
+    "BTCUSDT": -0.17,
+    "ETHUSDT": -1.24
+   },
+   "exits": {
+    "trail": 15,
+    "stop": 9,
+    "time": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 49,
+   "taken": 49,
+   "win": 0.531,
+   "avg_r": 0.2584,
+   "sum_r": 12.66,
+   "pf": 1.682,
+   "t": 1.47,
+   "ret": 0.0638,
+   "maxdd": 0.0263,
+   "sharpe": 0.78,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 349.74,
+   "by_year": {
+    "2021": 6.21,
+    "2022": 1.74,
+    "2023": 4.71
+   },
+   "by_symbol": {
+    "BTCUSDT": 0.25,
+    "ETHUSDT": 12.41
+   },
+   "exits": {
+    "trail": 28,
+    "stop": 12,
+    "time": 9
+   }
+  },
+  "majors|s_test": {
+   "trades": 42,
+   "taken": 42,
+   "win": 0.5,
+   "avg_r": 0.1653,
+   "sum_r": 6.94,
+   "pf": 1.391,
+   "t": 0.86,
+   "ret": 0.034,
+   "maxdd": 0.033,
+   "sharpe": 0.46,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 293.98,
+   "by_year": {
+    "2024": -2.28,
+    "2025": 3.59,
+    "2026": 5.63
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.32,
+    "ETHUSDT": 4.63
+   },
+   "exits": {
+    "trail": 25,
+    "stop": 11,
+    "time": 6
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 3.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 32,
+   "taken": 32,
+   "win": 0.531,
+   "avg_r": 0.3762,
+   "sum_r": 12.04,
+   "pf": 2.057,
+   "t": 1.6,
+   "ret": 0.0608,
+   "maxdd": 0.0178,
+   "sharpe": 0.86,
+   "pos_months": 0.25,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 339.02,
+   "by_year": {
+    "2021": 5.64,
+    "2022": -2.45,
+    "2023": 8.85
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.48,
+    "ETHUSDT": 10.56
+   },
+   "exits": {
+    "trail": 19,
+    "stop": 7,
+    "time": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 30,
+   "taken": 30,
+   "win": 0.367,
+   "avg_r": 0.027,
+   "sum_r": 0.81,
+   "pf": 1.05,
+   "t": 0.11,
+   "ret": 0.0031,
+   "maxdd": 0.0255,
+   "sharpe": 0.06,
+   "pos_months": 0.15,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 278.62,
+   "by_year": {
+    "2024": -0.89,
+    "2025": 1.32,
+    "2026": 0.38
+   },
+   "by_symbol": {
+    "BTCUSDT": 1.08,
+    "ETHUSDT": -0.27
+   },
+   "exits": {
+    "trail": 17,
+    "stop": 10,
+    "time": 3
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 66,
+   "taken": 66,
+   "win": 0.47,
+   "avg_r": 0.0466,
+   "sum_r": 3.07,
+   "pf": 1.134,
+   "t": 0.37,
+   "ret": 0.0143,
+   "maxdd": 0.044,
+   "sharpe": 0.2,
+   "pos_months": 0.31,
+   "avg_cost_r": 0.01,
+   "avg_hold_h": 144.93,
+   "by_year": {
+    "2021": -0.32,
+    "2022": 3.38,
+    "2023": 0.01
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.08,
+    "ETHUSDT": 1.0
+   },
+   "exits": {
+    "time": 49,
+    "stop": 15,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 46,
+   "taken": 46,
+   "win": 0.522,
+   "avg_r": 0.258,
+   "sum_r": 11.87,
+   "pf": 1.803,
+   "t": 1.51,
+   "ret": 0.0599,
+   "maxdd": 0.0129,
+   "sharpe": 0.89,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 142.86,
+   "by_year": {
+    "2024": 3.48,
+    "2025": 1.51,
+    "2026": 6.88
+   },
+   "by_symbol": {
+    "BTCUSDT": 6.33,
+    "ETHUSDT": 5.54
+   },
+   "exits": {
+    "time": 35,
+    "stop": 11
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 45,
+   "taken": 45,
+   "win": 0.489,
+   "avg_r": 0.0695,
+   "sum_r": 3.13,
+   "pf": 1.207,
+   "t": 0.45,
+   "ret": 0.015,
+   "maxdd": 0.039,
+   "sharpe": 0.25,
+   "pos_months": 0.25,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 148.74,
+   "by_year": {
+    "2021": -0.03,
+    "2022": 0.54,
+    "2023": 2.61
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.86,
+    "ETHUSDT": 0.27
+   },
+   "exits": {
+    "time": 34,
+    "stop": 9,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 33,
+   "taken": 33,
+   "win": 0.515,
+   "avg_r": 0.1434,
+   "sum_r": 4.73,
+   "pf": 1.349,
+   "t": 0.66,
+   "ret": 0.023,
+   "maxdd": 0.0145,
+   "sharpe": 0.41,
+   "pos_months": 0.24,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 132.93,
+   "by_year": {
+    "2024": 3.15,
+    "2025": 1.04,
+    "2026": 0.55
+   },
+   "by_symbol": {
+    "BTCUSDT": 2.93,
+    "ETHUSDT": 1.81
+   },
+   "exits": {
+    "time": 22,
+    "stop": 11
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 70,
+   "taken": 70,
+   "win": 0.486,
+   "avg_r": 0.1133,
+   "sum_r": 7.93,
+   "pf": 1.346,
+   "t": 0.9,
+   "ret": 0.039,
+   "maxdd": 0.027,
+   "sharpe": 0.49,
+   "pos_months": 0.33,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 146.25,
+   "by_year": {
+    "2021": 0.51,
+    "2022": 3.29,
+    "2023": 4.13
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.54,
+    "ETHUSDT": 2.39
+   },
+   "exits": {
+    "time": 53,
+    "stop": 15,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 53,
+   "taken": 53,
+   "win": 0.547,
+   "avg_r": 0.2938,
+   "sum_r": 15.57,
+   "pf": 1.957,
+   "t": 1.82,
+   "ret": 0.0794,
+   "maxdd": 0.0161,
+   "sharpe": 1.01,
+   "pos_months": 0.42,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 145.8,
+   "by_year": {
+    "2024": 2.47,
+    "2025": 4.34,
+    "2026": 8.77
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.91,
+    "ETHUSDT": 7.66
+   },
+   "exits": {
+    "time": 41,
+    "stop": 12
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 168, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 48,
+   "taken": 48,
+   "win": 0.5,
+   "avg_r": 0.1515,
+   "sum_r": 7.27,
+   "pf": 1.48,
+   "t": 0.96,
+   "ret": 0.036,
+   "maxdd": 0.0287,
+   "sharpe": 0.53,
+   "pos_months": 0.28,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 149.95,
+   "by_year": {
+    "2021": -0.03,
+    "2022": 0.46,
+    "2023": 6.84
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.61,
+    "ETHUSDT": 1.67
+   },
+   "exits": {
+    "time": 37,
+    "stop": 9,
+    "trail": 2
+   }
+  },
+  "majors|s_test": {
+   "trades": 38,
+   "taken": 38,
+   "win": 0.553,
+   "avg_r": 0.2428,
+   "sum_r": 9.23,
+   "pf": 1.656,
+   "t": 1.17,
+   "ret": 0.046,
+   "maxdd": 0.0128,
+   "sharpe": 0.67,
+   "pos_months": 0.27,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 138.68,
+   "by_year": {
+    "2024": 3.15,
+    "2025": 3.63,
+    "2026": 2.44
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.3,
+    "ETHUSDT": 3.93
+   },
+   "exits": {
+    "time": 27,
+    "stop": 11
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 44,
+   "taken": 44,
+   "win": 0.568,
+   "avg_r": 0.4109,
+   "sum_r": 18.08,
+   "pf": 2.082,
+   "t": 1.99,
+   "ret": 0.0808,
+   "maxdd": 0.0197,
+   "sharpe": 0.93,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.01,
+   "avg_hold_h": 477.54,
+   "by_year": {
+    "2021": 8.18,
+    "2022": 3.2,
+    "2023": 6.7
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.26,
+    "ETHUSDT": 10.82
+   },
+   "exits": {
+    "time": 25,
+    "stop": 15,
+    "trail": 4
+   }
+  },
+  "majors|s_test": {
+   "trades": 32,
+   "taken": 32,
+   "win": 0.531,
+   "avg_r": 0.6549,
+   "sum_r": 20.96,
+   "pf": 2.544,
+   "t": 2.02,
+   "ret": 0.1079,
+   "maxdd": 0.0208,
+   "sharpe": 1.06,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 457.42,
+   "by_year": {
+    "2024": 8.59,
+    "2025": 4.59,
+    "2026": 7.78
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.58,
+    "ETHUSDT": 13.37
+   },
+   "exits": {
+    "time": 18,
+    "stop": 12,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"ema200\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 28,
+   "taken": 28,
+   "win": 0.536,
+   "avg_r": 0.4911,
+   "sum_r": 13.75,
+   "pf": 2.195,
+   "t": 1.74,
+   "ret": 0.0582,
+   "maxdd": 0.0202,
+   "sharpe": 0.78,
+   "pos_months": 0.19,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 455.6,
+   "by_year": {
+    "2021": 7.63,
+    "2022": -2.1,
+    "2023": 8.22
+   },
+   "by_symbol": {
+    "BTCUSDT": 5.68,
+    "ETHUSDT": 8.07
+   },
+   "exits": {
+    "time": 14,
+    "stop": 10,
+    "trail": 4
+   }
+  },
+  "majors|s_test": {
+   "trades": 22,
+   "taken": 22,
+   "win": 0.364,
+   "avg_r": 0.4956,
+   "sum_r": 10.9,
+   "pf": 1.866,
+   "t": 1.1,
+   "ret": 0.0539,
+   "maxdd": 0.016,
+   "sharpe": 0.6,
+   "pos_months": 0.18,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 359.94,
+   "by_year": {
+    "2024": 8.79,
+    "2025": 0.87,
+    "2026": 1.24
+   },
+   "by_symbol": {
+    "BTCUSDT": 4.62,
+    "ETHUSDT": 6.29
+   },
+   "exits": {
+    "stop": 11,
+    "time": 9,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"both\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 46,
+   "taken": 46,
+   "win": 0.565,
+   "avg_r": 0.4805,
+   "sum_r": 22.1,
+   "pf": 2.246,
+   "t": 2.22,
+   "ret": 0.1023,
+   "maxdd": 0.0197,
+   "sharpe": 1.06,
+   "pos_months": 0.39,
+   "avg_cost_r": 0.011,
+   "avg_hold_h": 486.72,
+   "by_year": {
+    "2021": 8.73,
+    "2022": 2.19,
+    "2023": 11.18
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.82,
+    "ETHUSDT": 12.29
+   },
+   "exits": {
+    "time": 24,
+    "stop": 16,
+    "trail": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 38,
+   "taken": 38,
+   "win": 0.553,
+   "avg_r": 0.6339,
+   "sum_r": 24.09,
+   "pf": 2.544,
+   "t": 2.18,
+   "ret": 0.1248,
+   "maxdd": 0.0258,
+   "sharpe": 1.1,
+   "pos_months": 0.36,
+   "avg_cost_r": 0.013,
+   "avg_hold_h": 482.74,
+   "by_year": {
+    "2024": 7.58,
+    "2025": 7.25,
+    "2026": 9.26
+   },
+   "by_symbol": {
+    "BTCUSDT": 9.29,
+    "ETHUSDT": 14.79
+   },
+   "exits": {
+    "time": 22,
+    "stop": 14,
+    "trail": 2
+   }
+  }
+ },
+ "{\"filt\": \"none\", \"hold_h\": 720, \"n\": 55, \"sides\": \"long\", \"sig\": \"donchian\", \"stop_atr\": 2.0, \"tf\": \"1D\", \"trail_atr\": 5.0, \"vol_k\": 0.0}": {
+  "majors|s_val": {
+   "trades": 30,
+   "taken": 30,
+   "win": 0.533,
+   "avg_r": 0.5735,
+   "sum_r": 17.2,
+   "pf": 2.37,
+   "t": 1.94,
+   "ret": 0.0762,
+   "maxdd": 0.0201,
+   "sharpe": 0.9,
+   "pos_months": 0.19,
+   "avg_cost_r": 0.012,
+   "avg_hold_h": 463.18,
+   "by_year": {
+    "2021": 7.63,
+    "2022": -3.11,
+    "2023": 12.68
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.67,
+    "ETHUSDT": 9.53
+   },
+   "exits": {
+    "time": 13,
+    "stop": 11,
+    "trail": 6
+   }
+  },
+  "majors|s_test": {
+   "trades": 26,
+   "taken": 26,
+   "win": 0.423,
+   "avg_r": 0.5694,
+   "sum_r": 14.81,
+   "pf": 2.088,
+   "t": 1.41,
+   "ret": 0.0742,
+   "maxdd": 0.0253,
+   "sharpe": 0.72,
+   "pos_months": 0.18,
+   "avg_cost_r": 0.014,
+   "avg_hold_h": 415.42,
+   "by_year": {
+    "2024": 8.79,
+    "2025": 3.29,
+    "2026": 2.72
+   },
+   "by_symbol": {
+    "BTCUSDT": 7.1,
+    "ETHUSDT": 7.71
+   },
+   "exits": {
+    "stop": 12,
+    "time": 12,
+    "trail": 2
+   }
+  }
+ }
+}

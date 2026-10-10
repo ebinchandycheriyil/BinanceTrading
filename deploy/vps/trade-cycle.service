@@ -1,0 +1,10 @@
+[Unit]
+Description=Paper trading bots - one 5-minute cycle
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=opc
+ExecStart=/bin/bash /home/opc/trade/deploy/vps/cycle.sh
+Nice=5

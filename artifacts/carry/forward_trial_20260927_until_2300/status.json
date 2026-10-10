@@ -1,0 +1,16 @@
+{
+  "phase": "STOPPED_EARLY",
+  "updated_at": 1790491491.0081513,
+  "observations": 572,
+  "errors": 6,
+  "last_success_at": 1790491311.7461617,
+  "open_positions": 0,
+  "entries": 0,
+  "trades": 0,
+  "balance": 1000.0,
+  "usable_contracts": 0,
+  "last_error": "Partial/stale market data or unresolved paper exit; inspect account event journal",
+  "consecutive_errors": 5,
+  "stop_at": 1790491461.0231245,
+  "stop_reason": "five_consecutive_data_failures"
+}

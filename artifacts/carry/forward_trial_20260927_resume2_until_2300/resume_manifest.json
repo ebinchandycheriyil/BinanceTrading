@@ -1,0 +1,10 @@
+{
+  "parent_segment": "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\artifacts\\carry\\forward_trial_20260927_until_2300",
+  "resumed_at": 1790496187.2630582,
+  "prior_observations": 572,
+  "prior_errors": 6,
+  "prior_last_observation": 1790491311.7461617,
+  "offline_gap_seconds": 4696.2549068927765,
+  "reason": "Full fresh Binance carry-data preflight passed after temporary connectivity outage; user resumed paper trial.",
+  "note": "Account copied with SQLite backup. Counts are cumulative across segments; do not sum copied observations/trades. Original entry cutoff, forced-close time and drain deadline preserved exactly; downtime excluded."
+}

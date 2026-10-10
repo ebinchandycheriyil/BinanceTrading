@@ -1,0 +1,49 @@
+{
+ "stage1": "304 configs: 19 indicators x 2 settings x tf(15min,1h) x exit['target2R', 'trail'] x filter(none, ema200); 12h max hold",
+ "selection": "per indicator: highest t-stat with >= 150 dev trades",
+ "verdict": "WORKS = dev gates (research.SELECT) + validation and unseen coins each: >=40 trades, return > 0, PF >= 1.10, 1.5x-cost return > 0. PROMISING = dev profitable and profitable in validation or unseen coins at base cost.",
+ "exits": {
+  "target2R": {
+   "stop_atr": 1.5,
+   "target_r": 2.0,
+   "trail_atr": NaN
+  },
+  "trail": {
+   "stop_atr": 2.0,
+   "target_r": NaN,
+   "trail_atr": 3.0
+  }
+ },
+ "unseen_coins": [
+  "ZECUSDT",
+  "MOVRUSDT",
+  "NEARUSDT",
+  "QNTUSDT",
+  "HYPEUSDT",
+  "UNIUSDT",
+  "SUIUSDT",
+  "ENAUSDT",
+  "WLDUSDT",
+  "PUMPUSDT",
+  "AAVEUSDT",
+  "1000PEPEUSDT",
+  "USUSDT",
+  "BTWUSDT",
+  "TAOUSDT",
+  "TRUMPUSDT",
+  "ONDOUSDT",
+  "GTCUSDT",
+  "ALICEUSDT",
+  "MONUSDT",
+  "SOONUSDT",
+  "NIGHTUSDT",
+  "ARBUSDT",
+  "NOMUSDT",
+  "CAPUSDT",
+  "FILUSDT",
+  "XLMUSDT",
+  "BCHUSDT",
+  "HBARUSDT"
+ ],
+ "written_at": 1790914738.6150498
+}

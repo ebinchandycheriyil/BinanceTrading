@@ -1,0 +1,11 @@
+{
+  "parameters": {
+    "method": "breakout",
+    "timeframe": 2,
+    "lookback": 28,
+    "atr_multiple": 4,
+    "max_hours": 48
+  },
+  "ratio": "1:1 price",
+  "research_only": true
+}

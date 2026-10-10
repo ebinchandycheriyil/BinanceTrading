@@ -1,0 +1,28 @@
+test_account_lock_blocks_second_writer (test_engine.TradingTests.test_account_lock_blocks_second_writer) ... ok
+test_configuration_validation (test_engine.TradingTests.test_configuration_validation) ... ok
+test_cost_feedback_halves_future_risk (test_engine.TradingTests.test_cost_feedback_halves_future_risk) ... ok
+test_daily_limit_latches_until_utc_rollover (test_engine.TradingTests.test_daily_limit_latches_until_utc_rollover) ... ok
+test_exchange_minimum_does_not_inflate_risk (test_engine.TradingTests.test_exchange_minimum_does_not_inflate_risk) ... ok
+test_hard_time_limit (test_engine.TradingTests.test_hard_time_limit) ... ok
+test_loss_pause (test_engine.TradingTests.test_loss_pause) ... ok
+test_missing_candles_never_generate_trade (test_engine.TradingTests.test_missing_candles_never_generate_trade) ... ok
+test_multiple_positions_and_portfolio_caps (test_engine.TradingTests.test_multiple_positions_and_portfolio_caps) ... ok
+test_no_progress_exit_at_five_minutes (test_engine.TradingTests.test_no_progress_exit_at_five_minutes) ... ok
+test_nonfinite_crossed_and_future_quotes_are_rejected (test_engine.TradingTests.test_nonfinite_crossed_and_future_quotes_are_rejected) ... ok
+test_only_complete_higher_timeframes (test_engine.TradingTests.test_only_complete_higher_timeframes) ... ok
+test_profit_factor_uses_gross_sums_not_average_win_loss (test_engine.TradingTests.test_profit_factor_uses_gross_sums_not_average_win_loss) ... ok
+test_rejects_upward_quantity_rounding (test_engine.TradingTests.test_rejects_upward_quantity_rounding) ... ok
+test_replay_next_bar_and_stop_wins_ambiguous_bar (test_engine.TradingTests.test_replay_next_bar_and_stop_wins_ambiguous_bar) ... ok
+test_replay_without_checkpoints_has_identical_accounting (test_engine.TradingTests.test_replay_without_checkpoints_has_identical_accounting) ... ok
+test_restart_restores_deadline_and_deduplicates_signal (test_engine.TradingTests.test_restart_restores_deadline_and_deduplicates_signal) ... ok
+test_saved_account_rejects_settings_change (test_engine.TradingTests.test_saved_account_rejects_settings_change) ... ok
+test_short_target_and_closing_order_side (test_engine.TradingTests.test_short_target_and_closing_order_side) ... ok
+test_shutdown_reduces_all_available_positions (test_engine.TradingTests.test_shutdown_reduces_all_available_positions) ... ok
+test_stale_data_blocks_entry_and_preserves_overdue_position (test_engine.TradingTests.test_stale_data_blocks_entry_and_preserves_overdue_position) ... ok
+test_stop_exits_early_and_accounts_for_both_fees (test_engine.TradingTests.test_stop_exits_early_and_accounts_for_both_fees) ... ok
+test_unclosed_candle_cannot_enter (test_engine.TradingTests.test_unclosed_candle_cannot_enter) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.038s
+
+OK

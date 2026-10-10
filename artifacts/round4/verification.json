@@ -1,0 +1,462 @@
+{
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 59 tests in 0.049s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "source_sha256": {
+    "scalp\\chart_setups.py": "7aa80f45a602fd66d28324a244d35884cd6575f336610360d640c38116e1d948",
+    "scalp\\cli.py": "25afcb22dcc81b15f5d5575901f34d6964ea8d43f4e2dce092fcfe7ab322341c",
+    "scalp\\costs.py": "8142506371ec45f1ef7610291c57b850831d7fcd172ca8162e88394b7a088924",
+    "scalp\\engine.py": "5b04730bc65d0d22ba8df9f4c371cf5de211d8d60e3f0ec826388c0c2c6d969e",
+    "scalp\\experiments.py": "a26b210e34d259c44d9d5f06f89e1c0057366b11839c81b4a048d5a542542fcb",
+    "scalp\\fee_study.py": "99299d145396481a62fcd709ec8d7cab52ef8c04c57fee1de4976bc49604e138",
+    "scalp\\flow_audit.py": "75b838b3b68620fb34258bbac86dafa97f24e9d1aa7f3bccb78e5c3bd010cbd8",
+    "scalp\\flow_study.py": "3303f23d5c3889abd1b0873bfadcea66473450360442c9933552aecc273602ac",
+    "scalp\\market.py": "52d7c657acee36c1e9967196ef20a8a44f0d8289ccf6d91224f5b2a6419c6638",
+    "scalp\\observe.py": "e32d2eeef2bd2656c2d98085faab3a9fb7070442bf8096a00371efbac717c0b2",
+    "scalp\\research.py": "d716e7e665c5b2ecd1b03fa0aa64c5827305ea137997fabbca59289b0fd0b12b",
+    "scalp\\settings.py": "f3eda6be269183b5ce561e2694bb7fd22d6a4a90768567c17d598b29a4f5c37f",
+    "scalp\\signals.py": "4998aa06021bc308fb50d5c7d42a45714005c9b72b9c0fc8ec30611481780cce",
+    "scalp\\__init__.py": "ec8329453e62a61eaa4b3b25e9fa2c18d84e6dc2c7a88202ad5c912134c74da0",
+    "tests\\test_costs_charts.py": "7838a666ce1c09b3ea694eddfeaab46f41d6d82937243197d90d2d69d1d6b209",
+    "tests\\test_engine.py": "1c65bf943de2385099af74ab45b07290c4ed917c8cc2bcab2642e5a653ded1b2",
+    "tests\\test_flow_study.py": "af560f48804758739a306c0478f526dcab5d805b2b55704332f432d78e6ca8fb",
+    "tests\\test_research.py": "96ee6b734e13fe11322ef561d734be514f02719a9e4ae5d1d446e0da565ffc5d"
+  },
+  "metrics": {
+    "absorption_reversal": {
+      "same_trade_stress": {
+        "trades": 1,
+        "net_pnl": -1.1257831183012081,
+        "per_trade": [
+          {
+            "id": 1,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.3941146394510235,
+            "stressed_net": -1.1257831183012081
+          }
+        ],
+        "method": "Same positions, size and exit timestamps; double fees/adverse slippage. Not a replay of changed stops or liquidity."
+      },
+      "daily_bootstrap": {
+        "daily_pnl": {
+          "1781395200000": 0.0,
+          "1781481600000": 0.0,
+          "1781568000000": 0.0,
+          "1781654400000": 0.0,
+          "1781740800000": 0.0,
+          "1781827200000": 0.0,
+          "1781913600000": 0.0,
+          "1782000000000": 0.0,
+          "1782086400000": 0.0,
+          "1782172800000": 0.0,
+          "1782259200000": 0.0,
+          "1782345600000": 0.0,
+          "1782432000000": -0.3941146394510235,
+          "1782518400000": 0.0
+        },
+        "mean_daily_net": -0.028151045675073105,
+        "lower95": -0.08445313702521931,
+        "upper95": 0.0,
+        "method": "IID resampling of whole UTC days, preserving within-day trade correlation; few days limits confidence"
+      },
+      "interpretation": "Short retrospective sample"
+    },
+    "quiet_shock_reversal": {
+      "same_trade_stress": {
+        "trades": 0,
+        "net_pnl": 0,
+        "per_trade": [],
+        "method": "Same positions, size and exit timestamps; double fees/adverse slippage. Not a replay of changed stops or liquidity."
+      },
+      "daily_bootstrap": {
+        "daily_pnl": {
+          "1781395200000": 0.0,
+          "1781481600000": 0.0,
+          "1781568000000": 0.0,
+          "1781654400000": 0.0,
+          "1781740800000": 0.0,
+          "1781827200000": 0.0,
+          "1781913600000": 0.0,
+          "1782000000000": 0.0,
+          "1782086400000": 0.0,
+          "1782172800000": 0.0,
+          "1782259200000": 0.0,
+          "1782345600000": 0.0,
+          "1782432000000": 0.0,
+          "1782518400000": 0.0
+        },
+        "mean_daily_net": 0.0,
+        "lower95": 0.0,
+        "upper95": 0.0,
+        "method": "IID resampling of whole UTC days, preserving within-day trade correlation; few days limits confidence"
+      },
+      "interpretation": "No observations: zero bootstrap interval is not evidence"
+    },
+    "flow_continuation": {
+      "same_trade_stress": {
+        "trades": 50,
+        "net_pnl": -47.52373614411309,
+        "per_trade": [
+          {
+            "id": 1,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.0342518583880365,
+            "stressed_net": -1.5520808305705507
+          },
+          {
+            "id": 2,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": 3.3191361342218477,
+            "stressed_net": 2.9128671491387004
+          },
+          {
+            "id": 3,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.4415057153117228,
+            "stressed_net": -0.8564696501802752
+          },
+          {
+            "id": 4,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.6553123685527744,
+            "stressed_net": -1.1042032909751909
+          },
+          {
+            "id": 5,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.7446527906534797,
+            "stressed_net": -1.173086661396758
+          },
+          {
+            "id": 6,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.6590840006281746,
+            "stressed_net": -2.05857423013364
+          },
+          {
+            "id": 7,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.07834986576928105,
+            "stressed_net": -0.49513140494023866
+          },
+          {
+            "id": 8,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.6612667412260644,
+            "stressed_net": -2.0526916407906914
+          },
+          {
+            "id": 9,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.5722205007859797,
+            "stressed_net": -1.0132385285886052
+          },
+          {
+            "id": 10,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -2.241375835711726,
+            "stressed_net": -2.6815705134396968
+          },
+          {
+            "id": 11,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": 0.6889649408891808,
+            "stressed_net": 0.2560598958426987
+          },
+          {
+            "id": 12,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.3319514306856886,
+            "stressed_net": -0.8527556793994051
+          },
+          {
+            "id": 13,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -2.256720677094138,
+            "stressed_net": -2.6556773488840344
+          },
+          {
+            "id": 14,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.5150411427019689,
+            "stressed_net": -0.9640221213377103
+          },
+          {
+            "id": 16,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -2.254198046587418,
+            "stressed_net": -2.640518259121311
+          },
+          {
+            "id": 15,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -2.2288637715657313,
+            "stressed_net": -2.6645287311999355
+          },
+          {
+            "id": 17,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": 2.446674547752366,
+            "stressed_net": 1.9862760562696096
+          },
+          {
+            "id": 18,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.4449280570865488,
+            "stressed_net": -1.9397858239265582
+          },
+          {
+            "id": 19,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.3921559803150354,
+            "stressed_net": -1.9150791166003915
+          },
+          {
+            "id": 20,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.16485276826204062,
+            "stressed_net": -0.6325428215861384
+          },
+          {
+            "id": 21,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.6307498547245967,
+            "stressed_net": -0.8699702402997658
+          },
+          {
+            "id": 22,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.8554414892721198,
+            "stressed_net": -1.1150836115511868
+          },
+          {
+            "id": 23,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.8184386166385236,
+            "stressed_net": -1.06234650704607
+          },
+          {
+            "id": 24,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.008222207531352527,
+            "stressed_net": -0.21940596250441124
+          },
+          {
+            "id": 25,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.5107262756481984,
+            "stressed_net": -0.7107994974594167
+          },
+          {
+            "id": 26,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.1160478027826017,
+            "stressed_net": -1.3138294172578804
+          },
+          {
+            "id": 27,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.17647685359677362,
+            "stressed_net": -0.39284742447244614
+          },
+          {
+            "id": 28,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.17805046578425598,
+            "stressed_net": -0.3671482242629022
+          },
+          {
+            "id": 29,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.0727328703527448,
+            "stressed_net": -1.306347176578292
+          },
+          {
+            "id": 30,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.0725167373801896,
+            "stressed_net": -1.2925304808074798
+          },
+          {
+            "id": 31,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.080658042228219,
+            "stressed_net": -1.332578752123742
+          },
+          {
+            "id": 32,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.7882762724958932,
+            "stressed_net": -0.9962943541307117
+          },
+          {
+            "id": 33,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.4230991479037992,
+            "stressed_net": -0.6786743209680518
+          },
+          {
+            "id": 34,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.6807479989310411,
+            "stressed_net": -0.9194495569281487
+          },
+          {
+            "id": 35,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.679495717914567,
+            "stressed_net": -0.8976460515845957
+          },
+          {
+            "id": 36,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.12418277328325247,
+            "stressed_net": -0.36415629350987194
+          },
+          {
+            "id": 37,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.0845466962101842,
+            "stressed_net": -1.321378158490092
+          },
+          {
+            "id": 38,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.0999872869257459,
+            "stressed_net": -1.310362809736927
+          },
+          {
+            "id": 39,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.028756373999954968,
+            "stressed_net": -0.2588352645570078
+          },
+          {
+            "id": 40,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": 0.23413658845006063,
+            "stressed_net": 0.0381845076482521
+          },
+          {
+            "id": 41,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.20660581356352997,
+            "stressed_net": -0.42032040287116457
+          },
+          {
+            "id": 42,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -0.12914274792814967,
+            "stressed_net": -0.3105435943952592
+          },
+          {
+            "id": 43,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.7221410743168905,
+            "stressed_net": -0.9244417561768773
+          },
+          {
+            "id": 44,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.0702918229821123,
+            "stressed_net": -1.3254688659572322
+          },
+          {
+            "id": 46,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.0841093828522226,
+            "stressed_net": -1.3168777246692682
+          },
+          {
+            "id": 45,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.33276273286820945,
+            "stressed_net": -0.5075629757008759
+          },
+          {
+            "id": 47,
+            "symbol": "BTC/USDT:USDT",
+            "base_net": -1.0682306623647724,
+            "stressed_net": -1.3215752500835773
+          },
+          {
+            "id": 48,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.7961684137436256,
+            "stressed_net": -1.042091414355322
+          },
+          {
+            "id": 49,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -0.04873783330630026,
+            "stressed_net": -0.26710118469106636
+          },
+          {
+            "id": 50,
+            "symbol": "ETH/USDT:USDT",
+            "base_net": -1.0959440106126763,
+            "stressed_net": -1.299499826771577
+          }
+        ],
+        "method": "Same positions, size and exit timestamps; double fees/adverse slippage. Not a replay of changed stops or liquidity."
+      },
+      "daily_bootstrap": {
+        "daily_pnl": {
+          "1781395200000": 2.2848842758338113,
+          "1781481600000": -3.578904740915432,
+          "1781568000000": -3.78589813683459,
+          "1781654400000": -5.140100520882578,
+          "1781740800000": -3.0019368056636244,
+          "1781827200000": -1.4861913439967165,
+          "1781913600000": -1.3373870998180744,
+          "1782000000000": 0.0,
+          "1782086400000": -4.696482772124785,
+          "1782172800000": -1.8921234193307335,
+          "1782259200000": -1.8882251874080036,
+          "1782345600000": -1.1012128860391703,
+          "1782432000000": -4.406678423312357,
+          "1782518400000": -1.940850257662602
+        },
+        "mean_daily_net": -2.2836505227253467,
+        "lower95": -3.287311040003518,
+        "upper95": -1.2486543580679526,
+        "method": "IID resampling of whole UTC days, preserving within-day trade correlation; few days limits confidence"
+      },
+      "interpretation": "Short retrospective sample"
+    }
+  },
+  "accounting_verified": true,
+  "default_changed": false,
+  "real_orders_sent": false
+}

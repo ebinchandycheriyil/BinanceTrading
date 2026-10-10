@@ -1,0 +1,222 @@
+{
+ "adx_dmi": [
+  "lab",
+  {
+   "ind": "adx_dmi",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "bb_breakout": [
+  "lab",
+  {
+   "ind": "bb_breakout",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "bb_reversal": [
+  "lab",
+  {
+   "ind": "bb_reversal",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "cci": [
+  "lab",
+  {
+   "ind": "cci",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "donchian": [
+  "lab",
+  {
+   "ind": "donchian",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "ema_cross": [
+  "lab",
+  {
+   "ind": "ema_cross",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "heikin_ashi": [
+  "lab",
+  {
+   "ind": "heikin_ashi",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "ichimoku": [
+  "lab",
+  {
+   "ind": "ichimoku",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "keltner_breakout": [
+  "lab",
+  {
+   "ind": "keltner_breakout",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "macd": [
+  "lab",
+  {
+   "ind": "macd",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "mfi": [
+  "lab",
+  {
+   "ind": "mfi",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "pivots": [
+  "lab",
+  {
+   "ind": "pivots",
+   "var": 1,
+   "tf": "15min",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "psar": [
+  "lab",
+  {
+   "ind": "psar",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "rsi_momentum": [
+  "lab",
+  {
+   "ind": "rsi_momentum",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "rsi_reversal": [
+  "lab",
+  {
+   "ind": "rsi_reversal",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "stochastic": [
+  "lab",
+  {
+   "ind": "stochastic",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "supertrend": [
+  "lab",
+  {
+   "ind": "supertrend",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "volume_breakout": [
+  "lab",
+  {
+   "ind": "volume_breakout",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "vwap_cross": [
+  "lab",
+  {
+   "ind": "vwap_cross",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "squeeze_oi (48h)": [
+  "squeeze_oi",
+  {
+   "brk": 6,
+   "fthr": 0.0,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "ls_q": 0.4,
+   "oi_min": 0.0,
+   "oi_win": 24,
+   "sides": "long",
+   "trail_atr": 5.0
+  }
+ ],
+ "squeeze_day (12h)": [
+  "squeeze_day",
+  {
+   "brk": 6,
+   "entry": "market",
+   "eod": false,
+   "fthr": 0.0,
+   "hold_h": 12,
+   "init_atr": 2.0,
+   "ls_q": 0.4,
+   "oi_min": 0.0,
+   "oi_win": 24,
+   "sides": "long",
+   "trail_atr": 4.0
+  }
+ ]
+}

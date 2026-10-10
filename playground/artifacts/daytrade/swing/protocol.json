@@ -1,0 +1,50 @@
+{
+ "periods": {
+  "s_dev": [
+   "2015-07-01",
+   "2021-01-01"
+  ],
+  "s_val": [
+   "2021-01-01",
+   "2024-01-01"
+  ],
+  "s_test": [
+   "2024-01-01",
+   "2026-10-01"
+  ],
+  "s_all": [
+   "2015-07-01",
+   "2026-10-01"
+  ],
+  "s_alts": [
+   "2022-01-01",
+   "2026-10-01"
+  ]
+ },
+ "configs": 144,
+ "baseline": {
+  "sig": "vb",
+  "tf": "1h",
+  "n": 20,
+  "vol_k": 3.0,
+  "stop_atr": 2.0,
+  "trail_atr": 3.0,
+  "hold_h": 12,
+  "filt": "ema200",
+  "sides": "both"
+ },
+ "min_trades": {
+  "vb": 100,
+  "donchian": 30
+ },
+ "risks": [
+  0.005,
+  0.01,
+  0.015,
+  0.02
+ ],
+ "selection": "per signal type: highest 2015-2020 t-stat with min trades and 1.5x-cost return > 0",
+ "funding": "real Binance funding from 2021-11; 0.01%/8h before (longs pay)",
+ "ml": "LightGBM veto of lowest 30% scores, walk-forward by year from 2019",
+ "written_at": 1791341674.2670124
+}

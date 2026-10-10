@@ -1,0 +1,15 @@
+{
+  "last_checked_at": 1790492300.0,
+  "last_observed_phase": "STOPPED_EARLY",
+  "last_observed_observations": 572,
+  "last_observed_errors": 6,
+  "last_observed_open_positions": 0,
+  "last_observed_trades": 0,
+  "worker_identity_verified": true,
+  "worker_pid": 27832,
+  "last_check_result": "stopped_five_consecutive_dns_failures_no_exposure",
+  "last_notified_entries": 0,
+  "last_notified_trades": 0,
+  "last_notified_failure": "five_consecutive_dns_failures:2026-09-27T06:44:21Z",
+  "recovered_data_halts": 1
+}

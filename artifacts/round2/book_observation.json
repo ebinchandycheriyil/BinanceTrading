@@ -1,0 +1,258 @@
+{
+  "summary": {
+    "BTC/USDT:USDT": {
+      "samples": 12,
+      "median_spread_bps": 0.01191894402992856,
+      "max_spread_bps": 0.01191894402992856
+    },
+    "ETH/USDT:USDT": {
+      "samples": 12,
+      "median_spread_bps": 0.03722793360682288,
+      "max_spread_bps": 0.037230982880145196
+    }
+  },
+  "observations": [
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392523.069,
+      "received": 1790392522.3162968,
+      "spread_bps": 0.011918475244584257,
+      "bid": 83903.3,
+      "ask": 83903.4,
+      "bid_quantity": 0.888,
+      "ask_quantity": 11.201
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392523.271,
+      "received": 1790392522.5203934,
+      "spread_bps": 0.03722793360682288,
+      "bid": 2686.15,
+      "ask": 2686.16,
+      "bid_quantity": 78.3,
+      "ask_quantity": 141.203
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392528.488,
+      "received": 1790392527.7427607,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 1.481,
+      "ask_quantity": 9.269
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392528.706,
+      "received": 1790392527.949261,
+      "spread_bps": 0.03722793360682288,
+      "bid": 2686.15,
+      "ask": 2686.16,
+      "bid_quantity": 28.041,
+      "ask_quantity": 106.529
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392533.925,
+      "received": 1790392533.1688905,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 1.973,
+      "ask_quantity": 8.575
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392534.122,
+      "received": 1790392533.360272,
+      "spread_bps": 0.03722793360682288,
+      "bid": 2686.15,
+      "ask": 2686.16,
+      "bid_quantity": 58.451,
+      "ask_quantity": 84.264
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392539.321,
+      "received": 1790392538.4976215,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.54,
+      "ask_quantity": 2.976
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392539.457,
+      "received": 1790392538.707584,
+      "spread_bps": 0.03722613199926118,
+      "bid": 2686.28,
+      "ask": 2686.29,
+      "bid_quantity": 107.171,
+      "ask_quantity": 42.488
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392544.669,
+      "received": 1790392543.8912525,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.493,
+      "ask_quantity": 5.754
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392544.857,
+      "received": 1790392544.0491147,
+      "spread_bps": 0.037224469131659346,
+      "bid": 2686.4,
+      "ask": 2686.41,
+      "bid_quantity": 31.197,
+      "ask_quantity": 146.778
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392550.013,
+      "received": 1790392549.2033093,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.317,
+      "ask_quantity": 8.469
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392550.161,
+      "received": 1790392549.3907003,
+      "spread_bps": 0.037225854844343924,
+      "bid": 2686.3,
+      "ask": 2686.31,
+      "bid_quantity": 33.482,
+      "ask_quantity": 162.798
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392555.353,
+      "received": 1790392554.5214334,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.726,
+      "ask_quantity": 8.505
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392555.49,
+      "received": 1790392554.6543694,
+      "spread_bps": 0.037225993422979525,
+      "bid": 2686.29,
+      "ask": 2686.3,
+      "bid_quantity": 21.693,
+      "ask_quantity": 214.007
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392560.617,
+      "received": 1790392559.787173,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 4.966,
+      "ask_quantity": 8.414
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392560.744,
+      "received": 1790392559.9189138,
+      "spread_bps": 0.037225993422979525,
+      "bid": 2686.29,
+      "ask": 2686.3,
+      "bid_quantity": 22.438,
+      "ask_quantity": 138.803
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392565.893,
+      "received": 1790392565.1176991,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.465,
+      "ask_quantity": 9.034
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392566.077,
+      "received": 1790392565.3234317,
+      "spread_bps": 0.037230982880145196,
+      "bid": 2685.93,
+      "ask": 2685.94,
+      "bid_quantity": 108.775,
+      "ask_quantity": 28.648
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392571.301,
+      "received": 1790392570.505998,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.323,
+      "ask_quantity": 8.922
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392571.467,
+      "received": 1790392570.6478858,
+      "spread_bps": 0.037230982880145196,
+      "bid": 2685.93,
+      "ask": 2685.94,
+      "bid_quantity": 163.965,
+      "ask_quantity": 38.825
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392576.626,
+      "received": 1790392575.8701766,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.498,
+      "ask_quantity": 7.482
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392576.823,
+      "received": 1790392576.0031593,
+      "spread_bps": 0.03722807220093584,
+      "bid": 2686.14,
+      "ask": 2686.15,
+      "bid_quantity": 299.05,
+      "ask_quantity": 5.753
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "ts": 1790392581.981,
+      "received": 1790392581.1953936,
+      "spread_bps": 0.01191894402992856,
+      "bid": 83900.0,
+      "ask": 83900.1,
+      "bid_quantity": 5.535,
+      "ask_quantity": 6.972
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "ts": 1790392582.154,
+      "received": 1790392581.401842,
+      "spread_bps": 0.03722807220093584,
+      "bid": 2686.14,
+      "ask": 2686.15,
+      "bid_quantity": 289.778,
+      "ask_quantity": 5.718
+    }
+  ],
+  "errors": [],
+  "limitation": "Short present-time snapshot, not historical spread evidence; does not measure slippage or prove fills"
+}

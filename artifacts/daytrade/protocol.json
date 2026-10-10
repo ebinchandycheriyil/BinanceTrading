@@ -1,0 +1,243 @@
+{
+ "periods": {
+  "dev": [
+   "2022-01-01",
+   "2024-07-01"
+  ],
+  "val": [
+   "2024-07-01",
+   "2025-07-01"
+  ],
+  "holdout": [
+   "2025-07-01",
+   "2026-10-01"
+  ]
+ },
+ "select": {
+  "min_trades": 120,
+  "min_pf": 1.15,
+  "min_t": 2.0,
+  "min_years_positive": 2,
+  "stress": 1.5
+ },
+ "passes": {
+  "min_trades": 40,
+  "min_pf": 1.1,
+  "stress": 1.5
+ },
+ "universe": [
+  "BTCUSDT",
+  "ETHUSDT",
+  "SOLUSDT",
+  "XRPUSDT",
+  "BNBUSDT",
+  "DOGEUSDT",
+  "ADAUSDT",
+  "AVAXUSDT",
+  "LINKUSDT",
+  "LTCUSDT"
+ ],
+ "grids": {
+  "orb": {
+   "session": [
+    "asia",
+    "london",
+    "us"
+   ],
+   "range_min": [
+    15,
+    30,
+    60
+   ],
+   "window_h": [
+    4
+   ],
+   "target_r": [
+    1.5,
+    3.0
+   ],
+   "stop_mode": [
+    "range",
+    "mid"
+   ],
+   "max_range_atr": [
+    0.35,
+    1.0
+   ],
+   "trend": [
+    false
+   ]
+  },
+  "sweep": {
+   "pen": [
+    0.0,
+    0.25
+   ],
+   "buf": [
+    0.25,
+    0.5
+   ],
+   "target_r": [
+    1.5,
+    3.0
+   ],
+   "hold_h": [
+    8
+   ],
+   "entry": [
+    "market",
+    "retest"
+   ]
+  },
+  "vwap_fade": {
+   "k": [
+    2.0,
+    3.0
+   ],
+   "rsi_band": [
+    25
+   ],
+   "adx_max": [
+    20,
+    30
+   ],
+   "entry_atr": [
+    0.0,
+    0.5
+   ],
+   "stop_atr": [
+    1.5,
+    3.0
+   ],
+   "tgt_frac": [
+    0.5,
+    1.0
+   ],
+   "hold_h": [
+    4
+   ]
+  },
+  "pullback": {
+   "target_r": [
+    1.5,
+    2.5
+   ],
+   "be_r": [
+    NaN,
+    1.0
+   ],
+   "lookback": [
+    3,
+    6
+   ],
+   "hold_h": [
+    12
+   ],
+   "start_h": [
+    7
+   ],
+   "end_h": [
+    20
+   ]
+  },
+  "squeeze": {
+   "kc": [
+    1.5
+   ],
+   "min_sq": [
+    4,
+    8
+   ],
+   "vol_mult": [
+    1.0,
+    1.5
+   ],
+   "stop_atr": [
+    1.5,
+    2.5
+   ],
+   "target_r": [
+    1.5,
+    3.0
+   ],
+   "hold_h": [
+    24
+   ]
+  },
+  "weekend": {
+   "gmin": [
+    0.005,
+    0.01,
+    0.02
+   ],
+   "fill_frac": [
+    0.5,
+    1.0
+   ],
+   "stop_mult": [
+    1.0,
+    2.0
+   ],
+   "hold_h": [
+    24,
+    72
+   ]
+  },
+  "cascade": {
+   "k_range": [
+    3.0,
+    5.0
+   ],
+   "k_vol": [
+    3.0,
+    6.0
+   ],
+   "deep": [
+    0.0,
+    0.25
+   ],
+   "stop_k": [
+    1.0,
+    2.0
+   ],
+   "tgt": [
+    0.5
+   ],
+   "hold": [
+    24
+   ]
+  },
+  "daymom": {
+   "hour": [
+    8,
+    14,
+    20
+   ],
+   "k": [
+    0.5,
+    1.0
+   ],
+   "stop_atr": [
+    2.0,
+    4.0
+   ],
+   "mode": [
+    "mom",
+    "rev"
+   ]
+  }
+ },
+ "risk": 0.005,
+ "max_pos": 6,
+ "lev_cap": 2.0,
+ "gross_cap": 5.0,
+ "max_cost_r": 0.3,
+ "costs": {
+  "taker": 0.0005,
+  "maker": 0.0002,
+  "slip": 0.0002,
+  "funding": true
+ },
+ "written_at": 1790909411.0778484,
+ "note": "Written before development results were computed."
+}

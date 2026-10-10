@@ -1,0 +1,23 @@
+{
+  "start": 1640995200000,
+  "end": 1767225600000,
+  "stage1": "Breakout vs pullback, ATR2, 72h; rank worst annual net across 2022 and 2023",
+  "stage2": "Selected family only: ATR1.5/2/3 crossed with 24/72h; rank worst half-year net across 2024",
+  "eligibility": "At least 20 trades in each selection fold; if none, diagnostic ranking only",
+  "validation": "Freeze before 2025; no validation reselection",
+  "gate": "Every selected 2024 fold positive; 2025 net>0, >=50 trades, PF>=1.15, hourly marked DD<=10%, weekly block bootstrap lower95>0, doubled-cost replay net>0",
+  "ratio": "1:1 executable price distances, fees and funding deducted separately",
+  "base": {
+    "method": "breakout",
+    "atr_multiple": 2,
+    "max_hours": 72,
+    "fee": 0.0005,
+    "slip": 0.0002,
+    "half_spread": 0.0002
+  },
+  "risk": "0.25%/trade, 0.5% aggregate planned stop risk, 1x gross cap, daily 1.5% loss halt",
+  "source_sha256": {
+    "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\swing_study.py": "c23274c88d918ef9b51e6c11fa0dd965c784a60f733a43a29e4935d2ddee6af2",
+    "scalp\\swing.py": "97c8712a37c288295b8102016b9c31bd9a6ecf8786deaabf62b24fd44899cdad"
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "periods": {
+  "b_dev": [
+   "2015-07-01",
+   "2021-01-01"
+  ],
+  "b_val": [
+   "2021-01-01",
+   "2024-01-01"
+  ],
+  "b_test": [
+   "2024-01-01",
+   "2026-10-01"
+  ],
+  "b_all": [
+   "2015-07-01",
+   "2026-10-01"
+  ]
+ },
+ "max_hold_bars": 144,
+ "configs": 536,
+ "min_trades": 100,
+ "selection": "per strategy family / indicator: highest dev t-stat with >= 100 trades",
+ "verdict": "WORKS = dev (ret>0, PF>=1.10, t>=2, 1.5x-cost ret>0) and validation and test each (>=30 trades, ret>0, PF>=1.10, 1.5x-cost ret>0); PROMISING = dev ret>0 and val or test ret>0",
+ "costs": "BTC taker 0.05% + 1.5bp slippage/side, maker 0.02%; no funding",
+ "written_at": 1790915763.607834
+}

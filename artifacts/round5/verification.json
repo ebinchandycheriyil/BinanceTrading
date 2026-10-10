@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 64 tests in 0.048s\n\nOK\n"
+    },
+    {
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "hashes": {
+    "scalp\\chart_setups.py": "7aa80f45a602fd66d28324a244d35884cd6575f336610360d640c38116e1d948",
+    "scalp\\cli.py": "25afcb22dcc81b15f5d5575901f34d6964ea8d43f4e2dce092fcfe7ab322341c",
+    "scalp\\costs.py": "8142506371ec45f1ef7610291c57b850831d7fcd172ca8162e88394b7a088924",
+    "scalp\\engine.py": "681902e4881a718564d82838f45b55719d47e8549a9289984b433343b6a74cc8",
+    "scalp\\experiments.py": "a26b210e34d259c44d9d5f06f89e1c0057366b11839c81b4a048d5a542542fcb",
+    "scalp\\fee_study.py": "99299d145396481a62fcd709ec8d7cab52ef8c04c57fee1de4976bc49604e138",
+    "scalp\\flow_audit.py": "75b838b3b68620fb34258bbac86dafa97f24e9d1aa7f3bccb78e5c3bd010cbd8",
+    "scalp\\flow_study.py": "3303f23d5c3889abd1b0873bfadcea66473450360442c9933552aecc273602ac",
+    "scalp\\market.py": "52d7c657acee36c1e9967196ef20a8a44f0d8289ccf6d91224f5b2a6419c6638",
+    "scalp\\momentum.py": "fd359e911993d57778a295398d15d4f43504a54ae6a08244aca3bebf2628445d",
+    "scalp\\momentum_audit.py": "28eabb6444316e9febea05d7f666367a48908e412b8f04a2bb8241899faef5c7",
+    "scalp\\momentum_study.py": "a267f0ed598441eded5c0593d0fb6d6a8e2a14b21b3c886252932ac03a7d5178",
+    "scalp\\observe.py": "e32d2eeef2bd2656c2d98085faab3a9fb7070442bf8096a00371efbac717c0b2",
+    "scalp\\research.py": "d716e7e665c5b2ecd1b03fa0aa64c5827305ea137997fabbca59289b0fd0b12b",
+    "scalp\\settings.py": "75e944c1decbe838a713d96b97e04ce91362f3abfec83ab327eabc144d306a41",
+    "scalp\\signals.py": "0fcde24bbc3da4fd9c9f7446318db6acefde215ad5dbec15b9f9dacfac0414f0",
+    "scalp\\__init__.py": "ec8329453e62a61eaa4b3b25e9fa2c18d84e6dc2c7a88202ad5c912134c74da0"
+  },
+  "validation_trades_verified": 168,
+  "ratio": "1:1 executable price distances",
+  "report_correction": "Binary win-rate illustration corrected from 72.5% to 62.5%; prior source/protocol/results archived. All trades and statistical results unchanged."
+}

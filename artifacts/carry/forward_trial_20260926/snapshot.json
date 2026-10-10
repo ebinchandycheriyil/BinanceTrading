@@ -1,0 +1,189 @@
+{
+  "observed_at": 1790448349.3534513,
+  "discovery_at": 1790448108.5631223,
+  "contracts": [
+    {
+      "id": "BTCUSDT_261225",
+      "base": "BTC",
+      "spot_symbol": "BTCUSDT",
+      "expiry": 1798185600.0,
+      "contract_type": "CURRENT_QUARTER",
+      "spot_limits": {
+        "step": "0.00001",
+        "min_qty": 1e-05,
+        "max_qty": 115.5160032,
+        "min_notional": 5.0,
+        "max_notional": 9000000.0
+      },
+      "future_limits": {
+        "step": "0.001",
+        "min_qty": 0.001,
+        "max_qty": 1.0,
+        "min_notional": 5.0,
+        "max_notional": null
+      },
+      "spot": {
+        "bid": 84012.0,
+        "ask": 84012.01,
+        "bid_size": 1.56881,
+        "ask_size": 7.5569,
+        "ts": 1790448349.2035758,
+        "requested_at": 1790448348.9565454,
+        "exchange_ts": null,
+        "timestamp_basis": "local_request_only"
+      },
+      "future": {
+        "bid": 85011.1,
+        "ask": 85014.1,
+        "bid_size": 0.02,
+        "ask_size": 0.005,
+        "ts": 1790448349.1517072,
+        "requested_at": 1790448348.9568315,
+        "exchange_ts": 1790448350.341,
+        "timestamp_basis": "exchange_and_local"
+      },
+      "mark": {
+        "price": 85012.21681159,
+        "ts": 1790448350.004
+      }
+    },
+    {
+      "id": "BTCUSDT_270326",
+      "base": "BTC",
+      "spot_symbol": "BTCUSDT",
+      "expiry": 1806048000.0,
+      "contract_type": "NEXT_QUARTER",
+      "spot_limits": {
+        "step": "0.00001",
+        "min_qty": 1e-05,
+        "max_qty": 115.5160032,
+        "min_notional": 5.0,
+        "max_notional": 9000000.0
+      },
+      "future_limits": {
+        "step": "0.001",
+        "min_qty": 0.001,
+        "max_qty": 1.0,
+        "min_notional": 5.0,
+        "max_notional": null
+      },
+      "spot": {
+        "bid": 84012.0,
+        "ask": 84012.01,
+        "bid_size": 1.56881,
+        "ask_size": 7.5569,
+        "ts": 1790448349.2035758,
+        "requested_at": 1790448348.9565454,
+        "exchange_ts": null,
+        "timestamp_basis": "local_request_only"
+      },
+      "future": {
+        "bid": 86076.1,
+        "ask": 86113.1,
+        "bid_size": 0.001,
+        "ask_size": 0.126,
+        "ts": 1790448349.1496093,
+        "requested_at": 1790448348.9573417,
+        "exchange_ts": 1790448346.237,
+        "timestamp_basis": "exchange_and_local"
+      },
+      "mark": {
+        "price": 86089.45514493,
+        "ts": 1790448350.004
+      }
+    },
+    {
+      "id": "ETHUSDT_261225",
+      "base": "ETH",
+      "spot_symbol": "ETHUSDT",
+      "expiry": 1798185600.0,
+      "contract_type": "CURRENT_QUARTER",
+      "spot_limits": {
+        "step": "0.0001",
+        "min_qty": 0.0001,
+        "max_qty": 2650.91887125,
+        "min_notional": 5.0,
+        "max_notional": 9000000.0
+      },
+      "future_limits": {
+        "step": "0.001",
+        "min_qty": 0.001,
+        "max_qty": 10.0,
+        "min_notional": 5.0,
+        "max_notional": null
+      },
+      "spot": {
+        "bid": 2683.86,
+        "ask": 2683.87,
+        "bid_size": 50.3381,
+        "ask_size": 11.4649,
+        "ts": 1790448349.1820467,
+        "requested_at": 1790448348.9577613,
+        "exchange_ts": null,
+        "timestamp_basis": "local_request_only"
+      },
+      "future": {
+        "bid": 2708.49,
+        "ask": 2708.63,
+        "bid_size": 0.02,
+        "ask_size": 0.146,
+        "ts": 1790448349.3397317,
+        "requested_at": 1790448349.1496365,
+        "exchange_ts": 1790448350.521,
+        "timestamp_basis": "exchange_and_local"
+      },
+      "mark": {
+        "price": 2708.60473256,
+        "ts": 1790448350.004
+      }
+    },
+    {
+      "id": "ETHUSDT_270326",
+      "base": "ETH",
+      "spot_symbol": "ETHUSDT",
+      "expiry": 1806048000.0,
+      "contract_type": "NEXT_QUARTER",
+      "spot_limits": {
+        "step": "0.0001",
+        "min_qty": 0.0001,
+        "max_qty": 2650.91887125,
+        "min_notional": 5.0,
+        "max_notional": 9000000.0
+      },
+      "future_limits": {
+        "step": "0.001",
+        "min_qty": 0.001,
+        "max_qty": 10.0,
+        "min_notional": 5.0,
+        "max_notional": null
+      },
+      "spot": {
+        "bid": 2683.86,
+        "ask": 2683.87,
+        "bid_size": 50.3381,
+        "ask_size": 11.4649,
+        "ts": 1790448349.1820467,
+        "requested_at": 1790448348.9577613,
+        "exchange_ts": null,
+        "timestamp_basis": "local_request_only"
+      },
+      "future": {
+        "bid": 2739.28,
+        "ask": 2741.07,
+        "bid_size": 0.01,
+        "ask_size": 6.62,
+        "ts": 1790448349.3507247,
+        "requested_at": 1790448349.1563356,
+        "exchange_ts": 1790448342.29,
+        "timestamp_basis": "exchange_and_local"
+      },
+      "mark": {
+        "price": 2740.07223256,
+        "ts": 1790448350.004
+      }
+    }
+  ],
+  "errors": [],
+  "source": "Binance public spot and linear USDT dated futures REST depth",
+  "limitation": "Spot depth has no exchange timestamp; local request age is only a freshness proxy."
+}

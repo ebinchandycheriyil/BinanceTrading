@@ -1,0 +1,46 @@
+{
+  "grid": [
+    {
+      "window": 144,
+      "z": 1.75
+    },
+    {
+      "window": 144,
+      "z": 2.25
+    },
+    {
+      "window": 168,
+      "z": 1.75
+    },
+    {
+      "window": 168,
+      "z": 2.25
+    },
+    {
+      "window": 336,
+      "z": 1.75
+    },
+    {
+      "window": 336,
+      "z": 2.25
+    }
+  ],
+  "development": [
+    1593561600000,
+    1640995200000
+  ],
+  "evaluation_years": [
+    2022,
+    2023
+  ],
+  "selection": "Priority >=30 baskets; maximize weakest marked quarter, then total net, then name",
+  "evidence": "New expanded-pair model; 2022/23 BTC/ETH years were previously used by directional models, so this is not globally untouched market data.",
+  "universe": "Fixed eight surviving coins, 28 combinations; not full point-in-time universe",
+  "execution": "Hourly observations, 5bps taker, 4bps spread, 2bps slippage/side, actual funding timestamp ordering; gross basket target/stop 1:1",
+  "hashes": {
+    "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\pair_viability.py": "a61817cc8aa8e0fa80836a629c3da721270a049c4b7e358668c348e6529ce8a6",
+    "scalp\\pair_screen.py": "6b14817160a27815f88e9a7e430a329a0e829080cc8875a52b90cdbbbfd744d6",
+    "scalp\\pair_portfolio.py": "d5f128af64e586769a155f3f987034b18e53555a34f1456922c414d5fd6b02a8"
+  },
+  "data_sha256": "3706cdaa9e93a1ef07673ee97cbc0dc4be624735cae536337bd3b24bc8d2fd0e"
+}

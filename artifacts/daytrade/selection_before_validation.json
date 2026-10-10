@@ -1,0 +1,135 @@
+{
+ "cascade": {
+  "params": {
+   "deep": 0.25,
+   "hold": 24,
+   "k_range": 5.0,
+   "k_vol": 6.0,
+   "stop_k": 1.0,
+   "tgt": 0.5
+  },
+  "qualified": false,
+  "dev_t": -8.16,
+  "dev_sum_r": -679.13,
+  "dev_pf": 0.677,
+  "dev_trades": 2383,
+  "grid_positive": "0/16",
+  "grid_median_r": -1206.69
+ },
+ "daymom": {
+  "params": {
+   "hour": 20,
+   "k": 1.0,
+   "mode": "mom",
+   "stop_atr": 4.0
+  },
+  "qualified": false,
+  "dev_t": -0.65,
+  "dev_sum_r": -9.85,
+  "dev_pf": 0.963,
+  "dev_trades": 2278,
+  "grid_positive": "0/24",
+  "grid_median_r": -129.975
+ },
+ "orb": {
+  "params": {
+   "max_range_atr": 1.0,
+   "range_min": 60,
+   "session": "us",
+   "stop_mode": "range",
+   "target_r": 1.5,
+   "trend": false,
+   "window_h": 4
+  },
+  "qualified": false,
+  "dev_t": -0.36,
+  "dev_sum_r": -25.26,
+  "dev_pf": 0.989,
+  "dev_trades": 5962,
+  "grid_positive": "0/72",
+  "grid_median_r": -626.885
+ },
+ "pullback": {
+  "params": {
+   "be_r": NaN,
+   "end_h": 20,
+   "hold_h": 12,
+   "lookback": 3,
+   "start_h": 7,
+   "target_r": 2.5
+  },
+  "qualified": false,
+  "dev_t": -10.04,
+  "dev_sum_r": -1246.41,
+  "dev_pf": 0.777,
+  "dev_trades": 7606,
+  "grid_positive": "0/8",
+  "grid_median_r": -1290.5149999999999
+ },
+ "squeeze": {
+  "params": {
+   "hold_h": 24,
+   "kc": 1.5,
+   "min_sq": 4,
+   "stop_atr": 1.5,
+   "target_r": 3.0,
+   "vol_mult": 1.5
+  },
+  "qualified": false,
+  "dev_t": -0.47,
+  "dev_sum_r": -35.46,
+  "dev_pf": 0.977,
+  "dev_trades": 2227,
+  "grid_positive": "0/16",
+  "grid_median_r": -92.94
+ },
+ "sweep": {
+  "params": {
+   "buf": 0.25,
+   "entry": "retest",
+   "hold_h": 8,
+   "pen": 0.25,
+   "target_r": 3.0
+  },
+  "qualified": false,
+  "dev_t": -5.01,
+  "dev_sum_r": -370.93,
+  "dev_pf": 0.779,
+  "dev_trades": 2010,
+  "grid_positive": "0/16",
+  "grid_median_r": -517.22
+ },
+ "vwap_fade": {
+  "params": {
+   "adx_max": 20,
+   "entry_atr": 0.5,
+   "hold_h": 4,
+   "k": 3.0,
+   "rsi_band": 25,
+   "stop_atr": 3.0,
+   "tgt_frac": 0.5
+  },
+  "qualified": false,
+  "dev_t": -6.36,
+  "dev_sum_r": -267.46,
+  "dev_pf": 0.724,
+  "dev_trades": 1718,
+  "grid_positive": "0/32",
+  "grid_median_r": -645.6
+ },
+ "weekend": {
+  "params": {
+   "fill_frac": 1.0,
+   "gmin": 0.02,
+   "hold_h": 72,
+   "stop_mult": 2.0
+  },
+  "qualified": false,
+  "dev_t": -1.57,
+  "dev_sum_r": -24.14,
+  "dev_pf": 0.865,
+  "dev_trades": 604,
+  "grid_positive": "0/24",
+  "grid_median_r": -107.64
+ }
+}

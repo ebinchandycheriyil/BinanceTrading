@@ -1,0 +1,52 @@
+{
+ "squeeze_oi": {
+  "params": {
+   "brk": 6,
+   "fthr": 0.0,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "ls_q": 0.4,
+   "oi_min": 0.0,
+   "oi_win": 24,
+   "sides": "long",
+   "trail_atr": 5.0
+  },
+  "passes": true,
+  "trades": 190,
+  "taken": 189,
+  "win": 0.368,
+  "avg_r": 0.0827,
+  "sum_r": 15.71,
+  "pf": 1.141,
+  "t": 0.7,
+  "ret": 0.0877,
+  "maxdd": 0.0853,
+  "sharpe": 0.73,
+  "pos_months": 0.75,
+  "avg_cost_r": 0.048,
+  "avg_hold_h": 26.9,
+  "by_year": {
+   "2024": 8.03,
+   "2025": 7.68
+  },
+  "by_symbol": {
+   "ADAUSDT": -6.86,
+   "AVAXUSDT": 18.38,
+   "BNBUSDT": -5.47,
+   "BTCUSDT": 2.7,
+   "DOGEUSDT": 4.61,
+   "ETHUSDT": -1.54,
+   "LINKUSDT": -8.57,
+   "LTCUSDT": -6.91,
+   "SOLUSDT": 8.55,
+   "XRPUSDT": 10.83
+  },
+  "exits": {
+   "stop": 90,
+   "time": 59,
+   "trail": 41
+  },
+  "stress_sum_r": 4.87,
+  "stress_ret": 0.0315
+ }
+}

@@ -1,0 +1,271 @@
+{
+  "selected": {
+    "id": "development_w144_z1.75",
+    "config": {
+      "window": 144,
+      "z": 1.75
+    },
+    "summary": {
+      "trades": 10,
+      "net_pnl": 5.35909068327398,
+      "return_pct": 0.5359090683273979,
+      "drawdown_pct": 0.47300649300290787,
+      "profit_factor": 1.647832963822911,
+      "fees": 1.8163816155888013,
+      "funding_cost": 0.048045274855958935,
+      "losses_over_budget": 2,
+      "average_hold_hours": 22.599999805555555,
+      "exits": {
+        "RELATIONSHIP_INVALID": 2,
+        "TARGET": 5,
+        "STOP": 2,
+        "TIME_LIMIT": 1
+      }
+    },
+    "quarters": {
+      "2020-Q3": 0.0,
+      "2020-Q4": 0.7367096226687408,
+      "2021-Q1": 0.0,
+      "2021-Q2": 3.643648294594641,
+      "2021-Q3": 0.025366465918523318,
+      "2021-Q4": 0.9533663000920569
+    }
+  },
+  "development": [
+    {
+      "id": "development_w144_z1.75",
+      "config": {
+        "window": 144,
+        "z": 1.75
+      },
+      "summary": {
+        "trades": 10,
+        "net_pnl": 5.35909068327398,
+        "return_pct": 0.5359090683273979,
+        "drawdown_pct": 0.47300649300290787,
+        "profit_factor": 1.647832963822911,
+        "fees": 1.8163816155888013,
+        "funding_cost": 0.048045274855958935,
+        "losses_over_budget": 2,
+        "average_hold_hours": 22.599999805555555,
+        "exits": {
+          "RELATIONSHIP_INVALID": 2,
+          "TARGET": 5,
+          "STOP": 2,
+          "TIME_LIMIT": 1
+        }
+      },
+      "quarters": {
+        "2020-Q3": 0.0,
+        "2020-Q4": 0.7367096226687408,
+        "2021-Q1": 0.0,
+        "2021-Q2": 3.643648294594641,
+        "2021-Q3": 0.025366465918523318,
+        "2021-Q4": 0.9533663000920569
+      }
+    },
+    {
+      "id": "development_w144_z2.25",
+      "config": {
+        "window": 144,
+        "z": 2.25
+      },
+      "summary": {
+        "trades": 4,
+        "net_pnl": 1.4571610478522645,
+        "return_pct": 0.14571610478522645,
+        "drawdown_pct": 0.3353630279314757,
+        "profit_factor": 1.4823263826343571,
+        "fees": 0.584422747885645,
+        "funding_cost": -0.11695448761870039,
+        "losses_over_budget": 0,
+        "average_hold_hours": 35.74999993055555,
+        "exits": {
+          "RELATIONSHIP_INVALID": 2,
+          "TARGET": 1,
+          "TIME_LIMIT": 1
+        }
+      },
+      "quarters": {
+        "2020-Q3": 0.0,
+        "2020-Q4": -1.542071991648072,
+        "2021-Q1": 0.0,
+        "2021-Q2": -1.4790379876433235,
+        "2021-Q3": 2.55295669881275,
+        "2021-Q4": 1.9253143283310692
+      }
+    },
+    {
+      "id": "development_w168_z1.75",
+      "config": {
+        "window": 168,
+        "z": 1.75
+      },
+      "summary": {
+        "trades": 9,
+        "net_pnl": 5.901385559763493,
+        "return_pct": 0.5901385559763492,
+        "drawdown_pct": 0.49787288795317175,
+        "profit_factor": 1.750549197623642,
+        "fees": 1.303781153315244,
+        "funding_cost": -0.2556174452213455,
+        "losses_over_budget": 2,
+        "average_hold_hours": 23.44444422839506,
+        "exits": {
+          "TARGET": 5,
+          "STOP": 2,
+          "RELATIONSHIP_INVALID": 1,
+          "TIME_LIMIT": 1
+        }
+      },
+      "quarters": {
+        "2020-Q3": 2.228473782785727,
+        "2020-Q4": -3.6461643652644398,
+        "2021-Q1": 2.4634808262044317,
+        "2021-Q2": 2.8257129872497444,
+        "2021-Q3": -2.5550128024462992,
+        "2021-Q4": 4.584895131234248
+      }
+    },
+    {
+      "id": "development_w168_z2.25",
+      "config": {
+        "window": 168,
+        "z": 2.25
+      },
+      "summary": {
+        "trades": 5,
+        "net_pnl": 6.5170058263859545,
+        "return_pct": 0.6517005826385954,
+        "drawdown_pct": 0.3200683321655301,
+        "profit_factor": 3.549114351296631,
+        "fees": 0.6896460186098701,
+        "funding_cost": -0.07597759107291885,
+        "losses_over_budget": 1,
+        "average_hold_hours": 25.399999777777776,
+        "exits": {
+          "TARGET": 3,
+          "STOP": 1,
+          "TIME_LIMIT": 1
+        }
+      },
+      "quarters": {
+        "2020-Q3": 0.0,
+        "2020-Q4": 0.0,
+        "2021-Q1": 0.0,
+        "2021-Q2": 4.485881192220745,
+        "2021-Q3": -2.556576492173008,
+        "2021-Q4": 4.587701126338288
+      }
+    },
+    {
+      "id": "development_w336_z1.75",
+      "config": {
+        "window": 336,
+        "z": 1.75
+      },
+      "summary": {
+        "trades": 15,
+        "net_pnl": -4.681878667989327,
+        "return_pct": -0.4681878667989327,
+        "drawdown_pct": 1.398345738981733,
+        "profit_factor": 0.7431898827771325,
+        "fees": 2.1203140991724934,
+        "funding_cost": 0.11601867645199263,
+        "losses_over_budget": 3,
+        "average_hold_hours": 26.4666665,
+        "exits": {
+          "TARGET": 6,
+          "STOP": 3,
+          "RELATIONSHIP_INVALID": 5,
+          "TIME_LIMIT": 1
+        }
+      },
+      "quarters": {
+        "2020-Q3": 0.0,
+        "2020-Q4": 2.0408933742926365,
+        "2021-Q1": -2.895937954364399,
+        "2021-Q2": 7.8297310984586375,
+        "2021-Q3": -4.387546000592238,
+        "2021-Q4": -7.269019185784032
+      }
+    },
+    {
+      "id": "development_w336_z2.25",
+      "config": {
+        "window": 336,
+        "z": 2.25
+      },
+      "summary": {
+        "trades": 6,
+        "net_pnl": 0.4331832393011421,
+        "return_pct": 0.043318323930114214,
+        "drawdown_pct": 0.3871598838239516,
+        "profit_factor": 1.0908079314222359,
+        "fees": 0.690709737263438,
+        "funding_cost": -0.04464494560939224,
+        "losses_over_budget": 1,
+        "average_hold_hours": 27.333333194444446,
+        "exits": {
+          "STOP": 1,
+          "TARGET": 2,
+          "RELATIONSHIP_INVALID": 3
+        }
+      },
+      "quarters": {
+        "2020-Q3": 0.0,
+        "2020-Q4": 0.0,
+        "2021-Q1": -2.8900396915065585,
+        "2021-Q2": 4.927451660850579,
+        "2021-Q3": -1.6042287300429052,
+        "2021-Q4": 0.0
+      }
+    }
+  ],
+  "protocol": {
+    "grid": [
+      {
+        "window": 144,
+        "z": 1.75
+      },
+      {
+        "window": 144,
+        "z": 2.25
+      },
+      {
+        "window": 168,
+        "z": 1.75
+      },
+      {
+        "window": 168,
+        "z": 2.25
+      },
+      {
+        "window": 336,
+        "z": 1.75
+      },
+      {
+        "window": 336,
+        "z": 2.25
+      }
+    ],
+    "development": [
+      1593561600000,
+      1640995200000
+    ],
+    "evaluation_years": [
+      2022,
+      2023
+    ],
+    "selection": "Priority >=30 baskets; maximize weakest marked quarter, then total net, then name",
+    "evidence": "New expanded-pair model; 2022/23 BTC/ETH years were previously used by directional models, so this is not globally untouched market data.",
+    "universe": "Fixed eight surviving coins, 28 combinations; not full point-in-time universe",
+    "execution": "Hourly observations, 5bps taker, 4bps spread, 2bps slippage/side, actual funding timestamp ordering; gross basket target/stop 1:1",
+    "hashes": {
+      "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\pair_viability.py": "a61817cc8aa8e0fa80836a629c3da721270a049c4b7e358668c348e6529ce8a6",
+      "scalp\\pair_screen.py": "6b14817160a27815f88e9a7e430a329a0e829080cc8875a52b90cdbbbfd744d6",
+      "scalp\\pair_portfolio.py": "d5f128af64e586769a155f3f987034b18e53555a34f1456922c414d5fd6b02a8"
+    },
+    "data_sha256": "3706cdaa9e93a1ef07673ee97cbc0dc4be624735cae536337bd3b24bc8d2fd0e"
+  }
+}

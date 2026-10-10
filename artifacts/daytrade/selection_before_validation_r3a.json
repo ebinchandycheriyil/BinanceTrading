@@ -1,0 +1,36 @@
+{
+ "flow_follow": {
+  "params": {
+   "flow": 0.65,
+   "hold": 48,
+   "init_k": 1.0,
+   "k_range": 5.0,
+   "k_vol": 3.0,
+   "trail_k": 4.0
+  },
+  "qualified": false,
+  "dev_t": -5.98,
+  "dev_sum_r": -154.29,
+  "dev_pf": 0.612,
+  "dev_trades": 1180,
+  "grid_positive": "0/16",
+  "grid_median_r": -745.41
+ },
+ "funding_squeeze_r3": {
+  "params": {
+   "brk": 6,
+   "hold_h": 48,
+   "init_atr": 2.0,
+   "sides": "long",
+   "thr": 0.0003,
+   "trail_atr": 6.0
+  },
+  "qualified": true,
+  "dev_t": 2.28,
+  "dev_sum_r": 118.95,
+  "dev_pf": 1.279,
+  "dev_trades": 718,
+  "grid_positive": "36/36",
+  "grid_median_r": 68.075
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "adx_dmi": [
+  "lab",
+  {
+   "ind": "adx_dmi",
+   "var": 1,
+   "tf": "15min",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "bb_breakout": [
+  "lab",
+  {
+   "ind": "bb_breakout",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "bb_reversal": [
+  "lab",
+  {
+   "ind": "bb_reversal",
+   "var": 0,
+   "tf": "15min",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "cascade": [
+  "cascade",
+  {
+   "k_range": 5.0,
+   "k_vol": 6.0,
+   "deep": 0.25,
+   "stop_k": 1.0,
+   "tgt": 0.5,
+   "hold": 24
+  }
+ ],
+ "cci": [
+  "lab",
+  {
+   "ind": "cci",
+   "var": 1,
+   "tf": "15min",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "daymom": [
+  "daymom",
+  {
+   "hour": 14,
+   "k": 0.5,
+   "stop_atr": 4.0,
+   "mode": "mom"
+  }
+ ],
+ "donchian": [
+  "lab",
+  {
+   "ind": "donchian",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "ema_cross": [
+  "lab",
+  {
+   "ind": "ema_cross",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "heikin_ashi": [
+  "lab",
+  {
+   "ind": "heikin_ashi",
+   "var": 1,
+   "tf": "1h",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "hour_season": [
+  "hour_season",
+  {
+   "start": 20,
+   "length": 8,
+   "side": 1,
+   "trend": true,
+   "stop_atr": 3.0
+  }
+ ],
+ "ichimoku": [
+  "lab",
+  {
+   "ind": "ichimoku",
+   "var": 0,
+   "tf": "1h",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "keltner_breakout": [
+  "lab",
+  {
+   "ind": "keltner_breakout",
+   "var": 0,
+   "tf": "1h",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "macd": [
+  "lab",
+  {
+   "ind": "macd",
+   "var": 1,
+   "tf": "15min",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "mfi": [
+  "lab",
+  {
+   "ind": "mfi",
+   "var": 0,
+   "tf": "15min",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "nr_breakout": [
+  "nr_breakout",
+  {
+   "nr": 7,
+   "k": 0.2,
+   "stop_mode": "open",
+   "use_nr": true
+  }
+ ],
+ "orb": [
+  "orb",
+  {
+   "session": "asia",
+   "range_min": 30,
+   "window_h": 4,
+   "target_r": 3.0,
+   "stop_mode": "range",
+   "max_range_atr": 1.0,
+   "trend": false
+  }
+ ],
+ "pivots": [
+  "lab",
+  {
+   "ind": "pivots",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "psar": [
+  "lab",
+  {
+   "ind": "psar",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "pullback": [
+  "pullback",
+  {
+   "target_r": 2.5,
+   "be_r": NaN,
+   "lookback": 6,
+   "hold_h": 12,
+   "start_h": 7,
+   "end_h": 20
+  }
+ ],
+ "rsi2_dip": [
+  "rsi2_dip",
+  {
+   "th": 5,
+   "tgt_atr": 1.5,
+   "stop_atr": 2.0,
+   "hold_h": 24,
+   "shorts": false
+  }
+ ],
+ "rsi_momentum": [
+  "lab",
+  {
+   "ind": "rsi_momentum",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "rsi_reversal": [
+  "lab",
+  {
+   "ind": "rsi_reversal",
+   "var": 1,
+   "tf": "15min",
+   "exit": "target2R",
+   "filt": "ema200"
+  }
+ ],
+ "squeeze": [
+  "squeeze",
+  {
+   "kc": 1.5,
+   "min_sq": 4,
+   "vol_mult": 1.5,
+   "stop_atr": 2.5,
+   "target_r": 3.0,
+   "hold_h": 24
+  }
+ ],
+ "stochastic": [
+  "lab",
+  {
+   "ind": "stochastic",
+   "var": 1,
+   "tf": "15min",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "supertrend": [
+  "lab",
+  {
+   "ind": "supertrend",
+   "var": 0,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "sweep": [
+  "sweep",
+  {
+   "pen": 0.25,
+   "buf": 0.25,
+   "target_r": 3.0,
+   "hold_h": 8,
+   "entry": "market"
+  }
+ ],
+ "volume_breakout": [
+  "lab",
+  {
+   "ind": "volume_breakout",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "vwap_cross": [
+  "lab",
+  {
+   "ind": "vwap_cross",
+   "var": 1,
+   "tf": "1h",
+   "exit": "trail",
+   "filt": "ema200"
+  }
+ ],
+ "vwap_fade": [
+  "vwap_fade",
+  {
+   "k": 3.0,
+   "rsi_band": 25,
+   "adx_max": 20,
+   "entry_atr": 0.5,
+   "stop_atr": 1.5,
+   "tgt_frac": 0.5,
+   "hold_h": 4
+  }
+ ]
+}

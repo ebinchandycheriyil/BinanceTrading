@@ -1,0 +1,14 @@
+{
+ "updated": "2026-10-02T18:55:25.010463+00:00",
+ "started": "2026-10-02T15:33:15.681853+00:00",
+ "hours_running": 3.37,
+ "symbols": 2,
+ "symbols_with_data": 2,
+ "errors": {},
+ "signals": 0,
+ "late_signals": 0,
+ "open_positions": [],
+ "closed": {
+  "trades": 0
+ }
+}

@@ -1,0 +1,925 @@
+{
+  "selected": {
+    "id": "breakout_tf2_lb28_atr4_h48",
+    "parameters": {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    "summary": {
+      "trades": 29,
+      "net_pnl": 7.812478159424544,
+      "return_pct": 0.7812478159424544,
+      "drawdown_pct": 0.9391818324535876,
+      "profit_factor": 1.386812924392147,
+      "win_rate": 0.5172413793103449,
+      "fees": 2.138502858457858,
+      "funding": 0.12097157074950818,
+      "average_hold_hours": 26.96551724137931
+    },
+    "months": {
+      "2026-01": 16.142088662826268,
+      "2026-02": -8.32961050340191
+    }
+  },
+  "development": [
+    {
+      "id": "breakout_tf2_lb28_atr3.5_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 4.102796094386053,
+        "return_pct": 0.4102796094386053,
+        "drawdown_pct": 1.4198645254274798,
+        "profit_factor": 1.157552648396897,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.5157920562366427,
+        "funding": 0.11146757960947201,
+        "average_hold_hours": 21.35483870967742
+      },
+      "months": {
+        "2026-01": 14.76521529112813,
+        "2026-02": -10.662419196742349
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr3.5_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.108565972153517,
+        "return_pct": 0.3108565972153517,
+        "drawdown_pct": 1.4916207890578161,
+        "profit_factor": 1.117373742388494,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.51587469915924,
+        "funding": 0.11650280687989589,
+        "average_hold_hours": 22.516129032258064
+      },
+      "months": {
+        "2026-01": 14.498879087270325,
+        "2026-02": -11.390313115116555
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr3.5_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.8678259455682337,
+        "return_pct": 0.08678259455682337,
+        "drawdown_pct": 1.6019071416284674,
+        "profit_factor": 1.0328481179215245,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.425810475668715,
+        "funding": 0.11329629825124392,
+        "average_hold_hours": 23.783333333333335
+      },
+      "months": {
+        "2026-01": 13.367224037602114,
+        "2026-02": -12.499398092034085
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr3.75_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.726586827215744,
+        "return_pct": 0.37265868272157443,
+        "drawdown_pct": 1.3409949043887135,
+        "profit_factor": 1.154403440546832,
+        "win_rate": 0.4838709677419355,
+        "fees": 2.359935985644502,
+        "funding": 0.14250708968528994,
+        "average_hold_hours": 23.06451612903226
+      },
+      "months": {
+        "2026-01": 15.574407152388176,
+        "2026-02": -11.84782032517262
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr3.75_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 2.9286039285935077,
+        "return_pct": 0.2928603928593508,
+        "drawdown_pct": 1.3952168561948939,
+        "profit_factor": 1.1198843976211246,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.360028496156144,
+        "funding": 0.14817711324388103,
+        "average_hold_hours": 24.419354838709676
+      },
+      "months": {
+        "2026-01": 15.325016950663098,
+        "2026-02": -12.39641302206951
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr3.75_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.9375233709578267,
+        "return_pct": 0.09375233709578266,
+        "drawdown_pct": 1.472335196283819,
+        "profit_factor": 1.0384710504174028,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.2754177390952406,
+        "funding": 0.1451448015638823,
+        "average_hold_hours": 25.95
+      },
+      "months": {
+        "2026-01": 14.102450997294227,
+        "2026-02": -13.16492762633618
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr4_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 7.812478159424544,
+        "return_pct": 0.7812478159424544,
+        "drawdown_pct": 0.9391818324535876,
+        "profit_factor": 1.386812924392147,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138502858457858,
+        "funding": 0.12097157074950818,
+        "average_hold_hours": 26.96551724137931
+      },
+      "months": {
+        "2026-01": 16.142088662826268,
+        "2026-02": -8.32961050340191
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr4_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 6.889133675743575,
+        "return_pct": 0.6889133675743575,
+        "drawdown_pct": 1.0071115247474494,
+        "profit_factor": 1.333812508527275,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138690770736089,
+        "funding": 0.12540661474485937,
+        "average_hold_hours": 28.29310344827586
+      },
+      "months": {
+        "2026-01": 15.907758484977876,
+        "2026-02": -9.018624809234097
+      }
+    },
+    {
+      "id": "breakout_tf2_lb28_atr4_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 28,
+        "net_pnl": 4.6087629792443305,
+        "return_pct": 0.4608762979244331,
+        "drawdown_pct": 1.1045235220075722,
+        "profit_factor": 1.223899237713373,
+        "win_rate": 0.42857142857142855,
+        "fees": 2.059090078839532,
+        "funding": 0.12255018530112048,
+        "average_hold_hours": 29.857142857142858
+      },
+      "months": {
+        "2026-01": 14.60536506777214,
+        "2026-02": -9.996602088527652
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.5_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 4.102796094386053,
+        "return_pct": 0.4102796094386053,
+        "drawdown_pct": 1.4198645254274798,
+        "profit_factor": 1.157552648396897,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.5157920562366427,
+        "funding": 0.11146757960947201,
+        "average_hold_hours": 21.35483870967742
+      },
+      "months": {
+        "2026-01": 14.76521529112813,
+        "2026-02": -10.662419196742349
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.5_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.108565972153517,
+        "return_pct": 0.3108565972153517,
+        "drawdown_pct": 1.4916207890578161,
+        "profit_factor": 1.117373742388494,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.51587469915924,
+        "funding": 0.11650280687989589,
+        "average_hold_hours": 22.516129032258064
+      },
+      "months": {
+        "2026-01": 14.498879087270325,
+        "2026-02": -11.390313115116555
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.5_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.8678259455682337,
+        "return_pct": 0.08678259455682337,
+        "drawdown_pct": 1.6019071416284674,
+        "profit_factor": 1.0328481179215245,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.425810475668715,
+        "funding": 0.11329629825124392,
+        "average_hold_hours": 23.783333333333335
+      },
+      "months": {
+        "2026-01": 13.367224037602114,
+        "2026-02": -12.499398092034085
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.75_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.726586827215744,
+        "return_pct": 0.37265868272157443,
+        "drawdown_pct": 1.3409949043887135,
+        "profit_factor": 1.154403440546832,
+        "win_rate": 0.4838709677419355,
+        "fees": 2.359935985644502,
+        "funding": 0.14250708968528994,
+        "average_hold_hours": 23.06451612903226
+      },
+      "months": {
+        "2026-01": 15.574407152388176,
+        "2026-02": -11.84782032517262
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.75_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 2.9286039285935077,
+        "return_pct": 0.2928603928593508,
+        "drawdown_pct": 1.3952168561948939,
+        "profit_factor": 1.1198843976211246,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.360028496156144,
+        "funding": 0.14817711324388103,
+        "average_hold_hours": 24.419354838709676
+      },
+      "months": {
+        "2026-01": 15.325016950663098,
+        "2026-02": -12.39641302206951
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr3.75_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.9375233709578267,
+        "return_pct": 0.09375233709578266,
+        "drawdown_pct": 1.472335196283819,
+        "profit_factor": 1.0384710504174028,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.2754177390952406,
+        "funding": 0.1451448015638823,
+        "average_hold_hours": 25.95
+      },
+      "months": {
+        "2026-01": 14.102450997294227,
+        "2026-02": -13.16492762633618
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr4_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 7.812478159424544,
+        "return_pct": 0.7812478159424544,
+        "drawdown_pct": 0.9391818324535876,
+        "profit_factor": 1.386812924392147,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138502858457858,
+        "funding": 0.12097157074950818,
+        "average_hold_hours": 26.96551724137931
+      },
+      "months": {
+        "2026-01": 16.142088662826268,
+        "2026-02": -8.32961050340191
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr4_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 6.889133675743575,
+        "return_pct": 0.6889133675743575,
+        "drawdown_pct": 1.0071115247474494,
+        "profit_factor": 1.333812508527275,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138690770736089,
+        "funding": 0.12540661474485937,
+        "average_hold_hours": 28.29310344827586
+      },
+      "months": {
+        "2026-01": 15.907758484977876,
+        "2026-02": -9.018624809234097
+      }
+    },
+    {
+      "id": "breakout_tf2_lb30_atr4_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 28,
+        "net_pnl": 4.6087629792443305,
+        "return_pct": 0.4608762979244331,
+        "drawdown_pct": 1.1045235220075722,
+        "profit_factor": 1.223899237713373,
+        "win_rate": 0.42857142857142855,
+        "fees": 2.059090078839532,
+        "funding": 0.12255018530112048,
+        "average_hold_hours": 29.857142857142858
+      },
+      "months": {
+        "2026-01": 14.60536506777214,
+        "2026-02": -9.996602088527652
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.5_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 4.102796094386053,
+        "return_pct": 0.4102796094386053,
+        "drawdown_pct": 1.4198645254274798,
+        "profit_factor": 1.157552648396897,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.5157920562366427,
+        "funding": 0.11146757960947201,
+        "average_hold_hours": 21.35483870967742
+      },
+      "months": {
+        "2026-01": 14.76521529112813,
+        "2026-02": -10.662419196742349
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.5_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.108565972153517,
+        "return_pct": 0.3108565972153517,
+        "drawdown_pct": 1.4916207890578161,
+        "profit_factor": 1.117373742388494,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.51587469915924,
+        "funding": 0.11650280687989589,
+        "average_hold_hours": 22.516129032258064
+      },
+      "months": {
+        "2026-01": 14.498879087270325,
+        "2026-02": -11.390313115116555
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.5_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.8678259455682337,
+        "return_pct": 0.08678259455682337,
+        "drawdown_pct": 1.6019071416284674,
+        "profit_factor": 1.0328481179215245,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.425810475668715,
+        "funding": 0.11329629825124392,
+        "average_hold_hours": 23.783333333333335
+      },
+      "months": {
+        "2026-01": 13.367224037602114,
+        "2026-02": -12.499398092034085
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.75_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 3.726586827215744,
+        "return_pct": 0.37265868272157443,
+        "drawdown_pct": 1.3409949043887135,
+        "profit_factor": 1.154403440546832,
+        "win_rate": 0.4838709677419355,
+        "fees": 2.359935985644502,
+        "funding": 0.14250708968528994,
+        "average_hold_hours": 23.06451612903226
+      },
+      "months": {
+        "2026-01": 15.574407152388176,
+        "2026-02": -11.84782032517262
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.75_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 31,
+        "net_pnl": 2.9286039285935077,
+        "return_pct": 0.2928603928593508,
+        "drawdown_pct": 1.3952168561948939,
+        "profit_factor": 1.1198843976211246,
+        "win_rate": 0.5161290322580645,
+        "fees": 2.360028496156144,
+        "funding": 0.14817711324388103,
+        "average_hold_hours": 24.419354838709676
+      },
+      "months": {
+        "2026-01": 15.325016950663098,
+        "2026-02": -12.39641302206951
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr3.75_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 30,
+        "net_pnl": 0.9375233709578267,
+        "return_pct": 0.09375233709578266,
+        "drawdown_pct": 1.472335196283819,
+        "profit_factor": 1.0384710504174028,
+        "win_rate": 0.43333333333333335,
+        "fees": 2.2754177390952406,
+        "funding": 0.1451448015638823,
+        "average_hold_hours": 25.95
+      },
+      "months": {
+        "2026-01": 14.102450997294227,
+        "2026-02": -13.16492762633618
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr4_h48",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 7.812478159424544,
+        "return_pct": 0.7812478159424544,
+        "drawdown_pct": 0.9391818324535876,
+        "profit_factor": 1.386812924392147,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138502858457858,
+        "funding": 0.12097157074950818,
+        "average_hold_hours": 26.96551724137931
+      },
+      "months": {
+        "2026-01": 16.142088662826268,
+        "2026-02": -8.32961050340191
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr4_h54",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      "summary": {
+        "trades": 29,
+        "net_pnl": 6.889133675743575,
+        "return_pct": 0.6889133675743575,
+        "drawdown_pct": 1.0071115247474494,
+        "profit_factor": 1.333812508527275,
+        "win_rate": 0.5172413793103449,
+        "fees": 2.138690770736089,
+        "funding": 0.12540661474485937,
+        "average_hold_hours": 28.29310344827586
+      },
+      "months": {
+        "2026-01": 15.907758484977876,
+        "2026-02": -9.018624809234097
+      }
+    },
+    {
+      "id": "breakout_tf2_lb32_atr4_h60",
+      "parameters": {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 60
+      },
+      "summary": {
+        "trades": 28,
+        "net_pnl": 4.6087629792443305,
+        "return_pct": 0.4608762979244331,
+        "drawdown_pct": 1.1045235220075722,
+        "profit_factor": 1.223899237713373,
+        "win_rate": 0.42857142857142855,
+        "fees": 2.059090078839532,
+        "funding": 0.12255018530112048,
+        "average_hold_hours": 29.857142857142858
+      },
+      "months": {
+        "2026-01": 14.60536506777214,
+        "2026-02": -9.996602088527652
+      }
+    }
+  ],
+  "protocol": {
+    "start": 1767225600000,
+    "split": 1772323200000,
+    "end": 1777593600000,
+    "baseline": {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.75,
+      "max_hours": 54
+    },
+    "candidates": [
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 28,
+        "atr_multiple": 4,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 30,
+        "atr_multiple": 4,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.5,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 3.75,
+        "max_hours": 60
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 48
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 54
+      },
+      {
+        "method": "breakout",
+        "timeframe": 2,
+        "lookback": 32,
+        "atr_multiple": 4,
+        "max_hours": 60
+      }
+    ],
+    "selection": "At least 12 Jan-Feb trades preferred; maximize worst marked month, then total net, then name. No March-April input.",
+    "evaluation": "Record unchanged baseline before Jan-Feb tuning; freeze selected settings before March-April; show baseline and selected with no holdout reselection",
+    "gate": "Both development months positive, >=12 development trades; holdout >=20 trades, net>0, PF>=1.15, marked DD<=5%, weekly bootstrap lower95>0, doubled-cost replay net>0",
+    "costs": {
+      "method": "breakout",
+      "atr_multiple": 2,
+      "max_hours": 72,
+      "fee": 0.0005,
+      "slip": 0.0002,
+      "half_spread": 0.0002
+    },
+    "ratio": "1:1 price distances; unchanged risk and portfolio controls",
+    "source_hashes": {
+      "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\swing_fresh.py": "de7f61f159d3050f464552773a2bd6f9c7f5936a07724d60de256d89500e9d04",
+      "scalp\\swing.py": "97c8712a37c288295b8102016b9c31bd9a6ecf8786deaabf62b24fd44899cdad",
+      "scalp\\swing_sweep.py": "dd0ba8b06d1cd25506b39fad497ae9e81205f20b853228cd1dd30bd0ff601649"
+    }
+  },
+  "dataset_sha256": "6a146eda4c9c042f2d150bca0283e2f0081562731aed8df9f436c9fb798c6918"
+}

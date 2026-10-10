@@ -1,0 +1,11 @@
+{
+  "parent_segment": "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\artifacts\\carry\\forward_trial_20260926",
+  "resumed_at": 1790477115.3371663,
+  "prior_observations": 94,
+  "prior_errors": 0,
+  "prior_worker_seconds": 2835.6175894737244,
+  "remaining_worker_seconds": 83564.38241052628,
+  "prior_last_observation": 1790448349.353472,
+  "offline_gap_seconds": 28736.382813692093,
+  "note": "Account and event history copied using SQLite backup. Observation counts are cumulative; do not sum copied histories. Gap is unobserved, not simulated. Original segment and deadline remain unchanged."
+}

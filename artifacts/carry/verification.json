@@ -1,0 +1,58 @@
+{
+  "observations": 4,
+  "paper_entries": 0,
+  "closed_baskets": 0,
+  "open_baskets": 0,
+  "balance": 1000.0,
+  "rejection_counts": {
+    "annual_return_below_hurdle": 4,
+    "execution_cost_exceeds_stop_budget": 4,
+    "negative_under_cost_stress": 4,
+    "net_profit_below_hurdle": 4,
+    "quantity_below_step": 11,
+    "future_stale_exchange_book": 1
+  },
+  "tests": 131,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 131 tests in 0.254s\n\nOK\n"
+    },
+    {
+      "command": [
+        "-m",
+        "compileall",
+        "-q",
+        "scalp",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "accounting_reconciled": true,
+  "sources": {
+    "scalp\\carry.py": "c977d2c8d7a19ea7cb26ed07c3ec39198e26b8705dbe107bd5599a0dde8939b8",
+    "scalp\\carry_audit.py": "2656477d1670d2d51904093f850a712a0c0ad144a4f02d1bd7bc191af1d47547",
+    "scalp\\carry_cli.py": "0e086beb3a1345561067f286f78fdcf55b748b084d1b54b3e04a71067d1ce82f",
+    "scalp\\carry_market.py": "5503798696f2a2ff5ad264e089c2866081d21b57b3e69a9fd03c3dfe0fa19770",
+    "scalp\\carry_paper.py": "7fb10a807cb408381bba35345355a68806ae70860b781a46e715a84274897917"
+  }
+}

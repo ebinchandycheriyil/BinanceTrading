@@ -1,0 +1,401 @@
+{
+  "selected": "retest",
+  "development": {
+    "band_reentry": [
+      {
+        "summary": {
+          "trades": 1,
+          "net_pnl": -0.7595154354465581,
+          "gross_pnl": -0.28528796124195654,
+          "executed_notional": 948.4549484092031,
+          "spread_slippage_cost": 0.3793819754796791,
+          "funding_cost": 0.0,
+          "fees": 0.47422747420460154,
+          "win_rate": 0.0,
+          "profit_factor": 0.0,
+          "expectancy": -0.7595154354465581,
+          "closed_trade_drawdown": 0.7595154354465581,
+          "average_hold_minutes": 15.0,
+          "exits": {
+            "NO_FOLLOW_THROUGH": {
+              "count": 1,
+              "net_pnl": -0.7595154354465581
+            }
+          },
+          "loss_diagnostics": {
+            "little_favorable_follow_through": 1
+          },
+          "evidence": "insufficient sample"
+        },
+        "trades": [
+          {
+            "id": 1,
+            "side": "SELL",
+            "entry": 1864.2140905984,
+            "qty": 0.2543081465883581,
+            "entry_time": 1785767700.0,
+            "deadline": 1785769500.0,
+            "stop": 1870.689098684799,
+            "target": 1850.9985,
+            "stop_distance": 6.475008086399157,
+            "risk_amount": 2.5000000000000004,
+            "entry_fee": 0.23704241511199028,
+            "entry_notional": 474.0848302239806,
+            "entry_reference": 1864.96,
+            "fee_rate_bps": 5.0,
+            "entry_role": "taker",
+            "exit_role": "taker",
+            "planned_net_reward_risk": 1.0029918626985752,
+            "features": {
+              "strategy": "band_reentry",
+              "atr": 5.636394739196404,
+              "adx": 19.51075349488375,
+              "volume_ratio": 1.8284386429730666,
+              "close": 1864.95,
+              "atr_fraction": 0.0030222765967969135,
+              "signal_timeframe": "5m"
+            },
+            "entry_reason": "band_reentry confirmed on closed 5m bar",
+            "risk_multiplier": 1.0,
+            "mae_r": -0.6104937701473109,
+            "mfe_r": 0.1960053321116121,
+            "funding_cost": 0.0,
+            "funding_events": [],
+            "symbol": "ETH/USDT:USDT",
+            "exit": 1865.3359105835998,
+            "exit_time": 1785768600.0,
+            "exit_reason": "NO_FOLLOW_THROUGH",
+            "gross_pnl": -0.28528796124195654,
+            "fees": 0.47422747420460154,
+            "exit_fee": 0.23718505909261126,
+            "net_pnl": -0.7595154354465581,
+            "exit_notional": 474.3701181852225,
+            "exit_reference": 1864.59,
+            "hold_minutes": 15.0,
+            "realized_r": -0.30380617417862316,
+            "diagnostics": [
+              "little_favorable_follow_through"
+            ],
+            "gross_before_execution_costs": 0.09409401423772257,
+            "spread_slippage_cost": 0.3793819754796791
+          }
+        ],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20126,
+          "target too small after round-trip costs": 18,
+          "structural stop/target outside allowed range": 13,
+          "net reward/risk below minimum": 1,
+          "entry gap invalidated structural setup": 1
+        }
+      },
+      {
+        "summary": {
+          "trades": 0,
+          "net_pnl": 0,
+          "gross_pnl": 0,
+          "executed_notional": 0,
+          "spread_slippage_cost": 0,
+          "funding_cost": 0,
+          "fees": 0,
+          "win_rate": 0,
+          "profit_factor": null,
+          "expectancy": 0,
+          "closed_trade_drawdown": 0.0,
+          "average_hold_minutes": 0,
+          "exits": {},
+          "loss_diagnostics": {},
+          "evidence": "insufficient sample"
+        },
+        "trades": [],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20135,
+          "structural stop/target outside allowed range": 14,
+          "target too small after round-trip costs": 9,
+          "entry gap invalidated structural setup": 2
+        }
+      }
+    ],
+    "retest": [
+      {
+        "summary": {
+          "trades": 1,
+          "net_pnl": 0.9859438024128586,
+          "gross_pnl": 1.4137331289427744,
+          "executed_notional": 855.5786530598317,
+          "spread_slippage_cost": 0.3422316582503737,
+          "funding_cost": 0.0,
+          "fees": 0.42778932652991586,
+          "win_rate": 1.0,
+          "profit_factor": null,
+          "expectancy": 0.9859438024128586,
+          "closed_trade_drawdown": 0.0,
+          "average_hold_minutes": 30.0,
+          "exits": {
+            "TIME_LIMIT": {
+              "count": 1,
+              "net_pnl": 0.9859438024128586
+            }
+          },
+          "loss_diagnostics": {},
+          "evidence": "insufficient sample"
+        },
+        "trades": [
+          {
+            "id": 1,
+            "side": "BUY",
+            "entry": 1911.6944484372,
+            "qty": 0.22340518921032704,
+            "entry_time": 1785952200.0,
+            "deadline": 1785954000.0,
+            "stop": 1903.9450690329809,
+            "target": 1928.427327417548,
+            "stop_distance": 7.749379404219098,
+            "risk_amount": 2.5,
+            "entry_fee": 0.21354122998272224,
+            "entry_notional": 427.08245996544446,
+            "entry_reference": 1910.93,
+            "fee_rate_bps": 5.0,
+            "entry_role": "taker",
+            "exit_role": "taker",
+            "planned_net_reward_risk": 1.1877854266801318,
+            "features": {
+              "strategy": "retest",
+              "atr": 4.5698619340383955,
+              "adx": 34.154277005677095,
+              "volume_ratio": 1.2223033036995523,
+              "close": 1910.94,
+              "atr_fraction": 0.0023914209415462524,
+              "signal_timeframe": "5m"
+            },
+            "entry_reason": "retest confirmed on closed 5m bar",
+            "risk_multiplier": 1.0,
+            "mae_r": -0.22694101262383198,
+            "mfe_r": 1.1481028290286046,
+            "funding_cost": 0.0,
+            "funding_events": [],
+            "symbol": "ETH/USDT:USDT",
+            "exit": 1918.0225607516002,
+            "exit_time": 1785954000.0,
+            "exit_reason": "TIME_LIMIT",
+            "gross_pnl": 1.4137331289427744,
+            "fees": 0.42778932652991586,
+            "exit_fee": 0.2142480965471936,
+            "net_pnl": 0.9859438024128586,
+            "exit_notional": 428.4961930943872,
+            "exit_reference": 1918.79,
+            "hold_minutes": 30.0,
+            "realized_r": 0.39437752096514345,
+            "diagnostics": [],
+            "gross_before_execution_costs": 1.755964787193148,
+            "spread_slippage_cost": 0.3422316582503737
+          }
+        ],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20140,
+          "target too small after round-trip costs": 6,
+          "net reward/risk below minimum": 8,
+          "structural stop/target outside allowed range": 5
+        }
+      },
+      {
+        "summary": {
+          "trades": 0,
+          "net_pnl": 0,
+          "gross_pnl": 0,
+          "executed_notional": 0,
+          "spread_slippage_cost": 0,
+          "funding_cost": 0,
+          "fees": 0,
+          "win_rate": 0,
+          "profit_factor": null,
+          "expectancy": 0,
+          "closed_trade_drawdown": 0.0,
+          "average_hold_minutes": 0,
+          "exits": {},
+          "loss_diagnostics": {},
+          "evidence": "insufficient sample"
+        },
+        "trades": [],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20133,
+          "structural stop/target outside allowed range": 10,
+          "net reward/risk below minimum": 7,
+          "target too small after round-trip costs": 10
+        }
+      }
+    ],
+    "trend_pullback": [
+      {
+        "summary": {
+          "trades": 0,
+          "net_pnl": 0,
+          "gross_pnl": 0,
+          "executed_notional": 0,
+          "spread_slippage_cost": 0,
+          "funding_cost": 0,
+          "fees": 0,
+          "win_rate": 0,
+          "profit_factor": null,
+          "expectancy": 0,
+          "closed_trade_drawdown": 0.0,
+          "average_hold_minutes": 0,
+          "exits": {},
+          "loss_diagnostics": {},
+          "evidence": "insufficient sample"
+        },
+        "trades": [],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20152,
+          "target too small after round-trip costs": 6,
+          "structural stop/target outside allowed range": 2
+        }
+      },
+      {
+        "summary": {
+          "trades": 0,
+          "net_pnl": 0,
+          "gross_pnl": 0,
+          "executed_notional": 0,
+          "spread_slippage_cost": 0,
+          "funding_cost": 0,
+          "fees": 0,
+          "win_rate": 0,
+          "profit_factor": null,
+          "expectancy": 0,
+          "closed_trade_drawdown": 0.0,
+          "average_hold_minutes": 0,
+          "exits": {},
+          "loss_diagnostics": {},
+          "evidence": "insufficient sample"
+        },
+        "trades": [],
+        "skipped_signals": {
+          "waiting for a complete 5m chart setup": 20147,
+          "target too small after round-trip costs": 6,
+          "structural stop/target outside allowed range": 6,
+          "entry gap invalidated structural setup": 1
+        }
+      }
+    ]
+  },
+  "protocol": {
+    "version": 3,
+    "start": 1785456000000,
+    "split": 1786060800000,
+    "validation": 1786665600000,
+    "end": 1787875200000,
+    "candidates": {
+      "band_reentry": {
+        "symbols": [
+          "BTC/USDT:USDT",
+          "ETH/USDT:USDT"
+        ],
+        "initial_balance": 1000.0,
+        "risk_fraction": 0.0025,
+        "portfolio_risk": 0.005,
+        "max_positions": 2,
+        "max_gross_exposure": 1.0,
+        "daily_loss_fraction": 0.015,
+        "min_hold_minutes": 15,
+        "max_hold_minutes": 30,
+        "poll_seconds": 5.0,
+        "stale_seconds": 15.0,
+        "fee_bps": 5.0,
+        "slippage_bps": 2.0,
+        "max_spread_bps": 4.0,
+        "atr_stop_multiple": 1.5,
+        "min_stop_fraction": 0.001,
+        "max_stop_fraction": 0.008,
+        "reward_risk": 1.5,
+        "adx_min": 20.0,
+        "volume_ratio_min": 0.8,
+        "cooldown_minutes": 5,
+        "loss_streak_limit": 3,
+        "loss_pause_minutes": 30,
+        "feedback_sample": 20,
+        "strategy": "band_reentry",
+        "min_move_cost_ratio": 0.0,
+        "min_target_cost_ratio": 2,
+        "min_net_reward_risk": 1,
+        "max_daily_entries": 6,
+        "daily_fee_budget_fraction": 0.003
+      },
+      "retest": {
+        "symbols": [
+          "BTC/USDT:USDT",
+          "ETH/USDT:USDT"
+        ],
+        "initial_balance": 1000.0,
+        "risk_fraction": 0.0025,
+        "portfolio_risk": 0.005,
+        "max_positions": 2,
+        "max_gross_exposure": 1.0,
+        "daily_loss_fraction": 0.015,
+        "min_hold_minutes": 15,
+        "max_hold_minutes": 30,
+        "poll_seconds": 5.0,
+        "stale_seconds": 15.0,
+        "fee_bps": 5.0,
+        "slippage_bps": 2.0,
+        "max_spread_bps": 4.0,
+        "atr_stop_multiple": 1.5,
+        "min_stop_fraction": 0.001,
+        "max_stop_fraction": 0.008,
+        "reward_risk": 1.5,
+        "adx_min": 20.0,
+        "volume_ratio_min": 0.8,
+        "cooldown_minutes": 5,
+        "loss_streak_limit": 3,
+        "loss_pause_minutes": 30,
+        "feedback_sample": 20,
+        "strategy": "retest",
+        "min_move_cost_ratio": 0.0,
+        "min_target_cost_ratio": 2,
+        "min_net_reward_risk": 1,
+        "max_daily_entries": 6,
+        "daily_fee_budget_fraction": 0.003
+      },
+      "trend_pullback": {
+        "symbols": [
+          "BTC/USDT:USDT",
+          "ETH/USDT:USDT"
+        ],
+        "initial_balance": 1000.0,
+        "risk_fraction": 0.0025,
+        "portfolio_risk": 0.005,
+        "max_positions": 2,
+        "max_gross_exposure": 1.0,
+        "daily_loss_fraction": 0.015,
+        "min_hold_minutes": 15,
+        "max_hold_minutes": 30,
+        "poll_seconds": 5.0,
+        "stale_seconds": 15.0,
+        "fee_bps": 5.0,
+        "slippage_bps": 2.0,
+        "max_spread_bps": 4.0,
+        "atr_stop_multiple": 1.5,
+        "min_stop_fraction": 0.001,
+        "max_stop_fraction": 0.008,
+        "reward_risk": 1.5,
+        "adx_min": 20.0,
+        "volume_ratio_min": 0.8,
+        "cooldown_minutes": 5,
+        "loss_streak_limit": 3,
+        "loss_pause_minutes": 30,
+        "feedback_sample": 20,
+        "strategy": "trend_pullback",
+        "min_move_cost_ratio": 0.0,
+        "min_target_cost_ratio": 2,
+        "min_net_reward_risk": 1,
+        "max_daily_entries": 6,
+        "daily_fee_budget_fraction": 0.003
+      }
+    },
+    "fees": "User approved standard assumptions: maker 2 bps, taker 5 bps per fill; no discounts",
+    "selection": "Maximum worst-development-fold net P&L; name tie break. All three validation rows shown, never used to reselect.",
+    "gate": "Selected candidate: each dev fold >=10 trades and net>0; validation >=30 trades, net>0, PF>=1.15, daily bootstrap lower95>0, same-trade doubled-cost net>0",
+    "fill_model": "Market taker/taker, 4 bps spread, 2 bps per-side slippage, actual funding; stop-first intrabar ties. No maker fills simulated.",
+    "evidence": "Retrospective independent market interval, not a forward trial or a replication of published profitability"
+  },
+  "dataset_sha256": "09a260d824a65d814f4810b04fef044a28a666d8795a209cf1a35115db5c1e4d"
+}

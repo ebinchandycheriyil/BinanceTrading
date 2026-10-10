@@ -1,0 +1,220 @@
+{
+  "start": 1767225600000,
+  "split": 1772323200000,
+  "end": 1777593600000,
+  "baseline": {
+    "method": "breakout",
+    "timeframe": 2,
+    "lookback": 30,
+    "atr_multiple": 3.75,
+    "max_hours": 54
+  },
+  "candidates": [
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.5,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.5,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.75,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.75,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 3.75,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 4,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 28,
+      "atr_multiple": 4,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.5,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.75,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.75,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 3.75,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 30,
+      "atr_multiple": 4,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.5,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.5,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.5,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.75,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.75,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 3.75,
+      "max_hours": 60
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 4,
+      "max_hours": 48
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 4,
+      "max_hours": 54
+    },
+    {
+      "method": "breakout",
+      "timeframe": 2,
+      "lookback": 32,
+      "atr_multiple": 4,
+      "max_hours": 60
+    }
+  ],
+  "selection": "At least 12 Jan-Feb trades preferred; maximize worst marked month, then total net, then name. No March-April input.",
+  "evaluation": "Record unchanged baseline before Jan-Feb tuning; freeze selected settings before March-April; show baseline and selected with no holdout reselection",
+  "gate": "Both development months positive, >=12 development trades; holdout >=20 trades, net>0, PF>=1.15, marked DD<=5%, weekly bootstrap lower95>0, doubled-cost replay net>0",
+  "costs": {
+    "method": "breakout",
+    "atr_multiple": 2,
+    "max_hours": 72,
+    "fee": 0.0005,
+    "slip": 0.0002,
+    "half_spread": 0.0002
+  },
+  "ratio": "1:1 price distances; unchanged risk and portfolio controls",
+  "source_hashes": {
+    "C:\\Users\\ebinc\\OneDrive\\Documents\\Projects\\New folder\\scalp\\swing_fresh.py": "de7f61f159d3050f464552773a2bd6f9c7f5936a07724d60de256d89500e9d04",
+    "scalp\\swing.py": "97c8712a37c288295b8102016b9c31bd9a6ecf8786deaabf62b24fd44899cdad",
+    "scalp\\swing_sweep.py": "dd0ba8b06d1cd25506b39fad497ae9e81205f20b853228cd1dd30bd0ff601649"
+  }
+}

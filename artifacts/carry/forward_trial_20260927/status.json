@@ -1,0 +1,16 @@
+{
+  "phase": "STOPPED_EARLY",
+  "updated_at": 1790477265.9179683,
+  "observations": 99,
+  "errors": 0,
+  "last_success_at": 1790477236.3980784,
+  "open_positions": 0,
+  "entries": 0,
+  "trades": 0,
+  "balance": 1000.0,
+  "usable_contracts": 4,
+  "last_error": null,
+  "consecutive_errors": 0,
+  "stop_at": 1790477265.9178522,
+  "stop_reason": "operator_request"
+}
